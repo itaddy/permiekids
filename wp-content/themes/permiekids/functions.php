@@ -1,5 +1,17 @@
 <?php
 
+if ( file_exists( STYLESHEETPATH . '/admin/class.wp-bootstrap-options.php' ) ) {
+	require_once( STYLESHEETPATH . '/admin/class.wp-bootstrap-options.php' );
+}
+
+function mytheme_option( $option ) {
+	$options = get_option( 'wp_bootstrap_options' );
+	if ( isset( $options[$option] ) )
+		return $options[$option];
+	else
+		return false;
+}
+
 function wpbootstrap_scripts_with_jquery()
 {
 	// Register the script like this for a theme:
@@ -39,4 +51,22 @@ register_sidebar( array(
     'before_title' => '<h2>',
     'after_title'  => '</h2>',
 ) );
+
+register_sidebar( array(
+    'name'         => __( 'Footer Menu Widget' ),
+    'id'           => 'footer-menu-widget',
+    'description'  => __( 'A widget position for footer menu.' ),
+    'before_title' => '<h2>',
+    'after_title'  => '</h2>',
+) );
+
+register_sidebar( array(
+    'name'         => __( 'Footer Bottom Widget' ),
+    'id'           => 'footer-bottom-widget',
+    'description'  => __( 'A widget position at footer.' ),
+    'before_title' => '<h2>',
+    'after_title'  => '</h2>',
+) );
+
+add_theme_support( 'post-thumbnails' ); 
 ?>

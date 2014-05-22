@@ -26,20 +26,33 @@
 
 <body>
 
-<header>
+<div class="container">
 	<div class="navbar">
-		<div class="navbar-inner">
+		<div class="navbar-custom">
+		
 			  <div class="container">
 					<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
 					  <span class="icon-bar"></span>
 					  <span class="icon-bar"></span>
 					  <span class="icon-bar"></span>
 					</a>
-					<a class="brand" href="<?php echo site_url(); ?>"><?php bloginfo('name'); ?></a>
+					
+					
+					<?php 
+						$logo=mytheme_option('header_logo');
+						
+						if ($logo!='') { ?>
+							<div class="logo_placeholder">
+								<a class="brand" href="<?php echo site_url(); ?>" style="outline:none;"><img src="<?php echo mytheme_option('header_logo'); ?>" class="logo" alt="<?php bloginfo('name'); ?>"></a>
+							</div>	
+						<?php } else { ?>
+							<div class="site_name">
+								<a class="brand" href="<?php echo site_url(); ?>"><?php bloginfo('name'); ?></a>
+							</div>
+						<?php } ?>
 					
 					<div class="nav-collapse collapse">
 						  <ul class="nav">
-					
 								<?php
 								wp_nav_menu( array(
 									'theme_location' => 'top_menu',
@@ -57,5 +70,6 @@
 			  </div>
 		</div>
 	</div>
-</header>
+</div>
+
 <div class="container">

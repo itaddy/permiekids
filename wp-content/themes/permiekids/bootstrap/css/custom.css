@@ -73,3 +73,103 @@ div.get_started_form {
 .get_started_form input.signup_fields {
 	width: 25%;
 }
+
+div.already_a_member {
+	text-align: center;
+	font-weight: bold;
+}
+
+div.learn-more {
+	text-align: center;
+}
+
+div.welcome_text_area {
+	width: 60%;
+	display: block;
+	margin: 0 auto;
+}
+
+.welcome_text_area h2 {
+	font-size: 90px;
+	line-height: 100px;
+}
+
+.welcome_text_area h3 {
+	font-size: 40px;
+}
+
+div.footer_menu {
+	float: left;
+}
+
+div.designer_info {
+	float: right;
+}
+
+.menu-footer-menu-container li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.menu-footer-menu-container li a {
+	color: #777777;
+	text-decoration:underline;
+}
+
+.navbar .nav > li > a {
+	text-decoration: underline;
+}
+
+.navbar .nav > li > a {
+	padding: 0px 15px 0px 15px;
+}
+
+.navbar .nav > li {
+	border-left: 1px solid #cccccc;
+}
+
+.navbar .nav > li:first-child {
+	border-left: none;
+}
+
+img.logo {
+	margin: 20px 0px;
+	position: relative;
+}
+
+div.logo_placeholder {
+	float: left;
+}
+
+.navbar .nav {
+	float: right;
+	margin-top: 15px;
+}
+
+a.btn.btn-navbar {
+	margin-top: 30px;
+}
+
+div.menu-footer-menu-container ul {
+	margin: 0px;
+}
+
+div.menu-footer-menu-container ul li {
+	border-right: 1px solid #cccccc;
+	padding-right:15px;
+}
+
+div.menu-footer-menu-container ul li:last-child {
+	border-right: none;
+}
+
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+	color: #555555;
+	 background:none;
+	 -webkit-box-shadow: none; 
+	-moz-box-shadow: none;
+	 box-shadow: none; 
+	font-weight: bold;
+	text-decoration: underline;
+}
