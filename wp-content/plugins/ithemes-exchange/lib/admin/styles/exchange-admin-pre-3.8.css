@@ -1,0 +1,10 @@
+/** -----------------------------------------------------:[ notices ]:---------- */
+.it-exchange-admin div.updated,
+.it-exchange-admin div.error{padding:5px 10px;background-color:#fff;border:;-webkit-border-radius:0;border-radius:0;font-size:14px;line-height:18px;}
+.it-exchange-admin div.updated strong,
+.it-exchange-admin div.error strong{font-weight:normal;}
+.it-exchange-admin div.updated{background-color:#fff;border-left-width:4px;border-color:#7ad03a;}
+.it-exchange-admin div.error{background:#fff;border-left:4px solid #dd3d36;}
+
+/** -----------------------------------------------------:[ coupons ]:---------- */
+body .it-exchange-add-basic-coupon .coupon-code .dice{padding:3px 3px 1px;}

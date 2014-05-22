@@ -1,0 +1,6 @@
+/** -----------------------------------------------------:[ transaction details ]:---------- */
+#it-exchange-transaction-details .product-header .product-title .recurring-product-type{padding:5px;background:#ECECEC;border-radius:3px;font-size:9px;text-transform:uppercase;}
+#it-exchange-transaction-details .product-header .product-title .recurring-product-autorenew{float:right;padding:17px;background:url('images/recurring-on.png') center center no-repeat;}
+
+#it-exchange-transaction-details .transaction-autorenews{padding-top:0;}
+#it-exchange-transaction-details .transaction-autorenews a{text-decoration:none;}

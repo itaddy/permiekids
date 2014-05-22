@@ -1,0 +1,355 @@
+1.1.0 - 2009-12-08
+	Updated it-core-class.php to version 1.1.0
+	Updated it-form.php to version 1.0.8
+	Updated it-storage.php to version 1.1.0
+1.1.1 - 2009-12-11
+	Updated it-core-class.php to version 1.1.1
+	Updated it-utility.php to version 1.0.5
+1.1.2 - 2010-01-13
+	Updated it-core-class.php to version 1.1.2
+1.1.3 - 2010-03-03
+	Updated it-core-class.php to version 1.1.3
+	Updated it-form.php to version 1.0.9
+	Updated it-thickbox.php to version 1.0.4
+1.1.4 - 2010-04-13 - Chris Jean
+	Updated it-form.php to version 1.0.10
+1.1.5 - 2010-04-13 - Chris Jean
+	Updated it-form.php to version 1.0.11
+1.1.6 - 2010-04-15 - Chris Jean
+	Updated it-core-class.php to version 1.1.4
+	Updated it-storage.php to version 1.1.1
+1.2.0 - 2010-06-29 - Chris Jean
+	Implemented a system for all code that uses the classes libraries
+		to always use the most-current version
+	
+	Added init.php version 1.0.0
+	Added load.php version 1.0.0
+	Updated it-core-class.php to version 1.1.5
+	Updated it-error.php to verison 1.0.2
+	Updated it-form.php to version 1.0.12
+	Updated it-utility.php to version 1.0.6
+1.2.1 - 2010-07-15 - Chris Jean
+	Updated it-file-utility.php to version 1.4.7
+1.3.0 - 2010-07-27 - Chris Jean
+	Added it-post-type.php version 1.0.0
+	Added it-taxonomy.php version 1.0.0
+1.3.1 - 2010-08-24 - Chris Jean
+	Updated js/it-core-class.js to not focus on checkboxes, buttons, or inputs
+		with a class of "no-auto-focus".
+1.3.2 - 2010-09-02 - Chris Jean
+	Updated it-core-class.php to version 1.1.6
+1.3.3 - 2010-09-20 - Chris Jean
+	Updated it-storage to version 1.1.2
+1.4.0 - 2010-10-05 - Chris Jean
+	Updated it-error.php to version 1.1.0
+	Updated it-post-type.php to version 1.0.1
+	Updated it-storage.php to version 1.2.0
+	Updated load.php to version 1.4.0
+1.4.1 - 2010-10-06 - Chris Jean
+	Updated it-post-type.php to version 1.0.2
+1.5.0 - 2010-12-14 - Chris Jean
+	Added:
+		it-cache.php version 1.0.0
+		it-zip.php version 1.0.0
+	Updated:
+		it-core-class.php to version 1.1.7
+		it-error.php to version 1.1.1
+		it-file-utility.php to version 1.5.0
+		it-form.php to version 1.0.13
+		it-storage to version 1.2.1
+		load.php to version 1.5.0
+	
+	Updated js/it-core-class.js to support a no-auto-focus class
+		for when autofocus is not desired
+1.5.1 - 2010-12-20 - Chris Jean
+	Updated:
+		it-form.php to 1.0.14
+		it-utility.php to 1.0.7
+		load.php to 1.5.1
+1.5.3 - 2010-12-20 - Chris Jean
+	Refreshed Git repo
+1.6.0 - 2011-02-22 - Chris Jean
+	Updated:
+		init.php to 1.1.0
+		it-array-sort.php to 2.0.0
+		it-core-class.php to 1.1.8
+		it-file-utility.php to 2.0.0
+		it-form.php to 2.0.0
+		it-storage.php to 1.3.0
+		it-utility.php to 1.1.0
+		js/it-core-class.js
+			Excluded file input from autofocus match
+		load.php to 1.6.0
+1.6.1 - 2011-03-01 - Chris Jean
+	Updated it-zip.php to 1.0.1
+1.6.2 - 2011-05-03 - Chris Jean
+	Updated it-post-type.php to 1.0.3
+1.6.3 - 2011-05-16 - Chris Jean
+	Updated it-file-utility.php to 2.0.1
+	Updated it-post-type.php to 1.0.4
+	Updated load.php to 1.6.3
+1.7.0 - 2011-06-27 - Chris Jean
+	Added standadized tooltip features
+	
+	Updated:
+		it-core-class.php to 1.2.0
+		it-utility.php to 1.2.0
+		load.php to 1.7.0
+	Added:
+		css/it-tooltip.css
+		images/it-tooltip.png
+		js/it-tooltip.js
+		js/jquery.tooltip.js
+	
+	Emptied js/it-core-class.js. It now stands as a placeholder for future
+		code. This disables the JavaScript autofocus features in lieu of using
+		HTML 5 autofocus features
+1.8.0 - 2011-07-01 - Chris Jean
+	Added optgroup support in ITForm
+	
+	Updated:
+		it-form.php to 2.1.0
+		css/classes.css
+		load.php to 1.8.0
+1.9.0 - 2011-07-06 - Chris Jean
+	Added option for a left tooltip
+	Added ITForm->get_option
+	
+	Updated:
+		it-form.php to 2.2.0
+		js/it-tooltip.js
+		load.php to 1.9.0
+1.10.0 - 2011-08-04 - Chris Jean
+	Added a ICO creator library
+	Improved directory creation API
+	
+	Added:
+		class-php-ico.php 1.0.0
+	Updated:
+		css/it-tooltip.css
+		it-cache.php to 1.0.1
+		it-file-utility.php to 2.1.0
+		it-utility.php to 1.3.0
+1.10.1 - 2011-08-23 - Chris Jean
+	Added a fix for WordPress 3.3 admin sytle modification
+	Added defensive coding to protect Thickboxes from poorly-coded plugins
+	
+	Updated:
+		css/classes.css
+		it-core-class.php to 1.2.1
+		it-thickbox.php to 1.0.5
+		it-utility.php to 1.4.0
+1.11.0 - 2011-10-06 - Chris Jean
+	Big focus on efficiency.
+	Moved compatibility functions out of it-file-utility.php into files in the
+		new compat directory.
+	Split the image-specific functions out of ITFileUtility to a new class:
+		ITImageUtility. ITFileUtility still holds back-compat functions that
+		call the functions in the new class.
+	
+	Added:
+		compat/mime_content_type.php
+		compat/sys_get_temp_dir.php
+	Moved:
+		class-php-ico.php to classes/
+	Updated:
+		it-file-utility.php to 2.2.0
+		it-post-type.php to 1.1.0
+		it-utility.php to 1.4.1
+1.12.0 - 2011-10-20 - Chris Jean
+	Improvements in preparation for WP 3.3
+	Updated the help system support
+	Removed instances of TEMPLATEPATH and STYLESHEETPATH
+	Added filter for custom taxonomy settings: it_custom_taxonomy_{var}_filter_settings
+	
+	Updated:
+		it-core-class.php to 1.3.1
+		it-taxonomy.php to 1.1.0
+		it-utility.php to 1.4.2
+1.12.1 - 2011-11-14 - Chris Jean
+	Fixed load.php issue
+1.13.0 - 2011-12-05 - Chris Jean
+	Added functions it_filterable_get_template_part and it_filterable_locate_template
+	Added fix for thickbox styling in WordPress 3.3
+	Added support for the WordPress 3.3 help system
+	Added capability argument to ITError::admin_warn
+	Added auto_ssl argument to ITFileUtility::get_url_from_file
+	Updated ITPostType and ITTaxonomy code to better handle updated WordPress APIs
+	Updated ITForm to handle forms on core admin pages better
+	
+	Added:
+		it-filterable-templates.php
+	Updated:
+		css/classes.css
+		it-core-class.php to 1.4.0
+		it-error.php to 1.2.0
+		it-file-utility.php to 2.3.0
+		it-form.php to 2.3.0
+		it-post-type.php to 2.0.0
+		it-taxonomy.php to 2.0.0
+		load.php to 1.13.0
+1.13.1 - 2011-12-12 - Chris Jean
+	Removed instances of wp_print_scripts and wp_print_styles
+	
+	Updated:
+		it-post-type.php to 2.0.1
+1.13.2 - 2012-02-13 - Chris jean
+	Improved relative path and url generation code to work with servers with odd ABSPATH configurations
+	
+	Updated:
+		it-core-class.php to 1.4.1
+		it-file-utility.php to 2.3.1
+		it-thickbox.php to 1.0.6
+1.13.3 - 2012-06-22 - Chris Jean
+	Removed fatal error triggers from the ITStorage class
+	
+	Updated:
+		it-storage.php to 1.3.1
+2.0.0 - 2012-07-17 - Chris Jean
+	Major version release
+	
+	Complete rewrite of the error handler
+	Split off ITUtility debug functions to the new ITDebug class
+	
+	New:
+		it-debug.php
+		it-error/
+	Updated:
+		init.php
+		it-core-class.php
+		it-error.php
+		it-storage.php
+		it-utility.php
+		load.php
+2.1.0 - 2012-09-24 - Chris Jean
+	Added ITDialog.
+	Moved some ITFileUtility functions to ITUtility.
+	Improved ITForm's ability to handle multiple forms from a single instance.
+	ITImageUtility::create_favicon now forces the file to 644.
+	
+	Updated:
+		it-file-utility.php
+		it-form.php
+		it-image-utility.php
+		it-thickbox.php
+		it-utility.php
+2.1.1 - 2012-09-26 - Chris Jean
+	Fixed file->url and url->file conversions to properly handle sites that
+		have the wp-content directory relocated.
+	
+	Updated:
+		it-core-class.php
+		it-utility.php
+2.1.4 - 2012-09-28 - Chris Jean
+	Fixed file->url and url->file conversions to properly handle sites on
+		Windows hosts.
+	
+	Updated:
+		it-utility.php
+2.1.5 - 2012-12-03 - Chris Jean
+	Added WordPress 3.5 compatibility fix to ITImageUtility.
+	Fixed bug in the ITDebug::print_r function.
+	
+	Updated:
+		it-debug.php
+		it-image-utility.php
+2.1.6 - 2013-01-09 - Chris Jean
+	Improved the body class for the ITDialog dialog.
+	Fixed minor bug in ITImageUtility.
+2.1.7 - 2013-01-25 - Chris Jean
+	Fixed a bug where ITForm::get_post_data would return some empty values as
+		nulls rather than empty strings.
+	Updated the PHP_ICO class which fixes a bug that caused glitches when the
+		source image didn't need to be resized.
+	
+	Updated:
+		classes/
+		it-form.php
+2.1.8 - 2013-02-13 - Chris Jean
+	Fixed bug where site migration can cause failure to generate updated URL's
+		in ITCache.
+	Added ITUtility::get_cached_value function which stores cached values of
+		potentially-expensive functions to make multiple uses cheaper.
+	
+	Updated:
+		it-cache.php
+		it-utility.php
+2.1.9 - 2013-02-15 - Chris Jean
+	Fixed a bug that causes quotes to be improperly handled in form inputs.
+	Removed invalid countries from the data sets.
+	
+	Updated:
+		it-data-sets.php
+		it-form.php
+2.2.0 - 2013-04-04 - Chris Jean
+	Added a password input option to ITForm.
+	Fixed a bug that causes problems with ITDialog in Firefox 20.
+	
+	Updated:
+		it-form.php
+		js/
+2.3.0 - 2013-04-17 - Chris Jean
+	Added ITUtilty::get_self_closing_tag and ITUtility::print_self_closing_tag
+	
+	Updated:
+		it-utility.php
+2.3.1 - 2013-06-07 - Chris Jean
+	Updated compatibility code to use function_exists checks so that the files can pass lint checks.
+	Removed all instances of assign by reference for object creation.
+	Added "public static" to specific function declarations in order to satisfy "strict" requirements of PHP.
+	
+	Updated:
+		compat/
+		it-core-class.php
+		it-error.php
+		it-file-utility.php
+		it-post-type.php
+		it-storage.php
+		it-utility.php
+		it-zip.php
+2.3.2 - 2013-06-25 - Chris Jean
+	Applied changes to remove warnings when in PHP is in strict mode with enabled warnings.
+	Applied changes to remove warnings in PHP 5.5.0.
+	
+	Updated:
+		it-background.php
+		it-core-class.php
+		it-data-sets.php
+		it-debug.php
+		it-dialog.php
+		it-error.php
+		it-error/
+		it-form.php
+		it-image-utility.php
+		it-thickbox.php
+		it-zip.php
+2.3.3 - 2013-06-28 - Chris Jean
+	Fixed issue with ITUtility::get_url_from_file for Multisite upload paths on Windows.
+	Fixed warning in ITZip.
+	
+	Updated:
+		it-utility.php
+		it-zip.php
+2.3.4 - 2013-08-05 - Chris Jean
+	Fixed "Trying to get property of non-object in wp-includes/functions.php on line 3939" warning when in an ITDialog box.
+	
+	Updated:
+		it-dialog.php
+2.3.5 - 2013-08-19 - Chris Jean
+	Fixed the following bug: Fatal Error: Call to undefined function wp_read_image_metadata() in lib/classes/it-file-utility.php on line 106.
+	This bug seems to have only occurred after the WordPress 3.6 release.
+	
+	Updated:
+		it-file-utility.php
+2.4.0 - 2013-11-25 - Chris Jean
+	Enhancement: Improved output of ITUtility::print_r() in WordPress 3.8.
+	Enhancement: ITUtility::print_r() now indicates the number of array elements in collapsed arrays and identifies boolean values explicitly.
+	Enhancement: Added the ability for ITForm::add_drop_down() to show divided lists.
+	Bug Fix: Fixed depth cutoff of ITUtility::backtrace().
+	Bug Fix: Fixed broken javascript in error message output. This bug prevented the error message from being collapsed by default, causing the screen to show the message at all times.
+2.4.1 - 2013-12-02 - Chris Jean
+	Enhancement: Added ITUtility::screen_icon() to allow for easily preparing code for the WordPress 3.8 release. It only runs the screen_icon() function when WordPress is older than 3.8, thus avoiding the deprecation notice.
+	Bug Fix: Removed Javascript notices created by the tooltips.
+	Bug Fix: Removed Javascript notices created by ITDialog thickboxes.
+2.4.2 - 2014-01-23 - Chris Jean
+	Bug Fix: Prior versions would fix non-https URL's for local content when the site was accessed via SSL so that the URL would become an https URL; however, it would not reverse the process and change https URL's to http when accessed without SSL. This caused problems on sites that use self-signed certificates and would sometimes have local content URL's that referred to the https location. This update makes the https URL's convert to http when the site is accessed via SSL.

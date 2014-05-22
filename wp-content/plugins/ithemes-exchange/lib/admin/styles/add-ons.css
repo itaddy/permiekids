@@ -1,0 +1,93 @@
+/** -----------------------------------------------------:[ icon ]:---------- */
+#icon-it-exchange-add-ons{background:url('../images/addons32.png') no-repeat;}
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min--moz-device-pixel-ratio:2),only screen and (-o-min-device-pixel-ratio:2/1),only screen and (min-device-pixel-ratio:2),only screen and (min-resolution:192dpi),only screen and (min-resolution:2dppx){#icon-it-exchange-add-ons{background:url('../images/addons64.png') no-repeat;background-size:cover;width:32px;height:32px;}}
+
+/** -----------------------------------------------------:[ reset ]:---------- */
+#it-exchange-add-ons-wrap .nav-tab-wrapper{padding-left:6px;border-bottom:0;}
+#it-exchange-add-ons-wrap .nav-tab-wrapper .nav-tab{border-radius:2px 2px 0 0;}
+#it-exchange-add-ons-wrap .nav-tab-wrapper .nav-tab:first-child{margin-right:0;}
+#it-exchange-add-ons-wrap .nav-tab-wrapper .nav-tab-active{background:#FFF;border-bottom-color:#FFF;}
+#it-exchange-add-ons-wrap .top-description{color:#676c6e;font-size:14px;line-height:1.5;max-width:800px;}
+
+.it-exchange-addon-settings label{display:block;font-size:13px;color:#3d4142;margin-bottom:5px;margin-left:2px;}
+.it-exchange-addon-settings input[type="text"],
+.it-exchange-addon-settings input[type="email"],
+.it-exchange-addon-settings input[type="password"],
+.it-exchange-addon-settings textarea{background:#fff;border:1px solid #d6d6d6;border-radius:3px;font-size:18px;padding:10px;color:#3d4142;width:260px;}
+.it-exchange-addon-settings input[type="text"]:focus,
+.it-exchange-addon-settings input[type="email"]:focus,
+.it-exchange-addon-settings input[type="password"]:focus,
+.it-exchange-addon-settings textarea:focus{outline:none;border:1px solid #c9c9c9;border-bottom-color:#aaaaaa;}
+
+.it-exchange-addon-settings h4{margin-top:2.5em;font-size: 1.3em;}
+.it-exchange-addon-settings p{font-size: 1.1em;}
+
+/** -----------------------------------------------------:[ addons ]:---------- */
+#it-exchange-add-ons-wrap .add-ons-wrapper{background:#FFF;border:1px solid #CCC;border-radius:3px;}
+#it-exchange-add-ons-wrap .add-on-block{overflow:hidden;padding:30px;border-bottom:1px solid #CCC;}
+#it-exchange-add-ons-wrap .add-on-block:last-child{border-bottom:none;}
+#it-exchange-add-ons-wrap .add-on-block .add-on-icon{float:left;margin-right:10px;}
+#it-exchange-add-ons-wrap .add-on-block .add-on-icon .image-wrapper{display:inline-block;overflow:hidden;border:1px solid #EBEBEB;border-radius:3px;}
+#it-exchange-add-ons-wrap .add-on-block .add-on-icon img{display:block;border-radius:3px;}
+#it-exchange-add-ons-wrap .add-on-block .add-on-info{float:left;width:65%;}
+#it-exchange-add-ons-wrap .add-on-block .add-on-info h4{font-size:18px;color:#495257;margin:0;float:left;}
+#it-exchange-add-ons-wrap .add-on-block .add-on-info .add-on-author{font-size:12px;line-height:18px;margin:0 10px;color:#aaa;}
+#it-exchange-add-ons-wrap .add-on-block .add-on-info .add-on-tag{background:#d7dde2;color:#494f53;border-radius:3px;padding:3px 6px 4px;margin-left:6px;margin-top:3px;font-size:11px;line-height:1;font-weight:bold;text-transform:uppercase;}
+#it-exchange-add-ons-wrap .add-on-block .add-on-info p{clear:left;margin-top:10px;color:#676c6e;font-size:14px;line-height:1.5;}
+#it-exchange-add-ons-wrap .add-on-block .add-on-actions{text-align:right;}
+#it-exchange-add-ons-wrap .add-on-block .add-on-actions a{float:right;width:100px;padding:10px 15px;background:#A8E457;box-shadow:0 2px 0 #84B243;border-radius:4px;color:#3f4e29;font-size:16px;text-align:center;text-decoration:none;}
+#it-exchange-add-ons-wrap .add-on-block .add-on-actions .add-on-enabled a:hover{background:#EBEBEB;box-shadow:inset 0 1px 3px rgba(0,0,0,0.2);color:#606060;}
+#it-exchange-add-ons-wrap .add-on-block .add-on-actions .add-on-disabled a{background:#EBEBEB;box-shadow:inset 0 1px 3px rgba(0,0,0,0.2);color:#606060;}
+#it-exchange-add-ons-wrap .add-on-block .add-on-actions .add-on-disabled a:hover{background:#A8E457;box-shadow:0 1px 0 #84b243;color:#3f4e29;}
+#it-exchange-add-ons-wrap .add-on-block .add-on-actions .add-on-settings a{background:#EBEBEB url('../images/gear.png') center center no-repeat;box-shadow:0 1px 0 #c9c9c9;color:transparent;margin-right:10px;width:10px;}
+#it-exchange-add-ons-wrap .add-on-block .add-on-actions .add-on-settings a:hover{opacity:.8;}
+#it-exchange-add-ons-wrap .add-on-block .add-on-actions .add-on-price{width:130px;float:right;text-align:center;margin-bottom:10px;}
+#it-exchange-add-ons-wrap .add-on-block .add-on-actions .add-on-price span{font-size:24px;font-weight:lighter;text-align:center;color:#8f989b;}
+#it-exchange-add-ons-wrap .add-on-block .add-on-actions .add-on-buy-now{float:right;clear:right;}
+#it-exchange-add-ons-wrap .add-on-block .add-on-actions .add-on-buy-now a:hover{background:#bbf767;color:#40591e;}
+#it-exchange-add-ons-wrap .add-on-block.sale .add-on-actions .add-on-price .regular-price{color:#f19b9b;text-decoration:line-through;}
+
+/** -----------------------------------------------------:[ addon settings ]:---------- */
+.it-exchange-addon-settings label{display:block;margin:1.5em 0 .5em;}
+.it-exchange-addon-settings input[type='checkbox'] + label{display:inline;margin-left:.5em;}
+.it-exchange-addon-settings .hide-if-live-mode{display: none;}
+
+/** -----------------------------------------------------:[ addons achievement ]:---------- */
+#it-exchange-add-ons-wrap .addons-achievement{margin:1em auto;max-width:800px;text-align:center;}
+#it-exchange-add-ons-wrap .achievement-notice{display:inline-block;overflow:hidden;margin:2em 0;padding:.8em 2.5em .8em 4em;background:#32473F url('../images/achievement.png') 10px center no-repeat;border-radius:50px;color:#FFFFFF;text-align:left;font-size:1.5em;font-weight:100;}
+#it-exchange-add-ons-wrap .achievement-notice span{display:block;}
+#it-exchange-add-ons-wrap .achievement-notice span + span{margin-top:8px;}
+#it-exchange-add-ons-wrap .addons-achievement h2{color:#32473F;font-size:2.5em;font-weight:100;}
+#it-exchange-add-ons-wrap .addons-achievement p{margin-top:3em;color:#7A8079;font-size:1.2em;font-weight:100;}
+#it-exchange-add-ons-wrap .addons-achievement .email-signup{margin:6em;}
+#it-exchange-add-ons-wrap .addons-achievement .email-signup input{display:inline-block;}
+#it-exchange-add-ons-wrap .addons-achievement .email-signup input[type='submit']{}
+#it-exchange-add-ons-wrap .addons-achievement .email-signup input[type='text']{width:350px;padding:1em .8em;box-shadow:0 1px #EEE;font-size:1.2em;}
+
+/** -----------------------------------------------------:[ no addons found ]:---------- */
+#it-exchange-add-ons-wrap .no-addons-found{margin:1em;font-size:1.2em;}
+
+/** -----------------------------------------------------:[ pro-pack block]:---------- */
+#it-exchange-add-ons-wrap .pro-pack {background: #334940;color: #FFF;border-radius: 3px 3px 0 0;}
+#it-exchange-add-ons-wrap .pro-pack h3 {margin: 0.25em 0 0;font-size: 1.4em;color: #8CC53E;float:left;line-height: 1.5em;}
+#it-exchange-add-ons-wrap .pro-pack h3 span a {font-size: .75em;font-weight:normal;text-decoration:none;color:#7e948b;margin-left:1.5em;}
+#it-exchange-add-ons-wrap .pro-pack h3 span a:hover {color: #95b0a5;}
+#it-exchange-add-ons-wrap .pro-pack p {margin:0;display:none;clear:both;float:left;max-width: 55%;}
+#it-exchange-add-ons-wrap .pro-pack a.btn-pro {display: inline-block;padding: 10px 15px;background: #8CC53E;box-shadow: 0 2px 0 #72A033;color: #3F4E29;font-size: 16px;text-align: center;text-decoration: none;border-radius: 4px;float:right;}
+#it-exchange-add-ons-wrap .pro-pack a.btn-pro:hover {background: #A8E457;}
+#it-exchange-add-ons-wrap .pro-pack a.dismiss {display:none;float:left;margin: 1em;display:none;font-size: 1em;font-weight:normal;text-decoration:none;color:#7e948b;}
+#it-exchange-add-ons-wrap .pro-pack a.dismiss:hover {color: #95b0a5;}
+#it-exchange-add-ons-wrap .pro-pack.open {background: #334940 url(../images/pro-pack-addons.png) no-repeat 96% center;color: #FFF;border-radius: 3px 3px 0 0;padding: 30px;}
+#it-exchange-add-ons-wrap .pro-pack.open p {margin: 1.25em 0 2em 0;}
+#it-exchange-add-ons-wrap .pro-pack.get-more-tab p {display:block;}
+#it-exchange-add-ons-wrap .pro-pack.open a.btn-pro {clear:left;float:left;}
+#it-exchange-add-ons-wrap .pro-pack.open a.dismiss {display:block;}
+
+
+@media only screen and ( max-width:600px ) {
+
+	#it-exchange-add-ons-wrap .add-on-block.pro-pack, #it-exchange-add-ons-wrap .add-on-block.pro-pack.open {background: #334940;}
+	#it-exchange-add-ons-wrap .pro-pack h3 span a {display:block;margin: 0 0 1em 0;}
+	#it-exchange-add-ons-wrap .add-on-block.pro-pack p {max-width: 100%;}
+
+}

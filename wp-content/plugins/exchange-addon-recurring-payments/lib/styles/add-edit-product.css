@@ -1,0 +1,17 @@
+#it_exchange_normal-sortables #it-exchange-product-title{width:60%;}
+#it_exchange_normal-sortables #it-exchange-base-price input{border-top-right-radius:0;border-bottom-right-radius:0;border-right:none;text-align:left;}
+#it_exchange_normal-sortables #it-exchange-base-price input:focus{-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;}
+#it_exchange_normal-sortables #it-exchange-base-price{width:20%;}
+#it_exchange_normal-sortables #it-exchange-recurring-payments{float:left;width:20%;}
+#it_exchange_normal-sortables #it-exchange-recurring-payments #it-exchange-recurring-payment-settings{overflow:hidden;height:45px;margin-top:35px;padding:6px 10px;background:#FFF;border-top-right-radius:3px;border-bottom-right-radius:3px;border:1px solid #D6D6D6;border-left:none;line-height:29px;text-align:right;box-shadow: -1px 1px 2px rgba(0, 0, 0, 0.07) inset}
+#it_exchange_normal-sortables #it-exchange-recurring-payments #it-exchange-recurring-payment-settings span,
+#it_exchange_normal-sortables #it-exchange-recurring-payments #it-exchange-recurring-payment-settings select{float:right;}
+#it_exchange_normal-sortables #it-exchange-recurring-payments #it-exchange-recurring-payment-settings select{padding:0 28px 5px 8px;background:#FFF url('images/down-arrow.png') 90% 50% no-repeat;border:1px solid #EAEAEA;font-size:12px;color:#777;text-transform:lowercase;-webkit-appearance:none;-moz-appearance:none;appearance:none;}
+@-moz-document url-prefix(){#it_exchange_normal-sortables #it-exchange-recurring-payments #it-exchange-recurring-payment-settings select{padding-right:8px;}
+}
+#it_exchange_normal-sortables #it-exchange-recurring-payments .it-exchange-recurring-payment-auto-renew{cursor:pointer;margin-top:8px;margin-right:6px;width:18px;height:16px;}
+#it_exchange_normal-sortables #it-exchange-recurring-payments .auto-renew-on{background:url('images/recurring-on.png');}
+#it_exchange_normal-sortables #it-exchange-recurring-payments .auto-renew-off{background:url('images/recurring-off.png');}
+@media screen and (max-width:1300px){#it_exchange_normal-sortables #it-exchange-product-title{width:50%;}
+#it_exchange_normal-sortables #it-exchange-recurring-payments{width:30%;}
+}

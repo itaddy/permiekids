@@ -1,0 +1,25 @@
+.it-tooltip {
+	vertical-align: middle;
+}
+li .it-tooltip {
+	vertical-align: bottom;
+}
+.it-tooltip img {
+	vertical-align: text-top;
+}
+
+#tooltip {
+	background: #F9F9F9;
+	background: white;
+	border: 1px solid #DFDFDF;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	font-size: 1em;
+	margin: 0;
+	max-width: 400px;
+	padding: 5px 8px;
+	position: absolute;
+	z-index: 3000;
+}
+#tooltip h3, #tooltip div { margin: 0; }

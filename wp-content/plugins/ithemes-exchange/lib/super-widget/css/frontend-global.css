@@ -1,0 +1,92 @@
+.it-exchange-super-widget{width:100%;background:#FFF;color:#111;overflow:hidden;}
+.it-exchange-super-widget select {max-width:100%;}
+.it-exchange-super-widget .it-exchange-sw-product,
+.it-exchange-super-widget .it-exchange-sw-processing{border:1px solid #F0F0F0;}
+.it-exchange-super-widget *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+.it-exchange-super-widget a{text-decoration:none;}
+.it-exchange-super-widget p{text-align:center;}
+.it-exchange-super-widget input[type="checkbox"] + label{display:inline !important;}
+.widget_it-exchange-super-widget .it-exchange-super-widget p:last-child{margin-bottom:0;}
+.widget_it-exchange-super-widget .it-exchange-super-widget p.cart-empty{margin:1em;}
+.it-exchange-super-widget .item-count{padding:1em;text-align:center;border-bottom:1px solid #F0F0F0;line-height:1.5;}
+.it-exchange-super-widget .it-exchange-sw-product .purchase-options{padding:1em;}
+.it-exchange-super-widget .it-exchange-sw-product .purchase-options p.out-of-stock{margin:0;}
+.it-exchange-super-widget .it-exchange-sw-product .buy-now-button,
+.it-exchange-super-widget .it-exchange-sw-product .add-to-cart-button{width:100%;}
+.it-exchange-super-widget .cart-items-wrapper{background:#F6F6F6;}
+.it-exchange-super-widget .cart-items-wrapper .cart-item{padding:1em;border-bottom:1px solid #F0F0F0;}
+.it-exchange-super-widget .cart-items-wrapper .cart-item a{float:right;}
+.it-exchange-super-widget .cart-items-wrapper .cart-item .item-info{font-size:.8em;margin-top:1em;}
+.it-exchange-super-widget .cart-items-wrapper .cart-item .item-info .cart-discount{display:block;margin-top:.5em;}
+.it-exchange-super-widget .cart-items-wrapper .cart-item .item-info input{max-width:50px;text-align:center;}
+.it-exchange-super-widget .cart-totals-row{text-align:right;padding:1em;border-bottom:1px solid #F0F0F0;font-size:.8em;}
+.it-exchange-super-widget .cart-total{font-weight:bold;font-size:1.1em;}
+.it-exchange-super-widget .total-cancel-wrapper{overflow:hidden;padding:1em;background:#F6F6F6;}
+.it-exchange-super-widget .it-exchange-empty-cart{float:right;text-decoration:none;}
+.it-exchange-super-widget .payment-methods-wrapper{padding:1em;border-bottom:1px solid #F0F0F0;}
+.it-exchange-super-widget .payment-methods-wrapper input[type="submit"]{width:100%;}
+.it-exchange-super-widget .cart-actions-wrapper{overflow:hidden;font-size:.8em;text-align:center;}
+.it-exchange-super-widget .cart-actions-wrapper .cart-action{float:left;width:100%;padding:1em;}
+.it-exchange-super-widget .cart-actions-wrapper .cancel-update {border-bottom:1px solid #F0F0F0;}
+.it-exchange-super-widget .two-actions .cart-action{width:50%;}
+.it-exchange-super-widget .two-actions .cart-action:first-child{border-right:1px solid #F0F0F0;}
+.it-exchange-super-widget .coupon{padding:1em;border-bottom:1px solid #F0F0F0;}
+.it-exchange-super-widget .quantity{padding:1em;border-bottom:1px solid #F0F0F0;}
+.it-exchange-super-widget .quantity input{width:100%;}
+.it-exchange-super-widget .remove-coupon{float:right;}
+.it-exchange-super-widget .it-exchange-messages{text-align:center;margin:0;padding:0;}
+.it-exchange-super-widget .it-exchange-messages li{padding:.8em;}
+.it-exchange-super-widget .it-exchange-messages.it-exchange-notices li{background:#ECFFDA;color:#768B5E;}
+.it-exchange-super-widget .it-exchange-messages.it-exchange-errors li{background:#FFF0F0;color:#DB4343;}
+.it-exchange-super-widget .empty-cart{padding:.5em 0;}
+
+/** ----------------------------------------:[ processing ]:--- */
+.it-exchange-super-widget .it-exchange-sw-processing-section{padding:1em;}
+
+/** ----------------------------------------:[ login & register ]:--- */
+.it-exchange-super-widget .it-exchange-sw-processing-login,
+.it-exchange-super-widget .it-exchange-sw-processing-registration{padding:1em;}
+.it-exchange-super-widget .it-exchange-sw-log-in .it-exchange-username,
+.it-exchange-super-widget .it-exchange-sw-log-in .it-exchange-password{margin-bottom:1em;}
+.it-exchange-super-widget .it-exchange-sw-log-in label{display:block;font-size:.8em;margin-bottom:.5em;}
+.it-exchange-super-widget .it-exchange-sw-log-in .rememberme label{display:inline;}
+.it-exchange-super-widget .it-exchange-sw-log-in .recover_url{margin-top:1em;margin-bottom:.4em;}
+.it-exchange-super-widget .it-exchange-sw-log-in .it-exchange-login-button{margin-bottom:2em;}
+.it-exchange-super-widget .it-exchange-sw-log-in .it-exchange-register-url{margin-bottom:5px;}
+.it-exchange-super-widget .it-exchange-sw-processing-login input[type="submit"],
+.it-exchange-super-widget .it-exchange-sw-processing-login input[type="button"],
+.it-exchange-super-widget .it-exchange-sw-processing-login .it-exchange-recover-url{margin-top:1em;}
+.it-exchange-super-widget .it-exchange-sw-processing-registration .it-exchange-guest-checkout-link{margin-top:5px;display:block;}
+.it-exchange-super-widget .it-exchange-sw-register label{display:block;font-size:.8em;margin-bottom:.5em;}
+.it-exchange-super-widget .it-exchange-sw-register div{margin-bottom:1em;}
+.it-exchange-super-widget .it-exchange-sw-register input#it-exchange-register-customer{margin-bottom:2em;}
+.it-exchange-super-widget .it-exchange-sw-register div.cancel_url{margin-bottom:5px;}
+.it-exchange-super-widget .cancel_url{margin-top:.5em;}
+
+/** ----------------------------------------:[ shipping ]:--- */
+.it-exchange-super-widget .cart-shipping-address-existing{text-align:left;font-size:1em;line-height:1.5;}
+.it-exchange-super-widget .cart-shipping-address-existing a{float:right;}
+.it-exchange-super-widget .it-exchange-sw-shipping-address label{display:block;margin:1em 0 .5em;}
+.it-exchange-super-widget .it-exchange-sw-shipping-address .it-exchange-submit{margin:1em 0;}
+.it-exchange-super-widget .cart-shipping-method-existing{font-size:1em;}
+.it-exchange-super-widget .cart-shipping-method-existing a{float:right;}
+.it-exchange-super-widget .cart-shipping-method-existing p{margin:0;text-align:left;}
+.it-exchange-super-widget .it-exchange-checkout-shipping-method-purchase-requirement{margin:0;}
+.it-exchange-super-widget .it-exchange-super-widget-shipping-method-cancel-action{display:block;padding:1em;background:#FFF;border-top:1px solid #F0F0F0;text-align:center;font-size:.8em;}
+
+/** ----------------------------------------:[ billing ]:--- */
+.it-exchange-super-widget .cart-billing-address-existing{text-align:left;font-size:1em;line-height:1.5;}
+.it-exchange-super-widget .cart-billing-address-existing a{float:right;}
+.it-exchange-super-widget .it-exchange-sw-billing-address label{display:block;margin:1em 0 .5em;}
+.it-exchange-super-widget .it-exchange-sw-billing-address .it-exchange-submit{margin:1em 0;}
+
+/** ----------------------------------------:[ guest checkout ]:--- */
+.it-exchange-super-widget .it-exchange-sw-processing-guest-checkout{padding:1em;}
+.it-exchange-super-widget .it-exchange-guest-checkout-form div{margin-bottom:2em;}
+.it-exchange-super-widget .it-exchange-guest-checkout-form .email-name,
+.it-exchange-super-widget .it-exchange-guest-checkout-form .register_url{margin-bottom:5px;}
+.it-exchange-super-widget .it-exchange-guest-checkout-form .cancel_url{margin-bottom:0;}
+.it-exchange-super-widget .it-exchange-guest-checkout-form input{margin:0;}
+.it-exchange-super-widget .it-exchange-sw-processing-guest-checkout .email-name input,
+.it-exchange-super-widget .it-exchange-sw-processing-guest-checkout .save_url input{width:100%;}
+.it-exchange-super-widget .it-exchange-sw-processing-guest-checkout h3.in-super-widget{margin: 0 0 .75em;}

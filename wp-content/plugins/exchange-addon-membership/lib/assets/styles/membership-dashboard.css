@@ -1,0 +1,104 @@
+/** -----------------------------------------------------:[ Basics ]:---------- */
+.it-exchange-membership-membership-content a {text-decoration: none;}
+.it-exchange-membership-membership-content ul{clear:both;margin-top:1em;list-style:none;}
+.it-exchange-membership-membership-content li {list-style:none;}
+.it-exchange-membership-membership-content .it-exchange-content-more{padding-top:1em; clear:both;}
+.it-exchange-membership-membership-content .it-exchange-content-item{margin-bottom:.5em;}
+.it-exchange-membership-membership-content .it-exchange-group-content-label{font-weight:bold;}
+.it-exchange-membership-membership-content .it-exchange-content-group {overflow:hidden;margin-bottom: .5em;border: 1px solid #DDD;}
+.it-exchange-membership-membership-content .it-exchange-content-group-toggle p{padding:1em;cursor:pointer;margin:0;}
+.it-exchange-membership-membership-content .it-exchange-content-group.it-exchange-content-single p{cursor:text;}
+.it-exchange-membership-membership-content .it-exchange-content-group ul{clear:both;margin-top:1em;list-style:none;overflow:hidden;}
+.it-exchange-membership-membership-content .it-exchange-content-grid .it-exchange-content-group-layout-grid ul,
+.it-exchange-membership-membership-content .it-exchange-content-list .it-exchange-content-group-layout-grid ul {margin-left: 0;margin-right: 0;}
+.it-exchange-membership-membership-content .it-exchange-content-group .it-exchange-open-group{float:right;margin:10px 10px 0 0;border-width:6px;border-style:solid;border-color:#AAA transparent transparent transparent;}
+.it-exchange-membership-membership-content .it-exchange-content-group.open .it-exchange-open-group{margin-top:4px;border-color:transparent transparent #AAA transparent;}
+.it-exchange-membership-membership-content .it-exchange-item-unavailable-message{font-size:11px;text-transform:uppercase;}
+.it-exchange-membership-membership-content .it-exchange-content-unavailable .it-exchange-item-title{color:#AAAAAA;}
+.it-exchange-membership-membership-content .it-exchange-content-grid .it-exchange-content-group .it-exchange-content-more,
+.it-exchange-membership-membership-content .it-exchange-content-list .it-exchange-content-group .it-exchange-content-more{text-transform: uppercase;font-size: .8125em;width: 100%;}
+
+/** -----------------------------------------------------:[ Grid/List Combos ]:---------- */
+.it-exchange-membership-membership-content .it-exchange-content-group ul{clear:both;margin-top:1em;margin-right: 1em;list-style:none;}
+.it-exchange-membership-membership-content .it-exchange-content-list .it-exchange-content-group-layout-grid,
+.it-exchange-membership-membership-content .it-exchange-content-grid .it-exchange-content-group-layout-grid {border: none;border-top: 1px solid #DDD;clear:both;margin: 1em 0;}
+.it-exchange-membership-membership-content .it-exchange-content-grid li,
+.it-exchange-membership-membership-content .it-exchange-content-list .it-exchange-content-group-layout-grid ul li,
+.it-exchange-membership-membership-content .it-exchange-content-grid .it-exchange-content-group-layout-grid ul li {width: 33%;float:left;border: none;list-style: none;margin-bottom: 2em;}
+
+.it-exchange-membership-membership-content .it-exchange-content-list .it-exchange-content-group-layout-grid li:nth-child(3n+4),
+.it-exchange-membership-membership-content .it-exchange-content-list .it-exchange-content-group-layout-list .it-exchange-content-group:nth-child(3n+4),
+.it-exchange-membership-membership-content .it-exchange-content-list .it-exchange-content-group-layout-grid .it-exchange-restricted-content:nth-child(3n+4),
+.it-exchange-membership-membership-content .it-exchange-content-grid .it-exchange-content-group-layout-grid .it-exchange-restricted-content:nth-child(3n+4),
+.it-exchange-membership-membership-content .it-exchange-content-grid .it-exchange-content-group-layout-grid .it-exchange-content-group:nth-child(3n+4),
+.it-exchange-membership-membership-content .it-exchange-content-grid .it-exchange-content-group-layout-grid ul li:nth-child(3n+4) {clear:both;}
+
+.it-exchange-membership-membership-content .it-exchange-content-grid .it-exchange-content-group-layout-grid .it-exchange-group-title,
+.it-exchange-membership-membership-content .it-exchange-content-list .it-exchange-content-group-layout-grid .it-exchange-group-title {background: #ECECEC;font-size: 13px;text-transform: uppercase;border-radius: 3px;padding: 3px 6px;}
+
+.it-exchange-membership-membership-content .it-exchange-content-grid .it-exchange-content-single,
+.it-exchange-membership-membership-content .it-exchange-content-list .it-exchange-content-group-layout-grid .it-exchange-content-group,
+.it-exchange-membership-membership-content .it-exchange-content-grid .it-exchange-content-group-layout-grid .it-exchange-content-group {border: none;}
+
+.it-exchange-membership-membership-content .it-exchange-content-grid .it-exchange-content-item-icon,
+.it-exchange-membership-membership-content .it-exchange-content-list .it-exchange-content-group-layout-grid .it-exchange-content-item-icon,
+.it-exchange-membership-membership-content .it-exchange-content-grid .it-exchange-content-group-layout-grid .it-exchange-content-item-icon {width: 30%;float: left;}
+.it-exchange-membership-membership-content .it-exchange-content-list .it-exchange-content-group-layout-grid .it-exchange-item-icon,
+.it-exchange-membership-membership-content .it-exchange-content-grid .it-exchange-item-icon{display:block;width:85px;height:85px;max-width:100%;background:#48C382 url('images/icon-page.png') center center no-repeat;border-radius:3px;}
+
+.it-exchange-membership-membership-content .it-exchange-content-grid .it-exchange-content-item-info,
+.it-exchange-membership-membership-content .it-exchange-content-list .it-exchange-content-group-layout-grid .it-exchange-content-item-info,
+.it-exchange-membership-membership-content .it-exchange-content-grid .it-exchange-content-group-layout-grid .it-exchange-content-item-info{width:70%;box-sizing: border-box;float:left;}
+.it-exchange-membership-membership-content .it-exchange-content-list .it-exchange-content-group-layout-grid .it-exchange-content-item-info .it-exchange-item-title,
+.it-exchange-membership-membership-content .it-exchange-content-grid .it-exchange-content-group-layout-grid .it-exchange-content-item-info .it-exchange-item-title {padding: 0;background: none;font-size: .875em;display: block;}
+
+.it-exchange-membership-membership-content .it-exchange-content-list .it-exchange-content-group-layout-grid .it-exchange-content-item-info .it-exchange-group-content-label,
+.it-exchange-membership-membership-content .it-exchange-content-grid .it-exchange-group-content-label,
+.it-exchange-membership-membership-content .it-exchange-content-grid .it-exchange-content-group-layout-grid .it-exchange-content-item-info .it-exchange-group-content-label {padding: 0 10px;margin-top: 0;}
+.it-exchange-membership-membership-content .it-exchange-content-grid .it-exchange-content-group-layout-list .it-exchange-group-content-label,
+.it-exchange-membership-membership-content .it-exchange-content-list .it-exchange-content-group-layout-list .it-exchange-group-content-label,
+.it-exchange-membership-membership-content .it-exchange-content-list .it-exchange-content-group .it-exchange-group-content-label {padding: 1em; margin-top: 0;}
+.it-exchange-membership-membership-content .it-exchange-content-list .it-exchange-content-group-layout-grid .it-exchange-group-content-label,
+.it-exchange-membership-membership-content .it-exchange-content-grid .it-exchange-content-group-layout-grid .it-exchange-group-content-label {padding: 1em 0 .25em 0;}
+
+.it-exchange-membership-membership-content .it-exchange-content-group-layout-grid .it-exchange-item-unavailable-message {float:none;}
+
+
+/** -----------------------------------------------------:[ List ]:---------- */
+.it-exchange-membership-membership-content .it-exchange-content-grid .it-exchange-content-group-layout-list .it-exchange-content-single {border: 1px solid #EDEDED;}
+.it-exchange-membership-membership-content .it-exchange-content-group-layout-list {clear:both;}
+.it-exchange-membership-membership-content .it-exchange-content-group-layout-list .it-exchange-group-content-label {padding: 1em;}
+.it-exchange-membership-membership-content .it-exchange-content-group-layout-list li {width: 100%;margin-bottom: 1em;}
+.it-exchange-membership-membership-content .it-exchange-content-group-layout-list .it-exchange-content-item-icon {display:none;}
+.it-exchange-membership-membership-content .it-exchange-content-group-layout-list .it-exchange-content-item-info {width: 100%;}
+.it-exchange-membership-membership-content .it-exchange-content-list .it-exchange-item-unavailable-message{margin-top:4px;}
+
+
+/** -----------------------------------------------------:[ media ]:---------- */
+@media screen and (max-width: 750px) {
+	.it-exchange-membership-membership-content .it-exchange-content-grid li,
+	.it-exchange-membership-membership-content .it-exchange-content-list .it-exchange-content-group-layout-grid ul li,
+	.it-exchange-membership-membership-content .it-exchange-content-grid .it-exchange-content-group-layout-grid ul li {
+		width: 100%;
+	}
+	
+	.it-exchange-membership-membership-content .it-exchange-content-grid .it-exchange-content-item-icon, 
+	.it-exchange-membership-membership-content .it-exchange-content-list .it-exchange-content-group-layout-grid .it-exchange-content-item-icon, 
+	.it-exchange-membership-membership-content .it-exchange-content-grid .it-exchange-content-group-layout-grid .it-exchange-content-item-icon {
+		width: 20%;
+	}
+}
+@media screen and (max-width: 500px) {
+	.it-exchange-membership-membership-content .it-exchange-content-grid li,
+	.it-exchange-membership-membership-content .it-exchange-content-list .it-exchange-content-group-layout-grid ul li,
+	.it-exchange-membership-membership-content .it-exchange-content-grid .it-exchange-content-group-layout-grid ul li {
+		width: 100%;
+	}
+	
+	.it-exchange-membership-membership-content .it-exchange-content-grid .it-exchange-content-item-icon, 
+	.it-exchange-membership-membership-content .it-exchange-content-list .it-exchange-content-group-layout-grid .it-exchange-content-item-icon, 
+	.it-exchange-membership-membership-content .it-exchange-content-grid .it-exchange-content-group-layout-grid .it-exchange-content-item-icon {
+		width: 30%;
+	}
+}
+

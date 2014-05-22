@@ -1,0 +1,156 @@
+#it-dialog-window {
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border-width: 1px;
+	border-style: solid;
+	color: #333;
+	font: 12px "Lucida Grande", Verdana, Arial, sans-serif;
+}
+
+#it-dialog-second_line {
+	color: #666;
+	font: 10px "Lucida Grande", Verdana, Arial, sans-serif;
+}
+
+#it-dialog-window a:link,
+#it-dialog-window a:active,
+#it-dialog-window a:focus,
+#it-dialog-window a:visited {
+	color: #666;
+}
+#it-dialog-window a:hover {
+	color: #000;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------*/
+/* ---------->>> thickbox settings <<<-----------------------------------------------------------------------------*/
+/* ----------------------------------------------------------------------------------------------------------------*/
+#it-dialog-overlay {
+	background-color: #000;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+	filter: alpha(opacity = 75);
+	-moz-opacity: 0.75;
+	opacity: 0.75;
+	position: fixed;
+	z-index:100;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+
+* html #it-dialog-overlay { /* ie6 hack */
+	height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px');
+	position: absolute;
+}
+
+#it-dialog-window {
+	background: #FFF;
+	border: 1px solid #555;
+	-moz-box-shadow: rgba(0,0,0,1) 0 4px 30px;
+	-webkit-box-shadow: rgba(0,0,0,1) 0 4px 30px;
+	-khtml-box-shadow: rgba(0,0,0,1) 0 4px 30px;
+	box-shadow: rgba(0,0,0,1) 0 4px 30px;
+	color: #000;
+	position: fixed;
+	text-align: left;
+	top: 50%;
+	left: 50%;
+	display: none;
+	z-index: 102;
+}
+
+* html #it-dialog-window { /* ie6 hack */
+	position: absolute;
+	margin-top: expression(0 - parseInt(this.offsetHeight / 2) + (TBWindowMargin = document.documentElement && document.documentElement.scrollTop || document.body.scrollTop) + 'px');
+}
+
+#it-dialog-close-button-wrapper {
+	float: right;
+	padding: 6px 10px 0;
+	text-align: right;
+}
+
+#it-dialog-caption {
+	float: left;
+	padding: 6px 10px 0;
+}
+
+#it-dialog-window-titlebar {
+	background-color: #222222;
+	color: #CFCFCF;
+	height: 27px;
+}
+
+#it-dialog-ajax_content {
+	clear: both;
+	line-height: 1.4em;
+	overflow: auto;
+	padding: 2px 15px 15px 15px;
+	text-align: left;
+}
+
+#it-dialog-ajax_content.it-dialog-modal {
+	padding: 15px;
+}
+
+#it-dialog-ajax_content p {
+	padding: 5px 0;
+}
+
+#it-dialog-loader {
+	background-color: #E8E8E8;
+	border: 1px solid #555;
+	display: none;
+	left: 50%;
+	margin: -45px 0 0 -125px;
+	padding: 40px 15px 15px;
+	position: fixed;
+	top: 50%;
+	z-index: 103;
+}
+
+* html #it-dialog-loader { /* ie6 hack */
+	margin-top: expression(0 - parseInt(this.offsetHeight / 2) + (TBWindowMargin = document.documentElement && document.documentElement.scrollTop || document.body.scrollTop) + 'px');
+	position: absolute;
+}
+
+#it-dialog-hide_select {
+	background-color: #FFF;
+	border: none;
+	height: 100%;
+	filter: alpha(opacity=0);
+	-moz-opacity: 0;
+	opacity: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 99;
+}
+
+* html #it-dialog-hide_select { /* ie6 hack */
+	height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px');
+	position: absolute;
+}
+
+#it-dialog-iframe {
+	border: none;
+	clear: both;
+	margin-bottom: -1px;
+	_margin-bottom: 1px;
+	width: 200px;
+}
+
+
+
+#it-dialog-ajaxContent #options {
+	position: absolute;
+	top: 20px;
+	right: 25px;
+	padding: 5px;
+}
+
+#it-dialog-ajaxContent h3 {
+	margin-bottom: .25em;
+}

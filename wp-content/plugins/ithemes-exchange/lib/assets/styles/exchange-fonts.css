@@ -1,0 +1,91 @@
+
+@charset "UTF-8";
+
+@font-face {
+  font-family: "exchange";
+  src:url("../fonts/exchange.eot");
+  src:url("../fonts/exchange.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/exchange.ttf") format("truetype"),
+    url("../fonts/exchange.svg#exchange") format("svg"),
+    url("../fonts/exchange.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "exchange" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="it-ex-icon-"]:before,
+[class*=" it-ex-icon-"]:before {
+  font-family: "exchange" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.it-ex-icon-check:before {
+  content: "a";
+}
+
+.it-ex-icon-x:before {
+  content: "b";
+}
+
+.it-ex-icon-expand:before {
+  content: "c";
+}
+
+.it-ex-icon-collapse:before {
+  content: "d";
+}
+
+.it-ex-icon-x-2:before {
+  content: "e";
+}
+
+.it-ex-icon-next:before {
+  content: "f";
+}
+
+.it-ex-icon-previous:before {
+  content: "g";
+}
+
+.it-ex-icon-zoom-in:before {
+  content: "h";
+}
+
+.it-ex-icon-minus-zoom:before {
+  content: "i";
+}
+
+.it-ex-icon-x-3:before {
+  content: "j";
+}
+
+.it-ex-icon-close:before {
+  content: "k";
+}
+
+.it-ex-icon-close2:before {
+  content: "l";
+}
+
+

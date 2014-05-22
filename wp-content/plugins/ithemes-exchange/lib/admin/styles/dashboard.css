@@ -1,0 +1,23 @@
+/** -----------------------------------------------------:[ reporting widget ]:---------- */
+#it-exchange-dashboard-reporting-widget{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+#it-exchange-dashboard-reporting-widget .columns-wrapper{overflow:hidden;clear:left;}
+#it-exchange-dashboard-reporting-widget .column{float:left;}
+#it-exchange-dashboard-reporting-widget label{display:inline-block;font-weight:bold;}
+#it-exchange-dashboard-reporting-widget .columns-totals .column{width:50%;}
+#it-exchange-dashboard-reporting-widget .columns-totals p{width:80%;margin:0 0 .75em;padding:.5em;background:#FFF;border:1px solid #EEE;border-radius:4px;font-size:2em;}
+#it-exchange-dashboard-reporting-widget .columns-totals label{margin-top:.5em;margin-bottom:.5em;}
+#it-exchange-dashboard-reporting-widget .columns-totals .column-sales p{color:#58BE78;}
+#it-exchange-dashboard-reporting-widget .columns-totals .column-transactions p{font-weight:100;color:#555;}
+#it-exchange-dashboard-reporting-widget .recent-transactions{overflow:hidden;margin-top:1em;}
+#it-exchange-dashboard-reporting-widget .recent-transactions p{clear:both;margin-top:1em;}
+#it-exchange-dashboard-reporting-widget .recent-transactions p a{float:right;padding:.1em .4em;background:#DDD;color:#000;font-size:.8em;}
+#it-exchange-dashboard-reporting-widget .columns-recent{padding:.5em 0;border-bottom:1px solid #DDD;}
+#it-exchange-dashboard-reporting-widget .not-cleared-for-delivery{color:#aaa;}
+#it-exchange-dashboard-reporting-widget .column{}
+#it-exchange-dashboard-reporting-widget .column-date,
+#it-exchange-dashboard-reporting-widget .column-status,
+#it-exchange-dashboard-reporting-widget .column-number{width:25%;}
+#it-exchange-dashboard-reporting-widget .column-total{width:25%;text-align:right;}
+/** -----------------------------------------------------:[ dashboard right now ]:---------- */
+#dashboard_right_now li a.it-exchange-glance-products:before,
+#dashboard_right_now li span.it-exchange-glance-products:before{content:'\f174';font:normal 20px/1 'dashicons';}

@@ -1,0 +1,27 @@
+optgroup option {
+	margin-left: 1em;
+}
+
+.it-classes-optgroup-separator + .it-classes-optgroup-separator {
+	border-top: 1px solid #999999;
+	margin-top: .5em;
+	padding-top: .5em;
+}
+.it-classes-optgroup-separator option {
+	margin-left: auto;
+}
+
+.valign-top tr {
+	vertical-align: top;
+}
+
+html.thickbox-html,
+.thickbox-html body {
+	min-width: 0;
+}
+
+html.thickbox-html,
+.thickbox-html body {
+	margin: 0;
+	padding: 0;
+}

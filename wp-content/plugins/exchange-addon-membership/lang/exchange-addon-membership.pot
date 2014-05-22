@@ -1,0 +1,1137 @@
+# Copyright (C) 2014 iThemes Exchange - Membership Add-on
+# This file is distributed under the same license as the iThemes Exchange - Membership Add-on package.
+msgid ""
+msgstr ""
+"Project-Id-Version: iThemes Exchange - Membership Add-on 1.1.4\n"
+"Report-Msgid-Bugs-To: http://ithemes.com/forum/\n"
+"POT-Creation-Date: 2014-04-12 01:17:37+00:00\n"
+"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: api/theme/member-dashboard.php:92
+msgid "Welcome"
+msgstr ""
+
+#: api/theme/member-dashboard.php:138
+msgid "Membership Content"
+msgstr ""
+
+#: api/theme/member-dashboard.php:142 lib/addon-shortcodes.php:35
+msgid "(Included with %s)"
+msgstr ""
+
+#: api/theme/member-dashboard.php:301
+msgid "Read More Content In This Group"
+msgstr ""
+
+#: api/theme/member-dashboard.php:340 lib/addon-shortcodes.php:207
+msgid "available in %s days"
+msgstr ""
+
+#: api/theme/membership-confirmation.php:65
+msgid "View available content for %s"
+msgstr ""
+
+#: api/theme/membership-product.php:380 api/theme/membership-product.php:600
+msgid "day"
+msgstr ""
+
+#: api/theme/membership-product.php:382 api/theme/membership-product.php:602
+msgid "days"
+msgstr ""
+
+#: api/theme/membership-product.php:384 api/theme/membership-product.php:604
+msgid " %s %s free, then regular price"
+msgstr ""
+
+#: api/theme/membership-product.php:387
+msgid " %s upgrade credit, then regular price"
+msgstr ""
+
+#: api/theme/membership-product.php:607
+msgid " %s downgrade credit, then regular price"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/exchange-addon-recurring-payments.php:30
+#: bundled-addons/exchange-addon-recurring-payments/lib/addon-settings.php:160
+#: bundled-addons/exchange-addon-recurring-payments/lib/product-features/class.recurring-payments.php:97
+msgid "Recurring Payments"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/exchange-addon-recurring-payments.php:31
+msgid ""
+"This add-on turns on recurring payments for supporting payment gateways."
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/addon-functions.php:53
+msgid ""
+"The Recurring Payments add-on requires iThemes Exchange version 1.3.0 or "
+"greater. %sPlease upgrade Exchange%s."
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/addon-functions.php:80
+msgid "yr"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/addon-functions.php:84
+msgid "mo"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/addon-settings.php:33
+msgid "Cancellation Notification"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/addon-settings.php:34
+msgid ""
+"Hello [it_exchange_email show=name],\n"
+"\n"
+"Your recurring payment has been cancelled.\n"
+"\n"
+"Thank you.\n"
+"[it_exchange_email show=sitename]"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/addon-settings.php:40
+msgid "Expiration Notification"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/addon-settings.php:41
+msgid ""
+"Hello [it_exchange_email show=name],\n"
+"\n"
+"Your recurring payment has expired.\n"
+"\n"
+"Thank you.\n"
+"[it_exchange_email show=sitename]"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/addon-settings.php:131
+msgid "Recurring Payments Settings"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/addon-settings.php:140
+#: lib/addon-settings.php:135
+msgid "Save Changes"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/addon-settings.php:163
+msgid "Recurring Payment Cancelled Email"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/addon-settings.php:165
+#: bundled-addons/exchange-addon-recurring-payments/lib/addon-settings.php:184
+msgid "Email Subject"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/addon-settings.php:165
+#: bundled-addons/exchange-addon-recurring-payments/lib/addon-settings.php:184
+msgid ""
+"The subject you want users who have cancelled their subscriptions to receive."
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/addon-settings.php:169
+#: bundled-addons/exchange-addon-recurring-payments/lib/addon-settings.php:188
+msgid "Email Message"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/addon-settings.php:169
+#: bundled-addons/exchange-addon-recurring-payments/lib/addon-settings.php:188
+msgid ""
+"The message you want users who have cancelled their subscriptions to receive."
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/addon-settings.php:182
+msgid "Recurring Payment Expired Email"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/addon-settings.php:203
+msgid ""
+"Enter the email that is sent to administrator after a customer completes a "
+"successful purchase. HTML is accepted. Available shortcode functions:"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/addon-settings.php:205
+msgid "You call these shortcode functions like this: %s"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/addon-settings.php:207
+msgid "The buyer's first name"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/addon-settings.php:208
+msgid "The buyer's full name, first and last"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/addon-settings.php:209
+msgid "The buyer's username on the site, if they registered an account"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/addon-settings.php:210
+msgid "Your site name"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/addon-settings.php:211
+msgid "Adds a link to the login page on your website."
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/addon-settings.php:232
+#: lib/addon-settings.php:233
+msgid "Error. Please try again"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/addon-settings.php:238
+#: lib/addon-settings.php:239
+msgid "Settings saved."
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/addon-settings.php:243
+#: lib/addon-settings.php:244
+msgid "Settings not saved."
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/addon-settings.php:259
+msgid "Please include an email subject for cancellations"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/addon-settings.php:261
+msgid "Please include an email body for cancellations"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/addon-settings.php:263
+msgid "Please include an email subject for expirations"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/addon-settings.php:265
+msgid "Please include an email body for expirations"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/api/theme/recurring-payments.php:84
+msgid "Cancel this subscription"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/api/theme/recurring-payments.php:94
+msgid "Subscription deactivated"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/api/theme/recurring-payments.php:97
+msgid "Subscription cancelled"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/api/theme/recurring-payments.php:100
+msgid "Subscription suspended"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/api/theme/recurring-payments.php:123
+msgid "Expires"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/api/theme/recurring-payments.php:150
+msgid "Payment"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/api/theme/recurring-payments.php:161
+msgid "of"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/product-features/class.recurring-payments.php:116
+msgid "Forever"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/product-features/class.recurring-payments.php:117
+msgid "Monthly"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/product-features/class.recurring-payments.php:118
+msgid "Yearly"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/product-features/class.recurring-payments.php:139
+msgid "Auto-Renew: %s"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/required-hooks.php:274
+msgid "forever"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/admin.php:131
+#: lib/updater/admin.php:131
+msgid ""
+"To receive automatic updates for %l, use the <a href=\"%s\">iThemes "
+"Licensing</a> page found in the Settings menu."
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/admin.php:138
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/admin.php:144
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:302
+#: lib/updater/admin.php:138 lib/updater/admin.php:144
+#: lib/updater/settings-page.php:302
+msgid "iThemes Licensing"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/admin.php:170
+#: lib/updater/admin.php:170
+msgid "Manage iThemes product licenses to receive automatic upgrade support"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/admin.php:170
+#: lib/updater/admin.php:170
+msgid "License"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/api.php:41
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/api.php:56
+#: lib/updater/api.php:41 lib/updater/api.php:56
+msgid ""
+"<p>Unable to get changelog data at this time.</p><p>Error <code>%1$s</code>: "
+"%2$s</p>"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/api.php:44
+#: lib/updater/api.php:44
+msgid ""
+"<p>Unable to get changelog data at this time.</p><p>Error: Unrecognized "
+"response from <code>wp_remote_get</code>.</p>"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/api.php:47
+#: lib/updater/api.php:47
+msgid ""
+"<p>Unable to get changelog data at this time.</p><p>Error code <code>%1$s</"
+"code>: %2$s</p>"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/api.php:58
+#: lib/updater/api.php:58
+msgid ""
+"<p>Unable to get changelog data at this time.</p><p>Error: Unrecognized "
+"response from iThemes API server.</p>"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/server.php:74
+#: lib/updater/server.php:74
+msgid ""
+"The server could not be contacted. Requests are delayed for %d minute to "
+"allow the server to recover."
+msgid_plural ""
+"The server could not be contacted. Requests are delayed for %d minutes to "
+"allow the server to recover."
+msgstr[0] ""
+msgstr[1] ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/server.php:145
+#: lib/updater/server.php:145
+msgid "The server was unable to be contacted."
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/server.php:155
+#: lib/updater/server.php:155
+msgid ""
+"An error occurred when communicating with the iThemes update server: %s (%s)"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:77
+#: lib/updater/settings-page.php:77
+msgid ""
+"Incorrect password. Please make sure that you are supplying your iThemes "
+"membership username and password details."
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:81
+#: lib/updater/settings-page.php:81
+msgid ""
+"Invalid username. Please make sure that you are supplying your iThemes "
+"membership username and password details."
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:84
+#: lib/updater/settings-page.php:84
+msgid ""
+"The licensing server reports that the %1$s (%2$s) product is unknown. Please "
+"contact support for assistance."
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:87
+#: lib/updater/settings-page.php:87
+msgid ""
+"%1$s could not be licensed since the membership account is out of available "
+"licenses for this product. You can unlicense the product on other sites or "
+"upgrade your membership to one with a higher number of licenses in order to "
+"increase the amount of available licenses."
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:90
+#: lib/updater/settings-page.php:90
+msgid ""
+"%s could not be licensed due to an internal error. Please try to license %s "
+"again at a later time. If this problem continues, please contact iThemes "
+"support."
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:96
+#: lib/updater/settings-page.php:96
+msgid ""
+"An unknown error relating to the %1$s product occurred. Please contact "
+"iThemes support. Error details: %2$s"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:98
+#: lib/updater/settings-page.php:98
+msgid ""
+"An unknown error occurred. Please contact iThemes support. Error details: %s"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:129
+#: lib/updater/settings-page.php:129
+msgid "Settings saved"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:136
+#: lib/updater/settings-page.php:136
+msgid ""
+"You must supply an iThemes membership username and password in order to "
+"license products."
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:138
+#: lib/updater/settings-page.php:138
+msgid ""
+"You must supply an iThemes membership username in order to license products."
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:140
+#: lib/updater/settings-page.php:140
+msgid ""
+"You must supply an iThemes membership password in order to license products."
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:142
+#: lib/updater/settings-page.php:142
+msgid ""
+"You must select at least one product to license. Ensure that you select the "
+"products that you wish to license in the listing below."
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:157
+#: lib/updater/settings-page.php:157
+msgid ""
+"An unknown server error occurred. Please try to license your products again "
+"at another time."
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:177
+#: lib/updater/settings-page.php:177
+msgid "Your product subscription has expired"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:184
+#: lib/updater/settings-page.php:184
+msgid "Successfully licensed %l."
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:188
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:193
+#: lib/updater/settings-page.php:188 lib/updater/settings-page.php:193
+msgid "Unable to license %1$s. Reason: %2$s"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:201
+#: lib/updater/settings-page.php:201
+msgid ""
+"You must supply an iThemes membership username and password in order to "
+"remove licenses."
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:203
+#: lib/updater/settings-page.php:203
+msgid ""
+"You must supply an iThemes membership username in order to remove licenses."
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:205
+#: lib/updater/settings-page.php:205
+msgid ""
+"You must supply an iThemes membership password in order to remove licenses."
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:207
+#: lib/updater/settings-page.php:207
+msgid ""
+"You must select at least one license to remove. Ensure that you select the "
+"licenses that you wish to remove in the listing below."
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:222
+#: lib/updater/settings-page.php:222
+msgid ""
+"An unknown server error occurred. Please try to remove licenses from your "
+"products again at another time."
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:243
+#: lib/updater/settings-page.php:243
+msgid "Unknown server error."
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:248
+#: lib/updater/settings-page.php:248
+msgid "Successfully removed license from %l."
+msgid_plural "Successfully removed licenses from %l."
+msgstr[0] ""
+msgstr[1] ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:252
+#: lib/updater/settings-page.php:252
+msgid "Unable to remove license from %1$s. Reason: %2$s"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:324
+#: lib/updater/settings-page.php:324
+msgid "Settings"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:330
+#: lib/updater/settings-page.php:330
+msgid "Quick Release Updates"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:337
+#: lib/updater/settings-page.php:337
+msgid "Enable quick release updates"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:340
+#: lib/updater/settings-page.php:340
+msgid ""
+"Some products have quick releases that are created to solve specific issues "
+"that some users experience. In order to avoid causing users to have updates "
+"show up too frequently, automatic updates to these quick releases are "
+"disabled by default. Enabling this feature allows quick releases to be "
+"available to the automatic update system. Using this option is only "
+"recommended if support has requested that you enable it in order to receive "
+"a quick release. You should disable this option at a later time after "
+"confirming that the quick release solves the issue for you."
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:347
+#: lib/updater/settings-page.php:347
+msgid "Save Settings"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:366
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:397
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:521
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:589
+#: lib/updater/settings-page.php:366 lib/updater/settings-page.php:397
+#: lib/updater/settings-page.php:521 lib/updater/settings-page.php:589
+msgid "Product"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:367
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:399
+#: lib/updater/settings-page.php:367 lib/updater/settings-page.php:399
+msgid "Member"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:368
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:401
+#: lib/updater/settings-page.php:368 lib/updater/settings-page.php:401
+msgid "Expiration"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:369
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:402
+#: lib/updater/settings-page.php:369 lib/updater/settings-page.php:402
+msgid "Remaining Licenses"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:385
+#: lib/updater/settings-page.php:385
+msgid "Licensed Products"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:391
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:515
+#: lib/updater/settings-page.php:391 lib/updater/settings-page.php:515
+msgid "Select All"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:400
+#: lib/updater/settings-page.php:400
+msgid "Product Status"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:410
+#: lib/updater/settings-page.php:410
+msgid "unlimited"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:451
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:545
+#: lib/updater/settings-page.php:451 lib/updater/settings-page.php:545
+msgid "Select %s"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:471
+#: lib/updater/settings-page.php:471
+msgid "Remove Licenses"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:505
+#: lib/updater/settings-page.php:505
+msgid "Unlicensed Products"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:507
+#: lib/updater/settings-page.php:507
+msgid ""
+"The following products have not been licensed. Licensing a product gives you "
+"access to automatic updates from within WordPress."
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:508
+#: lib/updater/settings-page.php:508
+msgid ""
+"To license products, select the products you wish to license, enter your "
+"iThemes membership username and password, and press the License Products "
+"button."
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:509
+#: lib/updater/settings-page.php:509
+msgid "Need help? <a href=\"%s\">Click here for a quick video tutorial</a>."
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:561
+#: lib/updater/settings-page.php:561
+msgid "License Products"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:581
+#: lib/updater/settings-page.php:581
+msgid "Unrecognized Products"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:583
+#: lib/updater/settings-page.php:583
+msgid ""
+"The following products were not recognized by the licensing system. This can "
+"be due to a bug in the product code, a temporary server issue, or because "
+"the product is no longer supported."
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:584
+#: lib/updater/settings-page.php:584
+msgid ""
+"Please check this page again at a later time to see if the problem resolves "
+"itself. If the product remains, please contact <a href=\"%s\">iThemes "
+"support</a> and provide them with the details given below."
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:590
+#: lib/product-features/class.content-access.php:130
+#: lib/updater/settings-page.php:590
+msgid "Type"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:591
+#: lib/updater/settings-page.php:591
+msgid "Package"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:592
+#: lib/updater/settings-page.php:592
+msgid "Version"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:593
+#: lib/updater/settings-page.php:593
+msgid "Server Response"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:603
+#: lib/updater/settings-page.php:603
+msgid "Unknown Error"
+msgstr ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:642
+#: lib/updater/settings-page.php:642
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:644
+#: lib/updater/settings-page.php:644
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:646
+#: lib/updater/settings-page.php:646
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:648
+#: lib/updater/settings-page.php:648
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: bundled-addons/exchange-addon-recurring-payments/lib/updater/settings-page.php:651
+#: lib/updater/settings-page.php:651
+msgid "%s ago"
+msgstr ""
+
+#: exchange-addon-membership.php:30 exchange-addon-membership.php:40
+#: lib/addon-settings.php:155
+msgid "Membership"
+msgstr ""
+
+#: exchange-addon-membership.php:31
+msgid "Add Memberships levels to your customers."
+msgstr ""
+
+#: lib/addon-ajax-hooks.php:36 lib/addon-functions.php:188
+msgid "Available for single posts or pages"
+msgstr ""
+
+#: lib/addon-ajax-hooks.php:86 lib/addon-functions.php:116
+msgid "Ungroup"
+msgstr ""
+
+#: lib/addon-ajax-hooks.php:89 lib/addon-functions.php:119
+msgid "Delete Group"
+msgstr ""
+
+#: lib/addon-ajax-hooks.php:96
+msgid "Drag content items into this area to group them together."
+msgstr ""
+
+#: lib/addon-ajax-hooks.php:188 lib/addon-functions.php:340
+msgid "Delay"
+msgstr ""
+
+#: lib/addon-ajax-hooks.php:193 lib/addon-functions.php:236
+#: lib/addon-functions.php:345
+msgid "Days"
+msgstr ""
+
+#: lib/addon-ajax-hooks.php:194 lib/addon-functions.php:237
+#: lib/addon-functions.php:346
+msgid "Weeks"
+msgstr ""
+
+#: lib/addon-ajax-hooks.php:195 lib/addon-functions.php:238
+#: lib/addon-functions.php:347
+msgid "Months"
+msgstr ""
+
+#: lib/addon-ajax-hooks.php:196 lib/addon-functions.php:239
+#: lib/addon-functions.php:348
+msgid "Years"
+msgstr ""
+
+#: lib/addon-ajax-hooks.php:206
+msgid "OK"
+msgstr ""
+
+#: lib/addon-functions.php:27
+msgid "Select Content"
+msgstr ""
+
+#: lib/addon-functions.php:51
+msgid "Post Types"
+msgstr ""
+
+#: lib/addon-functions.php:329
+msgid "Included in: %s"
+msgstr ""
+
+#: lib/addon-functions.php:389
+msgid "No membership restrictions for this content."
+msgstr ""
+
+#: lib/addon-metaboxes.php:35
+msgid "Membership Access"
+msgstr ""
+
+#: lib/addon-metaboxes.php:56
+msgid "Who can access this post?"
+msgstr ""
+
+#: lib/addon-metaboxes.php:64
+msgid "Add Restriction"
+msgstr ""
+
+#: lib/addon-settings.php:34
+msgid ""
+"This content is for members only. Become a member now to get access to this "
+"and other awesome members-only content."
+msgstr ""
+
+#: lib/addon-settings.php:35
+msgid "This content will be available in %d days."
+msgstr ""
+
+#: lib/addon-settings.php:36
+msgid "Prerequisites"
+msgstr ""
+
+#: lib/addon-settings.php:37
+msgid "Intended Audience"
+msgstr ""
+
+#: lib/addon-settings.php:38
+msgid "Objectives"
+msgstr ""
+
+#: lib/addon-settings.php:126
+msgid "Membership Settings"
+msgstr ""
+
+#: lib/addon-settings.php:159
+msgid "Show content excerpt?"
+msgstr ""
+
+#: lib/addon-settings.php:159
+msgid "Use this to display the post's excerpt before the content message."
+msgstr ""
+
+#: lib/addon-settings.php:163
+msgid "Restricted Content Message"
+msgstr ""
+
+#: lib/addon-settings.php:163
+msgid ""
+"This message will display when a non-member attempts to access content that "
+"has been restricted."
+msgstr ""
+
+#: lib/addon-settings.php:176
+msgid "Delayed Content Message"
+msgstr ""
+
+#: lib/addon-settings.php:176
+msgid ""
+"This message will appear when a member attempts to access content that has "
+"been delayed."
+msgstr ""
+
+#: lib/addon-settings.php:190
+msgid ""
+"Use %d to represent the number of days until the delayed content will be "
+"available."
+msgstr ""
+
+#: lib/addon-settings.php:194
+msgid "Default Prerequisites Label"
+msgstr ""
+
+#: lib/addon-settings.php:194
+#: lib/product-features/class.membership-information.php:119
+msgid ""
+"This label will appear when displaying the prerequisite information on a "
+"membership."
+msgstr ""
+
+#: lib/addon-settings.php:198
+msgid "Default Intended Audience Label"
+msgstr ""
+
+#: lib/addon-settings.php:198
+#: lib/product-features/class.membership-information.php:111
+msgid ""
+"This label will appear when displaying the intended audience information on "
+"a membership."
+msgstr ""
+
+#: lib/addon-settings.php:202
+msgid "Default Objectives Label"
+msgstr ""
+
+#: lib/addon-settings.php:202
+#: lib/product-features/class.membership-information.php:115
+msgid ""
+"This label will appear when displaying the objective information on a "
+"membership."
+msgstr ""
+
+#: lib/addon-settings.php:206
+msgid "Membership Dashboard View"
+msgstr ""
+
+#: lib/addon-settings.php:206
+msgid ""
+"Sets the default way items are displayed in the customer's membership "
+"dashboard."
+msgstr ""
+
+#: lib/addon-settings.php:209
+msgid "Grid"
+msgstr ""
+
+#: lib/addon-settings.php:209
+msgid "List"
+msgstr ""
+
+#: lib/addon-settings.php:212
+msgid "Membership Group Toggle"
+msgstr ""
+
+#: lib/addon-settings.php:212
+msgid "Sets the default option for toggling grouped membership content."
+msgstr ""
+
+#: lib/addon-settings.php:215
+msgid "Yes"
+msgstr ""
+
+#: lib/addon-settings.php:215
+msgid "No"
+msgstr ""
+
+#: lib/addon-settings.php:260
+msgid "Please include a restricted content message."
+msgstr ""
+
+#: lib/addon-settings.php:262
+msgid "Please include a delayed content message."
+msgstr ""
+
+#: lib/addon-shortcodes.php:186
+msgid "And More Content In This Group"
+msgstr ""
+
+#: lib/integrations/builder/functions.php:30
+msgctxt "view"
+msgid "Exchange - Membership"
+msgstr ""
+
+#: lib/integrations/builder/functions.php:32
+msgid "The Exchange customer's membership account page."
+msgstr ""
+
+#: lib/product-features/class.content-access.php:39
+msgid "How long a membership should last."
+msgstr ""
+
+#: lib/product-features/class.content-access.php:93
+msgid "Membership Content Access"
+msgstr ""
+
+#: lib/product-features/class.content-access.php:112
+msgid "Content Access"
+msgstr ""
+
+#: lib/product-features/class.content-access.php:112
+msgid ""
+"Content Access settings restrict access to content for this membership.  "
+"Note: Delay Access settings can only be applied to individual posts or pages."
+msgstr ""
+
+#: lib/product-features/class.content-access.php:133
+msgid "Content"
+msgstr ""
+
+#: lib/product-features/class.content-access.php:136
+msgid "Delay Access"
+msgstr ""
+
+#: lib/product-features/class.content-access.php:136
+msgid "This setting can only be applied to individual posts or pages."
+msgstr ""
+
+#: lib/product-features/class.content-access.php:185
+msgid ""
+"No content access rules added to this membership yet. <a href=\"\">Add New "
+"Rule</a>"
+msgstr ""
+
+#: lib/product-features/class.content-access.php:189
+msgid "Add New Rule"
+msgstr ""
+
+#: lib/product-features/class.content-access.php:192
+msgid "Add New Group"
+msgstr ""
+
+#: lib/product-features/class.membership-hierarchy.php:39
+msgid ""
+"Allows you to set a Parent for a given membership, to enable membership "
+"hierarchy permissions."
+msgstr ""
+
+#: lib/product-features/class.membership-hierarchy.php:93
+msgid "Membership Hierarchy"
+msgstr ""
+
+#: lib/product-features/class.membership-hierarchy.php:108
+msgid ""
+"View and edit membership relationships below. You can add child memberships "
+"to include the content and files from another membership with this "
+"membership. You can also add and remove parent memberships that include this "
+"membership."
+msgstr ""
+
+#: lib/product-features/class.membership-hierarchy.php:113
+msgid "Child Memberships"
+msgstr ""
+
+#: lib/product-features/class.membership-hierarchy.php:113
+#: lib/product-features/class.membership-hierarchy.php:131
+msgid ""
+"A Parent gets all of its own access, plus all of it's Child(ren)'s access."
+msgstr ""
+
+#: lib/product-features/class.membership-hierarchy.php:114
+msgid "Additional membership available to owners of this membership level."
+msgstr ""
+
+#: lib/product-features/class.membership-hierarchy.php:122
+#: lib/product-features/class.membership-hierarchy.php:149
+msgid "Select a Membership"
+msgstr ""
+
+#: lib/product-features/class.membership-hierarchy.php:128
+msgid "Add Child Membership"
+msgstr ""
+
+#: lib/product-features/class.membership-hierarchy.php:131
+msgid "Parent Memberships"
+msgstr ""
+
+#: lib/product-features/class.membership-hierarchy.php:132
+msgid ""
+"Memberships that include content from this membership and all children of it."
+msgstr ""
+
+#: lib/product-features/class.membership-hierarchy.php:155
+msgid "Add Parent Membership"
+msgstr ""
+
+#: lib/product-features/class.membership-information.php:39
+msgid ""
+"This displays the intended audience message for each Membership type on the "
+"member's product page"
+msgstr ""
+
+#: lib/product-features/class.membership-information.php:93
+msgid "Membership Information"
+msgstr ""
+
+#: lib/product-features/class.welcome-message.php:39
+msgid ""
+"This displays a custom welcome message for each Membership type on the "
+"member's dashboard"
+msgstr ""
+
+#: lib/product-features/class.welcome-message.php:93
+msgid "Welcome Message"
+msgstr ""
+
+#: lib/product-features/class.welcome-message.php:109
+msgid ""
+"This message will appear above the list of protected membership content in "
+"your user's account. Use it to describe this membership, let them know what "
+"to read first or do next."
+msgstr ""
+
+#: lib/required-hooks.php:19
+msgid ""
+"The Membership add-on requires iThemes Exchange version 1.4.0 or greater. "
+"%sPlease upgrade Exchange%s."
+msgstr ""
+
+#: lib/required-hooks.php:46
+msgid "Setup Add-on"
+msgstr ""
+
+#: lib/required-hooks.php:196
+msgid ""
+"Restrict content to a specific Membership product in this post with the "
+"Member Content shortcode"
+msgstr ""
+
+#: lib/required-hooks.php:196
+msgid "Member Content"
+msgstr ""
+
+#: lib/required-hooks.php:238
+msgid "You must select at least one membership product"
+msgstr ""
+
+#: lib/required-hooks.php:251
+msgid ""
+"To restrict content within this post or page to users with a specific "
+"membership level, highlight the section you’d like to restrict in your "
+"content, choose the membership levels you’d like to give access to the "
+"content and click the Insert Shortcode button below."
+msgstr ""
+
+#: lib/required-hooks.php:253
+msgid "Select Membership Product(s)"
+msgstr ""
+
+#: lib/required-hooks.php:255
+msgid "Choose the Memberships allowed to see selected content."
+msgstr ""
+
+#: lib/required-hooks.php:269
+msgid "Insert Shortcode"
+msgstr ""
+
+#: lib/required-hooks.php:270
+msgid "Cancel"
+msgstr ""
+
+#: lib/required-hooks.php:293
+msgid ""
+"Displays content available with this membership. <a href=\"http://ithemes."
+"com/codex/page/Exchange_Product_Types:_Memberships#Shortcodes\">Click here "
+"to read about the available shortcode options.</a>"
+msgstr ""
+
+#: lib/required-hooks.php:649
+msgid "Memberships"
+msgstr ""
+
+#: lib/required-hooks.php:652
+msgid "Membership Page"
+msgstr ""
+
+#: lib/required-hooks.php:653
+msgid "Membership pages appear in the customers account profile."
+msgstr ""
+
+#: lib/required-hooks.php:843
+msgid "View available content"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "iThemes Exchange - Membership Add-on"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://ithemes.com/exchange/membership/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Adds the membership management to iThemes Exchange"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "iThemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://ithemes.com"
+msgstr ""

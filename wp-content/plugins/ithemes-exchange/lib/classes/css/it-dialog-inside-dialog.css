@@ -1,0 +1,50 @@
+body {
+	min-width: 0;
+}
+#it-dialog-content-container {
+	float: left;
+/*	padding: 20px 20px 15px 20px;*/
+}
+#it-dialog-content-container img {
+	line-height: 0;
+}
+/*#it-dialog-content-container > form {
+	margin: 0;
+}*/
+.it-dialog-title {
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+}
+#it-dialog-loading-message {
+	font-weight: bold;
+	padding: 1em;
+	text-align: center;
+}
+h1 {
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0 0 .75em;
+	text-align: center;
+}
+p.submit {
+	margin: 1em 0 0;
+	padding: 0;
+	text-align: center;
+}
+
+/* Fix dialog content styling changes due to responsive admin styling added in WordPress 3.8. */
+textarea,
+input {
+	font-size: 14px;
+}
+input[type="text"],
+input[type="search"],
+input[type="password"],
+input[type="number"] {
+	padding: 3px 5px;
+}
+
+.it-dialog-html .wp-admin .it-debug-print-r {
+	margin-left: 0;
+}

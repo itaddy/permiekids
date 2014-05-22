@@ -1,0 +1,36 @@
+/** -----------------------------------------------------:[ icon ]:---------- */
+#icon-it-exchange.icon32-posts-it_exchange_coupon,
+#icon-it-exchange-coupons {
+	background: url('../images/coupon32.png') no-repeat;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1),only screen and (min-device-pixel-ratio: 2),only screen and (min-resolution: 192dpi),only screen and (min-resolution: 2dppx) {
+	#icon-it-exchange.icon32-posts-it_exchange_coupon,
+	#icon-it-exchange-coupons {
+		background: url('../images/coupon64.png') no-repeat;
+		background-size: cover;
+		width: 32px;
+		height: 32px;
+	}
+}
+
+/** -----------------------------------------------------:[ general ]:---------- */
+.it-exchange-add-basic-coupon label{display:block;font-size:13px;font-weight:bold;color:#3d4142;margin-bottom:5px;margin-left:2px;}
+.it-exchange-add-basic-coupon input[type="text"],
+.it-exchange-add-basic-coupon input[type="email"],
+.it-exchange-add-basic-coupon input[type="password"],
+.it-exchange-add-basic-coupon textarea{background:#fff;border:1px solid #d6d6d6;border-radius:3px;font-size:18px;padding:10px;color:#3d4142;width:260px;}
+.it-exchange-add-basic-coupon input[type="text"]:focus,
+.it-exchange-add-basic-coupon input[type="email"]:focus,
+.it-exchange-add-basic-coupon input[type="password"]:focus,
+.it-exchange-add-basic-coupon textarea:focus{outline:none;border:1px solid #c9c9c9;border-bottom-color:#aaaaaa;}
+.it-exchange-add-basic-coupon .field{margin-top:20px;}
+
+/** -----------------------------------------------------:[ form ]:---------- */
+.it-exchange-add-basic-coupon .amount input{max-width:80px;text-align:right;}
+.it-exchange-add-basic-coupon .coupon-code .dice{margin:14px 0 0 10px;cursor:pointer;-webkit-transition:all .1s linear;-moz-transition:all .1s linear 0s;padding:0 3px;background:#FFF;border:1px solid #d6d6d6;border-radius:3px;}
+.it-exchange-add-basic-coupon .coupon-code .dice:hover{border:1px solid #fff;box-shadow:0 0 0 2px #8dc943;border-radius:2px;}
+.it-exchange-add-basic-coupon .date{overflow:hidden;}
+.it-exchange-add-basic-coupon .date div{float:left;}
+.it-exchange-add-basic-coupon .date .start-date{margin-right:15px;}
+.it-exchange-add-basic-coupon .date input{width:120px;}
+.it-exchange-add-basic-coupon .quantity input{max-width:80px;text-align:right;}

@@ -1,0 +1,11 @@
+/*
+Theme Name: WP BootStrap
+Author: Chad H. Alvarez
+Author URI: http://www.nerdsmind.com/
+Version: 0.1
+*/
+
+@import url('bootstrap/css/bootstrap.css'); 
+@import url('bootstrap/css/bootstrap-responsive.css'); 
+@import url('bootstrap/css/custom.css'); 
+

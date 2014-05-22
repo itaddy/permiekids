@@ -1,0 +1,4 @@
+#it-exchange-add-on-taxes-simple-settings label{display:block;}
+#it-exchange-add-on-taxes-simple-settings input[type="text"]{max-width:80px;padding:10px;margin-bottom:15px;background:#fff;border:1px solid #d6d6d6;border-radius:3px;font-size:18px;color:#3d4142;}
+#it-exchange-add-on-taxes-simple-settings input[type="text"]:focus{outline:none;border:1px solid #c9c9c9;border-bottom-color:#aaaaaa;}
+#it-exchange-add-on-taxes-simple-settings input[type="text"].normal{max-width:200px;width:200px;}

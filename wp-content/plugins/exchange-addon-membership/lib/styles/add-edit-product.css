@@ -1,0 +1,71 @@
+/** -----------------------------------------------------:[ Content Access ]:---------- */
+#it-exchange-product-membership-content-access-rules{margin-bottom:3em;}
+#it-exchange-product-membership-content-access-rules .it-exchange-content-access-header{overflow:hidden;clear:both;margin-top:3em;}
+#it-exchange-product-membership-content-access-rules .it-exchange-content-access-footer{overflow:hidden;clear:both;margin-top:1em;}
+#it-exchange-product-membership-content-access-rules .it-exchange-content-access-label-add{float:left;}
+#it-exchange-product-membership-content-access-rules .it-exchange-membership-content-access-add-new-rule{float:left;margin-bottom:10px;margin-right: 1em;}
+#it-exchange-product-membership-content-access-rules .it-exchange-content-no-rules{float:none;margin:0;padding:1.2em;text-align:center;}
+#it-exchange-product-membership-content-access-rules input{margin:8px;font-size:14px;width:98%;}
+#it-exchange-product-membership-content-access-rules select{max-width:100%;}
+#it-exchange-product-membership-content-access-rules .it-exchange-content-access-list-wrapper{overflow:visible;border:1px solid #DEDEDE;}
+#it-exchange-product-membership-content-access-rules .it-exchange-content-access-list-titles {background: #FFF;}
+#it-exchange-product-membership-content-access-rules .columns-wrapper{clear:both;overflow:visible;}
+#it-exchange-product-membership-content-access-rules .columns-wrapper:after {content: "."; visibility: hidden; display: block; height: 0; clear: both;}
+#it-exchange-product-membership-content-access-rules .it-exchange-content-access-list-titles .column{padding:.8em 1em;font-weight:bold;}
+#it-exchange-product-membership-content-access-rules .it-exchange-content-access-list-titles .columns-wrapper{border-top:0;}
+#it-exchange-product-membership-content-access-rules .column{position:relative;float:left;}
+#it-exchange-product-membership-content-access-rules .it-exchange-membership-addon-sort-content-access-rule{width:2%; border-left: 1px solid #EDEDED;}
+#it-exchange-product-membership-content-access-rules .it-exchange-membership-addon-sort-content-access-group{width:2%;}
+#it-exchange-product-membership-content-access-rules .it-exchange-content-access-type{width:16%;}
+#it-exchange-product-membership-content-access-rules .it-exchange-content-access-content{width:40%;}
+#it-exchange-product-membership-content-access-rules .it-exchange-content-access-delay{width:30%;}
+#it-exchange-product-membership-content-access-rules .it-exchange-membership-addon-remove-content-access-rule{width:5%;}
+#it-exchange-product-membership-content-access-rules .it-exchange-membership-addon-content-access-rules .columns-wrapper{background:#FFF;border-top:1px solid #DEDEDE;position: relative;}
+#it-exchange-product-membership-content-access-rules .it-exchange-membership-addon-content-access-rules .column{padding:1em;}
+#it-exchange-product-membership-content-access-rules .it-exchange-membership-addon-sort-content-access-rule{min-height:54px;cursor:row-resize;background:#F6F6F6 url(images/drag-dots.png) center center no-repeat;border-right:1px solid #DDD;opacity:.5;-webkit-transition:opacity .2s ease;-moz-transition:opacity .2s ease;transition:opacity .2s ease;}
+#it-exchange-product-membership-content-access-rules .it-exchange-membership-addon-sort-content-access-group{min-height:54px;cursor:row-resize;background:#F6F6F6 url(images/drag-dots.png) center center no-repeat;border-right:1px solid #DDD;opacity:.5;-webkit-transition:opacity .2s ease;-moz-transition:opacity .2s ease;transition:opacity .2s ease;}
+#it-exchange-product-membership-content-access-rules .it-exchange-membership-addon-sort-content-access-rule:hover{opacity:1;}
+#it-exchange-product-membership-content-access-rules .it-exchange-membership-addon-sort-content-access-group:hover{opacity:1;}
+#it-exchange-product-membership-content-access-rules .it-exchange-membership-addon-remove-content-access-rule.column{float:right;text-align:right;padding:0;}
+#it-exchange-product-membership-content-access-rules .it-exchange-membership-addon-remove-content-access-rule a{-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;display:inline-block;width:20px;height:20px;margin-top:18px;margin-right:12px;border:2px solid transparent;border-radius:50%;font-size:14px;line-height:1.3em;text-decoration:none;text-align:center;color:#BBB;-webkit-transition:all .2s linear;-moz-transition:all .2s linear;transition:all .2s linear;}
+#it-exchange-product-membership-content-access-rules .it-exchange-membership-addon-content-access-rule:hover .it-exchange-membership-addon-remove-content-access-rule .it-exchange-delete-digital-download{border-color:#BBB;}
+#it-exchange-product-membership-content-access-rules .it-exchange-membership-addon-remove-content-access-rule a:active{outline:none;opacity:.8;}
+#it-exchange-product-membership-content-access-rules .it-exchange-membership-addon-content-access-rule .it-exchange-membership-addon-remove-content-access-rule a:hover{border-color:#E1797A;color:#E1797A;}
+#it-exchange-product-membership-content-access-rules .it-exchange-membership-addon-sorting-placeholder{height:50px;width:100%;background:#DCDEE0;box-shadow: inset #AFAFAF 0 0 10px;}
+#it-exchange-product-membership-content-access-rules .ui-sortable-helper{border:1px solid #DEDEDE;box-shadow:#DDD 0 0 10px;}
+
+#it-exchange-product-membership-content-access-rules .group-layout-options {display: inline-block;margin: 0 .75em;}
+#it-exchange-product-membership-content-access-rules .it-exchange-membership-content-type-terms .group-layout-options {margin-top: .5em;}
+#it-exchange-product-membership-content-access-rules .group-layout-options span {-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;width: 18px;height: 18px;display:inline-block;text-indent: -999em;background: url(images/grid-list-icon.png) 0 0 no-repeat;border: 1px solid transparent;}
+#it-exchange-product-membership-content-access-rules .group-layout-options span.active-group-layout {border-color: #C9C9C9;background-color: #FFF}
+#it-exchange-product-membership-content-access-rules .group-layout-options span[data-type="list"] {background-position: 0 -18px;}
+#it-exchange-product-membership-content-access-rules .group-layout-options span[data-type="list"].active-group-layout {background-position: -18px -18px;}
+#it-exchange-product-membership-content-access-rules .group-layout-options span[data-type="grid"].active-group-layout {background-position: -18px 0;}
+
+#it-exchange-product-membership-content-access-rules .it-exchange-membership-addon-content-access-rule.it-exchange-membership-addon-content-access-group {background: #F3F3F3;}
+#it-exchange-product-membership-content-access-rules .it-exchange-membership-addon-content-access-rule input {width: 100%;max-width: 300px;margin-left: 1em;}
+#it-exchange-product-membership-content-access-rules .it-exchange-membership-addon-group-action-wrapper {float:right;width: 100%;max-width: 45px;}
+#it-exchange-product-membership-content-access-rules .it-exchange-membership-addon-group-action {float:right;width: 100%;max-width: 25px;text-indent: -999em;background: url(images/group-action-icon.png) center center no-repeat;margin-top: 18px;margin-right: 12px;padding-bottom: 5px;position: relative;}
+#it-exchange-product-membership-content-access-rules .it-exchange-membership-addon-group-actions {display:none;position: absolute;right: -60px;top: 38px;border: 1px solid #DEDEDE;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;background: #FFF;z-index: 2;}
+#it-exchange-product-membership-content-access-rules .it-exchange-membership-addon-group-actions .column {float:none;padding: .5em;}
+#it-exchange-product-membership-content-access-rules .it-exchange-membership-addon-group-actions .column a {text-decoration: none;}
+#it-exchange-product-membership-content-access-rules .it-exchange-membership-addon-ungroup-content-access-group {border-bottom: 1px solid #EDEDED;}
+#it-exchange-product-membership-content-access-rules .it-exchange-membership-addon-content-access-rule .it-exchange-membership-addon-content-access-rule {border-top: 0;}
+
+
+/** ----------------------------------------:[ content drip ]:--- */
+#it-exchange-product-membership-content-access-rules .it-exchange-membership-content-type-drip input{max-width:60px;margin:0 10px 0 0;padding:5px;}
+#it-exchange-product-membership-content-access-rules .it-exchange-membership-addon-content-access-rule .column-reduce-padding{padding:.9em 1em;}
+
+#it-exchange-product-membership-content-access-rules .it-exchange-membership-addon-content-access-rule .it-exchange-membership-content-access-group-content {min-height: 4em; padding-left: 2em; }
+#it-exchange-product-membership-content-access-rules .it-exchange-membership-addon-content-access-rule .it-exchange-membership-content-access-group-content .nosort { text-align: center;padding: 1.5em 0;background: #fff;-webkit-box-shadow: inset 0 0 10px rgba(0,0,0,0.2); -moz-box-shadow: inset 0 0 10px rgba(0,0,0,0.2);box-shadow: inset 0 0 10px rgba(0,0,0,0.2);}
+.active-group-layout{ color: red; }
+
+/** -----------------------------------------------------:[ Hierarchy ]:---------- */
+#it-exchange-product-membership-hierarchy ul{margin:0;}
+#it-exchange-product-membership-hierarchy li .inner-wrapper{position:relative;border:1px solid #D7D7D7;padding:1em;}
+#it-exchange-product-membership-hierarchy li li{margin-left:2em;}
+#it-exchange-product-membership-hierarchy li li .inner-wrapper{margin-top:6px;}
+#it-exchange-product-membership-hierarchy .it-exchange-remove-item{position:absolute;right:0;top:0;}
+#it-exchange-product-membership-hierarchy .it-exchange-membership-hierarchy-add{margin-top:1em;}
+#it-exchange-product-membership-hierarchy .it-exchange-membership-label{margin-top:2em;}
