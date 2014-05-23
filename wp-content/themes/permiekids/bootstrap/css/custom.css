@@ -6,10 +6,7 @@ div.signup_form {
 	padding: 40px 70px;
 }
 
-input.signup_fields {
-	width: 30%;
-	margin-right: 30px;
-}
+
 
 input.join_button {
 	border: 2px solid #000000;
@@ -39,9 +36,42 @@ input.get_started_button {
 	font-weight: bold;
 }
 
+a.take-a-look {
+	border: 2px solid #000000;
+	width: 330px;
+	background: #ffffff;
+	font-size: 16px;
+	padding: 5px;
+	-webkit-box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 0.75);
+	box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 0.75);
+	outline: none;
+	color: #000000;
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	font-size: 27px;
+	line-height: 50px;
+	margin-top: 30px;
+}
+
+input.download_button {
+	border: 2px solid #000000;
+	width: 230px;
+	background: #ffffff;
+	font-size: 16px;
+	padding: 5px;
+	-webkit-box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow:    7px 7px 0px 0px rgba(0, 0, 0, 0.75);
+	box-shadow:         7px 7px 0px 0px rgba(0, 0, 0, 0.75);	
+	outline: none;
+	color: #000000;
+	font-weight: bold;
+}
+
 
 input.signup_fields {
-	width: 30%;
 	margin-right: 30px;
 	border: 2px solid #000000;
 	margin: 10px 20px;
@@ -90,12 +120,12 @@ div.welcome_text_area {
 }
 
 .welcome_text_area h2 {
-	font-size: 90px;
-	line-height: 100px;
+	font-size: 60px;
+	line-height: 70px;
 }
 
 .welcome_text_area h3 {
-	font-size: 40px;
+	font-size: 25px;
 }
 
 div.footer_menu {
@@ -172,4 +202,76 @@ div.menu-footer-menu-container ul li:last-child {
 	 box-shadow: none; 
 	font-weight: bold;
 	text-decoration: underline;
+}
+
+
+div.information-window {
+	margin: 70px 0px;
+}
+
+ul.home-buttons li a {
+	font-size: 25px;
+	text-align: center;
+	text-decoration: none;
+	color: #000000;
+	border: 2px solid #000000;
+	width: 100%;
+	position: relative;
+	display: block;
+	padding: 25px 0px;
+}
+
+div.information {
+	margin: 50px 20px;
+}
+
+.information h1 {
+	text-align: center;
+	font-size: 50px;
+	margin: 40px 0px;
+}
+
+.content-information p {
+	font-size: 18px;
+	line-height: 22px;
+}
+
+div.content-information ul li {
+	font-size: 20px;
+	line-height: 30px;
+}
+
+div.content-information ul li a {
+	text-decoration:underline;
+}
+
+.information h3 {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+a.home-buttons {
+	font-size: 25px;
+	text-align: center;
+	text-decoration: none;
+	color: #000000;
+	border: 2px solid #000000;
+	width: 100%;
+	display: block;
+	height: 60px;
+	line-height: 60px;
+}
+
+.information-window .col-md-3 {
+	margin: 0px;
+	padding: 0px;
+}
+
+h4.featured-h4 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.content-information h4 {
+	font-size: 22px;
 }
