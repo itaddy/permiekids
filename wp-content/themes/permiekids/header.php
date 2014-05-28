@@ -23,25 +23,28 @@
 <?php wp_enqueue_script("jquery"); ?>
 <?php wp_head(); ?>
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<?php if (is_front_page()) { ?>
 
-<script>
-	$(function() {
-	  $('a[href*=#]:not([href=#])').click(function() {
-		if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-	
-		  var target = $(this.hash);
-		  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-		  if (target.length) {
-			$('html,body').animate({
-			  scrollTop: target.offset().top
-			}, 1000);
-			return false;
-		  }
-		}
-	  });
-	});
-</script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script>
+		$(function() {
+		  $('a[href*=#]:not([href=#])').click(function() {
+			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+		
+			  var target = $(this.hash);
+			  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+			  if (target.length) {
+				$('html,body').animate({
+				  scrollTop: target.offset().top
+				}, 1000);
+				return false;
+			  }
+			}
+		  });
+		});
+	</script>
+<?php } ?>
+
 
 </head>
 
@@ -93,4 +96,16 @@
 	</div>
 </div>
 
+<?php if (!is_front_page()) { ?>
+	<div class="the-search-container">
+		<div class="the-search-box">
+			<form action="<?php bloginfo('siteurl'); ?>" id="searchform" method="get">
+				 <fieldset>
+					 <input type="search" id="s" name="s" placeholder="Enter keywords" required />
+					 <input type="submit" id="searchsubmit" />
+				 </fieldset>
+			</form>		
+		</div>
+	</div>
+<?php } ?>
 <div class="container">

@@ -7,13 +7,19 @@
 		<h3>This is a tagline about what Permie Kids is</h3>
 	</div>
 	
+
+
 	<div class="get_started_form">
-		<form action="" method="get" class="form-inline">
+
+		<?php do_action ('process_customer_registration_form'); ?>
+		<form action="<?php get_home_url(); ?>" method="post" class="form-inline">
 			<input type="text" name="email" placeholder = "email" class="signup_fields">
 			<input type="password" name="password" placeholder="password" class="signup_fields">
+			<?php wp_nonce_field( 'adduserfield', 'add-nonce' ) ?>
+			<input name="action" type="hidden" id="action" value="adduser" />
 			<input type="submit" value="Get Started" class="get_started_button">
 		</form>
-		<div class="already_a_member">Already a member, sign in</div>
+		<div class="already_a_member">Already a member, <a href="<?php echo wp_login_url(); ?>" title="Sign In">sign in</a></div>
 	</div>
 	
 
