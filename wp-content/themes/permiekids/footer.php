@@ -2,7 +2,19 @@
 	
 </div> <!-- /container -->
 
-
+<?php if (!is_front_page()) { ?>
+	<div class="line-separator"></div>
+		<div class="container">
+			<div class="row">
+				<div class="footer-widget">
+					<?php if ( is_active_sidebar( 'footer-top-widget' ) ) : ?>
+						<?php dynamic_sidebar( 'footer-top-widget' ); ?>
+					<?php endif; ?>
+				</div>
+			</div>
+		</div>
+<?php } ?>
+<div class="line-separator"></div>
 <div class="container">
 	<div class="row">
 		<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar() ) : ?>

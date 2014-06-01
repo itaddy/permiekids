@@ -31,7 +31,7 @@
 			<div class="span3"><a href="#who" class="home-buttons">Who we Are</a></div>
 			<div class="span3"><a href="#podcast" class="home-buttons">Podcast</a></div>
 			<div class="span3"><a href="#curricula" class="home-buttons">Curricula</a></div>
-			<div class="span3"><a href="#getstarted" class="home-buttons">Get Started</a></div>
+			<div class="span3 last"><a href="#getstarted" class="home-buttons">Get Started</a></div>
 		</div>
 		
 		<div class="information">

@@ -74,6 +74,30 @@ register_sidebar( array(
     'after_title'  => '</h2>',
 ) );
 
+register_sidebar( array(
+    'name'         => __( 'Footer Top Widget' ),
+    'id'           => 'footer-top-widget',
+    'description'  => __( 'A widget position at top of footer.' ),
+    'before_title' => '<h2>',
+    'after_title'  => '</h2>',
+) );
+
+register_sidebar( array(
+    'name'         => __( 'Content Bottom A' ),
+    'id'           => 'content-bottom-a',
+    'description'  => __( 'A widget position at the bottom of content.' ),
+    'before_title' => '<h2>',
+    'after_title'  => '</h2>',
+) );
+
+register_sidebar( array(
+    'name'         => __( 'Content Bottom B' ),
+    'id'           => 'content-bottom-b',
+    'description'  => __( 'A widget position at the bottom of content.' ),
+    'before_title' => '<h2>',
+    'after_title'  => '</h2>',
+) );
+
 add_theme_support( 'post-thumbnails' ); 
 
 function registration_process_hook() {
@@ -210,4 +234,87 @@ function custom_post_type_principles() {
 
 add_action( 'init', 'custom_post_type_principles', 0 );
 
+function custom_post_type_characteristics() {
+
+	$labels = array(
+		'name'                => _x( 'Post Types', 'Characteristics', 'text_domain' ),
+		'singular_name'       => _x( 'Post Type', 'Characteristic', 'text_domain' ),
+		'menu_name'           => __( 'Characteristics', 'text_domain' ),
+		'parent_item_colon'   => __( 'Characteristic:', 'text_domain' ),
+		'all_items'           => __( 'All Items', 'text_domain' ),
+		'view_item'           => __( 'View Item', 'text_domain' ),
+		'add_new_item'        => __( 'Add New Item', 'text_domain' ),
+		'add_new'             => __( 'Add New', 'text_domain' ),
+		'edit_item'           => __( 'Edit Item', 'text_domain' ),
+		'update_item'         => __( 'Update Item', 'text_domain' ),
+		'search_items'        => __( 'Search Item', 'text_domain' ),
+		'not_found'           => __( 'Not found', 'text_domain' ),
+		'not_found_in_trash'  => __( 'Not found in Trash', 'text_domain' ),
+	);
+	$args = array(
+		'label'               => __( 'Characteristic', 'text_domain' ),
+		'description'         => __( 'Characteristic Description', 'text_domain' ),
+		'labels'              => $labels,
+		'supports'            => array( ),
+		'taxonomies'          => array( 'category', 'post_tag' ),
+		'hierarchical'        => false,
+		'public'              => true,
+		'show_ui'             => true,
+		'show_in_menu'        => true,
+		'show_in_nav_menus'   => true,
+		'show_in_admin_bar'   => true,
+		'menu_position'       => 5,
+		'menu_icon'           => '',
+		'can_export'          => true,
+		'has_archive'         => true,
+		'exclude_from_search' => false,
+		'publicly_queryable'  => true,
+		'capability_type'     => 'page',
+	);
+	register_post_type( 'Characteristic', $args );
+
+}
+
+add_action( 'init', 'custom_post_type_characteristics', 0 );
+
+function the_breadcrumb() {
+    global $post;
+    echo '<ul id="breadcrumbs">';
+    if (!is_home()) {
+        echo '<li><a href="';
+        echo get_option('home');
+        echo '">';
+        echo 'Home';
+        echo '</a></li><li class="separator"> &raquo; </li>';
+        if (is_category() || is_single()) {
+            echo '<li>';
+            the_category(' </li><li class="separator"> &raquo; </li><li> ');
+            if (is_single()) {
+                echo '</li><li class="separator"> &raquo; </li><li>';
+                the_title();
+                echo '</li>';
+            }
+        } elseif (is_page()) {
+            if($post->post_parent){
+                $anc = get_post_ancestors( $post->ID );
+                $title = get_the_title();
+                foreach ( $anc as $ancestor ) {
+                    $output = '<li><a href="'.get_permalink($ancestor).'" title="'.get_the_title($ancestor).'">'.get_the_title($ancestor).'</a></li> <li class="separator">&raquo;</li>';
+                }
+                echo $output;
+                echo '<strong title="'.$title.'"> '.$title.'</strong>';
+            } else {
+                echo '<li><strong> '.get_the_title().'</strong></li>';
+            }
+        }
+    }
+    elseif (is_tag()) {single_tag_title();}
+    elseif (is_day()) {echo"<li>Archive for "; the_time('F jS, Y'); echo'</li>';}
+    elseif (is_month()) {echo"<li>Archive for "; the_time('F, Y'); echo'</li>';}
+    elseif (is_year()) {echo"<li>Archive for "; the_time('Y'); echo'</li>';}
+    elseif (is_author()) {echo"<li>Author Archive"; echo'</li>';}
+    elseif (isset($_GET['paged']) && !empty($_GET['paged'])) {echo "<li>Blog Archives"; echo'</li>';}
+    elseif (is_search()) {echo"<li>Search Results"; echo'</li>';}
+    echo '</ul>';
+}
 ?>
