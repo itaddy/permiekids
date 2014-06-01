@@ -468,3 +468,7 @@ div.navbar {
 	color: #000000;
 	border: 1px #000000 solid;
 }
+
+.pk-search-tax {
+	display: inline;
+}
