@@ -88,8 +88,6 @@
 									'walker' => new wp_bootstrap_navwalker())
 								);
 								?>	
-								<li><button class="search-icon">Search</button></li>
-						  </button>					 	
 						  </ul>
 
 						  <script>

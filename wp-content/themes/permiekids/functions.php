@@ -317,4 +317,12 @@ function the_breadcrumb() {
     elseif (is_search()) {echo"<li>Search Results"; echo'</li>';}
     echo '</ul>';
 }
+
+add_filter( 'wp_nav_menu_items', 'search_button', 10, 2 );
+function search_button ( $items, $args ) {
+    if (!is_front_page() && $args->theme_location == 'top_menu') {
+        $items .= '<li><button class="search-icon">Search</button></li>';
+    }
+    return $items;
+}
 ?>
