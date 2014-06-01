@@ -409,7 +409,7 @@ div.title {
 input#s {
 	margin-right: 30px;
 	border: 2px solid #000000;
-	margin: 10px 20px;
+	margin: 10px 0px;
 	-moz-border-radius-topleft: 0px;
 	-webkit-border-top-left-radius: 0px;
 	border-top-left-radius: 0px;
@@ -446,9 +446,9 @@ div.navbar {
 .pk-search-tax label {
 	display: inline;
 	padding: .2em .6em .3em;
-	font-size: 75%;
+	font-size: 100%;
 	font-weight: 300;
-	line-height: 1;
+	line-height: 2.5;
 	text-align: center;
 	white-space: nowrap;
 	vertical-align: baseline;
@@ -471,4 +471,8 @@ div.navbar {
 
 .pk-search-tax {
 	display: inline;
+}
+
+.search-toggle {
+	display:none;
 }
