@@ -104,7 +104,6 @@
 <div class="search-toggle">
 	<div class="line-separator"></div>
 	<div class="container">
-	<?php if (!is_front_page()) { ?>
 		<div class="the-search-container">
 			<div class="the-search-box">
 				<form action="<?php bloginfo('siteurl'); ?>" id="searchform" method="get">
@@ -182,6 +181,5 @@
 				</form>		
 			</div>
 		</div>
-	<?php } ?>
 	</div>
 </div>	
