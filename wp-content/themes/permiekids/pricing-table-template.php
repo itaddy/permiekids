@@ -124,8 +124,8 @@ get_header(); ?>
 					  </tr>
 					  <tr>
 						<td><button class="pricing-table-button">Join</button></td>
-						<td><a href="<?php echo mytheme_option('basic_registration_url_for_monthly'); ?>"><button class="pricing-table-button">Join</button></a></td>
-						<td><a href="<?php echo mytheme_option('contributing_registration_url_for_monthly'); ?>"><button class="pricing-table-button">Join</button></a></td>
+						<td><a href="<?php echo mytheme_option('basic_registration_url_for_yearly'); ?>"><button class="pricing-table-button">Join</button></a></td>
+						<td><a href="<?php echo mytheme_option('contributing_registration_url_for_yearly'); ?>"><button class="pricing-table-button">Join</button></a></td>
 					  </tr>
 					</table>
 				</div>				
