@@ -318,40 +318,64 @@ class WP_BootStrap_Theme_Options {
 			'class'   => 'code'
 		);
 		
+		$membership[0] = 'Disabled';
+	 
+		// list the tabs
+		$args = array(
+			'post_type' => 'it_exchange_prod',
+			'post_status' => 'publish',
+			'suppress_filters' => 1, // wpml, ignore language filter
+			'posts_per_page' => -1
+		);
+	 
+		$the_query = new WP_Query($args);
+	 
+		while ($the_query->have_posts()) {
+			$the_query->the_post();
+			$membership[$the_query->post->ID] = get_the_title() ;
+		}
+	 
+ 
+ 		
 		$this->settings['basic_registration_url_for_monthly'] = array(
 			'title'   => __( 'Basic Registration URL for Monthly Subscription' ),
 			'desc'    => __( 'Enter here the url for Basic Registration for monthly subscription.' ),
 			'std'     => '',
-			'type'    => 'text',
+			'type'    => 'select',
 			'section' => 'appearance',
-			'class'   => 'code'
+			'class'   => 'code',
+			'choices' => $membership
 		);
 
 		$this->settings['basic_registration_url_for_yearly'] = array(
 			'title'   => __( 'Basic Registration URL for Yearly Subscription' ),
 			'desc'    => __( 'Enter here the url for Basic Registration for yearly subscription.' ),
 			'std'     => '',
-			'type'    => 'text',
+			'type'    => 'select',
 			'section' => 'appearance',
-			'class'   => 'code'
+			'class'   => 'code',
+			'choices' => $membership
+
 		);				
 
 		$this->settings['contributing_registration_url_for_monthly'] = array(
 			'title'   => __( 'Contributing Registration URL for Monthly Subscription' ),
 			'desc'    => __( 'Enter here the url for Contributing Registration for monthly subscription.' ),
 			'std'     => '',
-			'type'    => 'text',
+			'type'    => 'select',
 			'section' => 'appearance',
-			'class'   => 'code'
+			'class'   => 'code',
+			'choices' => $membership
 		);	
 		
 		$this->settings['contributing_registration_url_for_yearly'] = array(
 			'title'   => __( 'Contributing Registration URL for Yearly Subscription' ),
 			'desc'    => __( 'Enter here the url for Contributing Registration for yearly subscription.' ),
 			'std'     => '',
-			'type'    => 'text',
+			'type'    => 'select',
 			'section' => 'appearance',
-			'class'   => 'code'
+			'class'   => 'code',
+			'choices' => $membership			
 		);	
 								
 		/* Reset
@@ -365,6 +389,7 @@ class WP_BootStrap_Theme_Options {
 			'class'   => 'warning', // Custom class for CSS
 			'desc'    => __( 'Check this box and click "Save Changes" below to reset theme options to their defaults.' )
 		);
+
 		
 	}
 	
@@ -465,4 +490,5 @@ function wp_bootstrap_option( $option ) {
 	else
 		return false;
 }
+
 ?>

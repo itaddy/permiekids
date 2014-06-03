@@ -62,3 +62,7 @@
 .wrap h3, .wrap table {
 	display: none;
 }
+
+select.select.code {
+	width: 25em;
+}
