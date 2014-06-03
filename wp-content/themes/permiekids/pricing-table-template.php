@@ -26,52 +26,109 @@ get_header(); ?>
 				<?php the_content(); ?>
 
 				<div class ="monthly-yearly">
-				<span class="monthly text-center">Monthly</span><span class="yearly text-center">Yearly</span>
+				<span class="monthly text-center" id="monthly">Monthly</span><span class="yearly text-center" id="yearly">Yearly</span>
 				<div style="clear:both;"></div>
 				</div>
-				<table class="table table-striped">
-				  <tr>
-					<td><h2 class="text-center">Free</h2></td>
-					<td><h2 class="text-center">Basic</h2></td>
-					<td><h2 class="text-center">Contributing</h2></td>
-				  </tr>
-				  <tr>
-					<td><p class="text-center">Pay for Curriculum</p></td>
-					<td><p class="text-center">Access all Curricula for</p></td>
-					<td><p class="text-center">Access all curricula for</p></td>
-				  </tr>
-				  <tr>
-					<td><p class="text-center">-</p></td>
-					<td><p class="text-center">Connect with the worldwide</p></td>
-					<td><p class="text-center">Connect with the Worldwide</p></td>
-				  </tr>
-				  <tr>
-					<td><p class="text-center">-</p></td>
-					<td><p class="text-center">Access to Exclusive</p></td>
-					<td><p class="text-center">Access to Exclusive</p></td>
-				  </tr>
-				  <tr>
-					<td><p class="text-center">-</p></td>
-					<td><p class="text-center">-</p></td>
-					<td><p class="text-center">Partner</p></td>
-				  </tr>
-				  <tr>
-					<td><p class="text-center">-</p></td>
-					<td><p class="text-center">-</p></td>
-					<td><p class="text-center">Training</p></td>
-				  </tr>
-				  <tr>
-					<td><p class="text-center">Free</p></td>
-					<td><p class="text-center">$10.00/month</p></td>
-					<td><p class="text-center">$25.00/month</p></td>
-				  </tr>
-				  <tr>
-					<td><button class="pricing-table-button">Join</button></td>
-					<td><button class="pricing-table-button">Join</button></td>
-					<td><button class="pricing-table-button">Join</button></td>
-				  </tr>
-				</table>
-				
+				<script>
+					jQuery( "#monthly" ).click(function() {
+					jQuery( ".monthly-table" ).show( "slow");
+					jQuery( ".yearly-table" ).hide( "slow");
+					});
+
+					jQuery( "#yearly" ).click(function() {
+					jQuery( ".yearly-table" ).show( "slow");
+					jQuery( ".monthly-table" ).hide( "slow");
+					});					
+				</script>				
+				<div class="monthly-table">
+					<table class="table table-striped">
+					  <tr>
+						<td><h2 class="text-center">Free</h2></td>
+						<td><h2 class="text-center">Basic</h2></td>
+						<td><h2 class="text-center">Contributing</h2></td>
+					  </tr>
+					  <tr>
+						<td><p class="text-center">Pay for Curriculum</p></td>
+						<td><p class="text-center">Access all Curricula for</p></td>
+						<td><p class="text-center">Access all curricula for</p></td>
+					  </tr>
+					  <tr>
+						<td><p class="text-center">-</p></td>
+						<td><p class="text-center">Connect with the worldwide</p></td>
+						<td><p class="text-center">Connect with the Worldwide</p></td>
+					  </tr>
+					  <tr>
+						<td><p class="text-center">-</p></td>
+						<td><p class="text-center">Access to Exclusive</p></td>
+						<td><p class="text-center">Access to Exclusive</p></td>
+					  </tr>
+					  <tr>
+						<td><p class="text-center">-</p></td>
+						<td><p class="text-center">-</p></td>
+						<td><p class="text-center">Partner</p></td>
+					  </tr>
+					  <tr>
+						<td><p class="text-center">-</p></td>
+						<td><p class="text-center">-</p></td>
+						<td><p class="text-center">Training</p></td>
+					  </tr>
+					  <tr>
+						<td><p class="text-center">Free</p></td>
+						<td><p class="text-center">$10.00/month</p></td>
+						<td><p class="text-center">$25.00/month</p></td>
+					  </tr>
+					  <tr>
+						<td><button class="pricing-table-button">Join</button></td>
+						<td><a href="<?php echo mytheme_option('basic_registration_url_for_monthly'); ?>"><button class="pricing-table-button">Join</button></a></td>
+						<td><a href="<?php echo mytheme_option('contributing_registration_url_for_monthly'); ?>"><button class="pricing-table-button">Join</button></a></td>
+					  </tr>
+					</table>
+				</div>
+
+				<div class="yearly-table">
+					<table class="table table-striped">
+					  <tr>
+						<td><h2 class="text-center">Free</h2></td>
+						<td><h2 class="text-center">Basic</h2></td>
+						<td><h2 class="text-center">Contributing</h2></td>
+					  </tr>
+					  <tr>
+						<td><p class="text-center">Pay for Curriculum</p></td>
+						<td><p class="text-center">Access all Curricula for</p></td>
+						<td><p class="text-center">Access all curricula for</p></td>
+					  </tr>
+					  <tr>
+						<td><p class="text-center">-</p></td>
+						<td><p class="text-center">Connect with the worldwide</p></td>
+						<td><p class="text-center">Connect with the Worldwide</p></td>
+					  </tr>
+					  <tr>
+						<td><p class="text-center">-</p></td>
+						<td><p class="text-center">Access to Exclusive</p></td>
+						<td><p class="text-center">Access to Exclusive</p></td>
+					  </tr>
+					  <tr>
+						<td><p class="text-center">-</p></td>
+						<td><p class="text-center">-</p></td>
+						<td><p class="text-center">Partner</p></td>
+					  </tr>
+					  <tr>
+						<td><p class="text-center">-</p></td>
+						<td><p class="text-center">-</p></td>
+						<td><p class="text-center">Training</p></td>
+					  </tr>
+					  <tr>
+						<td><p class="text-center">Free</p></td>
+						<td><p class="text-center">$20.00/month</p></td>
+						<td><p class="text-center">$50.00/month</p></td>
+					  </tr>
+					  <tr>
+						<td><button class="pricing-table-button">Join</button></td>
+						<td><a href="<?php echo mytheme_option('basic_registration_url_for_monthly'); ?>"><button class="pricing-table-button">Join</button></a></td>
+						<td><a href="<?php echo mytheme_option('contributing_registration_url_for_monthly'); ?>"><button class="pricing-table-button">Join</button></a></td>
+					  </tr>
+					</table>
+				</div>				
 		 </div>
 		<?php endwhile; else: ?>
 		<div class="row">

@@ -550,3 +550,7 @@ ul.it-exchange-customer-menu a:hover {
 .it-exchange-account .it-exchange-customer-menu li {
 	display:inline-block;
 }
+
+div.yearly-table {
+	display: none;
+}

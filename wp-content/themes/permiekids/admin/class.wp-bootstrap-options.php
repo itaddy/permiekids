@@ -317,7 +317,43 @@ class WP_BootStrap_Theme_Options {
 			'section' => 'appearance',
 			'class'   => 'code'
 		);
-				
+		
+		$this->settings['basic_registration_url_for_monthly'] = array(
+			'title'   => __( 'Basic Registration URL for Monthly Subscription' ),
+			'desc'    => __( 'Enter here the url for Basic Registration for monthly subscription.' ),
+			'std'     => '',
+			'type'    => 'text',
+			'section' => 'appearance',
+			'class'   => 'code'
+		);
+
+		$this->settings['basic_registration_url_for_yearly'] = array(
+			'title'   => __( 'Basic Registration URL for Yearly Subscription' ),
+			'desc'    => __( 'Enter here the url for Basic Registration for yearly subscription.' ),
+			'std'     => '',
+			'type'    => 'text',
+			'section' => 'appearance',
+			'class'   => 'code'
+		);				
+
+		$this->settings['contributing_registration_url_for_monthly'] = array(
+			'title'   => __( 'Contributing Registration URL for Monthly Subscription' ),
+			'desc'    => __( 'Enter here the url for Contributing Registration for monthly subscription.' ),
+			'std'     => '',
+			'type'    => 'text',
+			'section' => 'appearance',
+			'class'   => 'code'
+		);	
+		
+		$this->settings['contributing_registration_url_for_yearly'] = array(
+			'title'   => __( 'Contributing Registration URL for Yearly Subscription' ),
+			'desc'    => __( 'Enter here the url for Contributing Registration for yearly subscription.' ),
+			'std'     => '',
+			'type'    => 'text',
+			'section' => 'appearance',
+			'class'   => 'code'
+		);	
+								
 		/* Reset
 		===========================================*/
 		
