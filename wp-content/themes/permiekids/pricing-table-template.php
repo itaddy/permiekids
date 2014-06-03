@@ -78,7 +78,7 @@ get_header(); ?>
 						<td><p class="text-center">$25.00/month</p></td>
 					  </tr>
 					  <tr>
-						<td><button class="pricing-table-button">Join</button></td>
+						<td><a href="<?php echo get_permalink(mytheme_option('free_registration_url')); ?>"><button class="pricing-table-button">Join</button></a></td>
 						<td><a href="<?php echo get_permalink(mytheme_option('basic_registration_url_for_monthly')); ?>"><button class="pricing-table-button">Join</button></a></td>
 						<td><a href="<?php echo get_permalink(mytheme_option('contributing_registration_url_for_monthly')); ?>"><button class="pricing-table-button">Join</button></a></td>
 					  </tr>
@@ -123,7 +123,7 @@ get_header(); ?>
 						<td><p class="text-center">$50.00/month</p></td>
 					  </tr>
 					  <tr>
-						<td><button class="pricing-table-button">Join</button></td>
+						<td><a href="<?php echo get_permalink(mytheme_option('free_registration_url')); ?>"><button class="pricing-table-button"><Join</button></a></td>
 						<td><a href="<?php echo get_permalink(mytheme_option('basic_registration_url_for_yearly')); ?>"><button class="pricing-table-button">Join</button></a></td>
 						<td><a href="<?php echo get_permalink(mytheme_option('contributing_registration_url_for_yearly')); ?>"><button class="pricing-table-button">Join</button></a></td>
 					  </tr>

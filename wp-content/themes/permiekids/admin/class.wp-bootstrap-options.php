@@ -336,6 +336,15 @@ class WP_BootStrap_Theme_Options {
 		}
 	 
  
+		$this->settings['free_registration_url'] = array(
+			'title'   => __( 'Registration URL for Free Subscription' ),
+			'desc'    => __( 'Enter here the url for the free subscription.' ),
+			'std'     => '',
+			'type'    => 'select',
+			'section' => 'appearance',
+			'class'   => 'code',
+			'choices' => $membership
+		);
  		
 		$this->settings['basic_registration_url_for_monthly'] = array(
 			'title'   => __( 'Basic Registration URL for Monthly Subscription' ),
