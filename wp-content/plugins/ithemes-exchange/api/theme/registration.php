@@ -209,6 +209,8 @@ class IT_Theme_API_Registration implements IT_Theme_API {
 		return $output;
 	}
 
+
+
 	/**
 	 * Outputs the customer's email data
 	 *
@@ -426,4 +428,6 @@ class IT_Theme_API_Registration implements IT_Theme_API {
 		return $output;
 
 	}
+	
+
 }

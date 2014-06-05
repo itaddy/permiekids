@@ -4,6 +4,10 @@ if ( file_exists( STYLESHEETPATH . '/admin/class.wp-bootstrap-options.php' ) ) {
 	require_once( STYLESHEETPATH . '/admin/class.wp-bootstrap-options.php' );
 }
 
+if ( file_exists( STYLESHEETPATH . '/permiekids_custom_field_class.php' ) ) {
+	require_once( STYLESHEETPATH . '/permiekids_custom_field_class.php' );
+}
+
 add_filter( 'gettext', 'ts_edit_password_email_text' );
 function ts_edit_password_email_text ( $text ) {
 	if ( $text == 'A password will be e-mailed to you.' ) {
@@ -325,4 +329,30 @@ function search_button ( $items, $args ) {
     }
     return $items;
 }
+
+function my_addon_add_field_to_content_registration_template_part( $fields ) {
+ 
+/**
+* We want to add our field right before the save button
+* 1) Find the save button
+* 2) Splice our value in right before the save button
+* 3) In the event that the save button wasn't found, just tack onto the end
+*/
+ 
+$save_key = array_search( 'save', $fields );
+if ( false === $save_key )
+$fields[] = 'my-addon-field';
+else
+array_splice( $fields, $save_key, 0, array( 'my-addon-field' ) );
+ 
+return $fields;
+}
+add_filter( 'it_exchange_get_content_registration_field_details', 'my_addon_add_field_to_content_registration_template_part' );
+
+
+ 
+/* trial */
+
+
+
 ?>
