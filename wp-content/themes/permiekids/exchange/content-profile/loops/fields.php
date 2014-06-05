@@ -18,7 +18,7 @@
 <?php do_action( 'it_exchange_content_profile_before_fields_loop' ); ?>
 	<div class="it-exchange-customer-info">
 	<?php do_action( 'it_exchange_content_profile_begin_fields_loop' ); ?>
-		<?php foreach ( it_exchange_get_template_part_elements( 'content_profile', 'fields', array( 'first-name', 'last-name', 'motto', 'email', 'website', 'password1', 'password2' ) ) as $field ) : ?>
+		<?php foreach ( it_exchange_get_template_part_elements( 'content_profile', 'fields', array(  'first-name', 'last-name', 'motto', 'who_said_it', 'location', 'family', 'occupation', 'experience', 'email', 'facebook', 'twitter', 'linkedin', 'what_are_you_working_on', 'password1', 'password2' ) ) as $field ) : ?>
 			<?php
 			/**
 			 * Theme and add-on devs should add code to this loop by

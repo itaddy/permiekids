@@ -572,6 +572,52 @@ ul.it-exchange-customer-menu li {
 	padding:0px !important;
 }
 
+.it-exchange-customer-info input {
+	border: 2px solid #000000;
+	-moz-border-radius-topleft: 0px;
+	-webkit-border-top-left-radius: 0px;
+	border-top-left-radius: 0px;
+	-moz-border-radius-topright: 0px;
+	-webkit-border-top-right-radius: 0px;
+	border-top-right-radius: 0px;
+	-moz-border-radius-bottomright: 0px;
+	-webkit-border-bottom-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	-webkit-border-bottom-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	font-size: 15px;
+	line-height: 15px;
+	padding: 15px;
+	width: 50%;
+}
+
+.it-exchange-customer-info label {
+	font-size: 16px !important;
+	width: 250px;
+	float:left;
+}
+
+.it-exchange-customer-info textarea {
+	border: 2px solid #000000;
+	-moz-border-radius-topleft: 0px;
+	-webkit-border-top-left-radius: 0px;
+	border-top-left-radius: 0px;
+	-moz-border-radius-topright: 0px;
+	-webkit-border-top-right-radius: 0px;
+	border-top-right-radius: 0px;
+	-moz-border-radius-bottomright: 0px;
+	-webkit-border-bottom-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	-webkit-border-bottom-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	font-size: 15px;
+	line-height: 15px;
+	padding: 15px;
+	width: 50%;
+}
+
 .it-exchange-sw-register input {
 	border: 2px solid #000000;
 	-moz-border-radius-topleft: 0px;
@@ -644,6 +690,19 @@ input#it-exchange-register-customer {
 	box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 0.75);
 	outline: none;
 	color: #000000;
+	font-weight: bold;
+	height: 50px;
+}
+
+input#it-exchange-save-profile {
+	border: 2px solid #000;
+	width: 200px;
+	background: none repeat scroll 0% 0% #FFF;
+	font-size: 16px;
+	padding: 5px;
+	box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 0.75);
+	outline: medium none;
+	color: #000;
 	font-weight: bold;
 	height: 50px;
 }

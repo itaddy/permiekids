@@ -15,8 +15,8 @@
 */
 ?>
 
-<?php do_action( 'it_exchange_super_widget_registration_before_motto_elements' ); ?>
-<div class="motto">
-    <?php it_exchange( 'permiekids_registration', 'motto' ); ?>
+<?php do_action( 'it_exchange_super_widget_registration_before_twitter_elements' ); ?>
+<div class="twitter">
+    <?php it_exchange( 'permiekids_registration', 'twitter' ); ?>
 </div>
-<?php do_action( 'it_exchange_super_widget_registration_after_motto_elements' ); ?>
+<?php do_action( 'it_exchange_super_widget_registration_after_twitter_elements' ); ?>

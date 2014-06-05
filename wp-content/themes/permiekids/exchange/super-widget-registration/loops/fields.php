@@ -16,7 +16,7 @@
 
 <?php do_action( 'it_exchange_super_widget_registration_before_fields_loop' ); ?>
 <?php do_action( 'it_exchange_super_widget_registration_begin_fields_loop' ); ?>
-<?php foreach( it_exchange_get_template_part_elements( 'super_widget_registration', 'fields', array( 'username', 'first-name', 'last-name', 'motto', 'who_said_it', 'location', 'family', 'occupation', 'experience', 'email', 'facebook', 'twitter', 'linkedin', 'what_are_you_working_on', 'password1', 'password2' ) ) as $field ) : ?>
+<?php foreach( it_exchange_get_template_part_elements( 'super_widget_registration', 'fields', array( 'username', 'first-name', 'last-name', 'email',  'password1', 'password2' ) ) as $field ) : ?>
 	<?php
 	/**
 	 * Theme and add-on devs should add code to this loop by

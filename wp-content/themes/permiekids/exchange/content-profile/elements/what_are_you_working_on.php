@@ -15,8 +15,8 @@
 */
 ?>
 
-<?php do_action( 'it_exchange_super_widget_registration_before_motto_elements' ); ?>
-<div class="motto">
-    <?php it_exchange( 'permiekids_registration', 'motto' ); ?>
+<?php do_action( 'it_exchange_super_widget_registration_before_what_are_you_working_on_elements' ); ?>
+<div class="what_are_you_working_on">
+    <?php it_exchange( 'permiekids_registration', 'what_are_you_working_on' ); ?>
 </div>
-<?php do_action( 'it_exchange_super_widget_registration_after_motto_elements' ); ?>
+<?php do_action( 'it_exchange_super_widget_registration_after_what_are_you_working_on_elements' ); ?>
