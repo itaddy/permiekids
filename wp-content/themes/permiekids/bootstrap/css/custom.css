@@ -612,6 +612,11 @@ ul.it-exchange-customer-menu li {
 	width: 50%;
 }
 
+.it-exchange-super-widget .it-exchange-sw-register label {
+	font-size: 16px !important;
+	width: 250px;
+	float:left;
+}
 
 input#it-exchange-register-customer {
 	border: 2px solid #000000;
