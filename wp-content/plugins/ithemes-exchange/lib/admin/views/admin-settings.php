@@ -224,6 +224,19 @@
 						</span>
 					</td>
 				</tr>
+	            <?php do_action( 'it_exchange_general_settings_before_settings_admin', $form ); ?>
+				<tr valign="top">
+					<th scope="row"><strong><?php _e( 'Admin Settings', 'it-l10n-ithemes-exchange' ); ?></strong></th>
+					<td></td>
+				</tr>
+				<tr valign="top">
+					<th scope="row"><label for="custom-styles"><?php _e( 'Visual Editor for Product Description', 'it-l10n-ithemes-exchange' ) ?></label></th>
+					<td>
+						<?php $form->add_check_box( 'wysiwyg-for-product-description' ); ?>
+						<label for="wysiwyg-for-product-description"><?php _e( 'Enable Visual Editor for Product Descriptions?', 'it-l10n-ithemes-exchange' ); ?>
+					</td>
+				</tr>
+	            <?php do_action( 'it_exchange_general_settings_before_settings_product_gallery', $form ); ?>
 				<tr valign="top">
 					<th scope="row"><strong><?php _e( 'Product Gallery', 'it-l10n-ithemes-exchange' ); ?></strong></th>
 					<td></td>

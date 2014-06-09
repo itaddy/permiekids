@@ -594,22 +594,23 @@ class IT_Exchange_Admin {
 	*/
 	function set_general_settings_defaults( $values ) {
 		$defaults = array(
-			'company-base-country'         => 'US',
-			'company-base-state'           => 'OK',
-			'store-product-order-by'       => 'date',
-			'store-product-order'          => 'DESC',
-			'default-currency'             => 'USD',
-			'currency-symbol-position'     => 'before',
-			'currency-thousands-separator' => ',',
-			'currency-decimals-separator'  => '.',
-			'site-registration'            => 'it',
-			'enable-gallery-popup'         => '1',
-			'enable-gallery-zoom'          => '1',
-			'product-gallery-zoom-action'  => 'click',
-			'checkout-reg-form'            => 'registration',
-			'company-email'                => get_bloginfo( 'admin_email' ),
-			'company-name'                 => wp_specialchars_decode( get_bloginfo( 'name' ), ENT_QUOTES ),
-			'customer-account-page'        => 'Welcome to your account, [it_exchange_customer show="first-name"].<br />Using the links above, you can edit your profile and view your purchases and products.<br />Thanks for being a customer.'
+			'company-base-country'            => 'US',
+			'company-base-state'              => 'OK',
+			'store-product-order-by'          => 'date',
+			'store-product-order'             => 'DESC',
+			'default-currency'                => 'USD',
+			'currency-symbol-position'        => 'before',
+			'currency-thousands-separator'    => ',',
+			'currency-decimals-separator'     => '.',
+			'site-registration'               => 'it',
+			'wysiwyg-for-product-description' => '0',
+			'enable-gallery-popup'            => '1',
+			'enable-gallery-zoom'             => '1',
+			'product-gallery-zoom-action'     => 'click',
+			'checkout-reg-form'               => 'registration',
+			'company-email'                   => get_bloginfo( 'admin_email' ),
+			'company-name'                    => wp_specialchars_decode( get_bloginfo( 'name' ), ENT_QUOTES ),
+			'customer-account-page'           => 'Welcome to your account, [it_exchange_customer show="first-name"].<br />Using the links above, you can edit your profile and view your purchases and products.<br />Thanks for being a customer.'
 		);
 		$values = ITUtility::merge_defaults( $values, $defaults );
 		return $values;

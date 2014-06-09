@@ -105,12 +105,27 @@ class IT_Exchange_Product_Feature_Product_Description {
 	 * @return void
 	*/
 	function print_metabox( $post ) {
+		$settings     = it_exchange_get_option( 'settings_general' );
+		$enable_description_wysiwyg = ! empty( $settings['wysiwyg-for-product-description'] );
 		$label_text   = apply_filters( 'it_exchange_add_edit_product_description_label', __( 'Description', 'it-l10n-ithemes-exchange' ), $post );
 		$tooltip_text = apply_filters( 'it_exchange_add_edit_product_description_tooltip', __( 'This is a quick, descriptive summary of what your product does and is usually 3-5 sentences long. To add additional info, use the Advanced button below to make an extended description.', 'it-l10n-ithemes-exchange' ), $post );
 		?>
 		<label for="it-exchange-product-description-field"><?php echo $label_text; ?> <span class="tip" title="<?php esc_attr_e( $tooltip_text ); ?>">i</span></label>
-		<textarea name="it-exchange-product-description" id="it-exchange-product-description-field" tabindex="3" rows="<?php echo apply_filters( 'it_exchange_product_descripiton_textarea_rows', '10' ); ?>" placeholder="<?php echo apply_filters( 'it_exchange_product_description_placeholder', __( 'Enter description...' ), $post ); ?>"><?php echo esc_html( htmlspecialchars( $this->get_feature ( false, $post->ID ) ) ); ?></textarea>
 		<?php
+		$textarea_id          = 'it-exchange-product-description-field';
+		$textarea_name        = 'it-exchange-product-description';
+		$textarea_content     = $this->get_feature ( false, $post->ID );
+		$textarea_rows        = apply_filters( 'it_exchange_product_descripiton_textarea_rows', '10' );
+		$textarea_placeholder = apply_filters( 'it_exchange_product_description_placeholder', __( 'Enter description...' ), $post );
+		$textarea_tab_index   = apply_filters( 'it_exchange_product_description_admin_tab_index', 3 );
+
+		if ( $GLOBALS['wp_version'] >= 3.3 && function_exists( 'wp_editor' ) && $enable_description_wysiwyg ) {
+			echo wp_editor( $textarea_content, $textarea_id, array( 'textarea_name' => $textarea_name, 'textarea_rows' => $textarea_rows, 'tabindex' => $textarea_tab_index ) );
+		} else {
+			?>
+			<textarea name="<?php esc_attr_e( $textarea_name ); ?>" id="<?php esc_attr_e( $textarea_id ); ?>" tabindex="<?php esc_attr_e( $textarea_tab_index ); ?>" rows="<?php esc_attr_e( $textarea_rows ); ?>" placeholder="<?php esc_attr_e( $textarea_placeholder ); ?>"><?php echo esc_html( htmlspecialchars( $textarea_content ) ); ?></textarea>
+		<?php
+		}
 	}
 
 	/**

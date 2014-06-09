@@ -67,7 +67,7 @@ class IT_Exchange_Shopping_Cart {
 		$empty_var = it_exchange_get_field_name( 'continue_shopping' );
 		if ( ! empty( $_REQUEST[$empty_var] ) ) {
 			if ( $url = it_exchange_get_page_url( 'store' ) ) {
-				wp_redirect( $url );
+				it_exchange_redirect( $url, 'cart-continue-shopping' );
 				die();
 			}
 			return;
@@ -115,14 +115,20 @@ class IT_Exchange_Shopping_Cart {
 			$sw_state = is_user_logged_in() ? 'checkout' : 'login';
 			// Get current URL without exchange query args
 			$url = it_exchange_clean_query_args();
-			$url = ( it_exchange_is_multi_item_cart_allowed() && it_exchange_get_page_url( 'checkout' ) ) ? it_exchange_get_page_url( 'checkout' ) : add_query_arg( 'ite-sw-state', $sw_state, $url );
-			wp_redirect( $url );
-			die();
+			if ( it_exchange_is_multi_item_cart_allowed() && it_exchange_get_page_url( 'checkout' ) ) {
+				$url = it_exchange_get_page_url( 'checkout' );
+				it_exchange_redirect( $url, 'buy-now-success-no-sw' );
+				die();
+			} else {
+				$url = add_query_arg( 'ite-sw-state', $sw_state, $url );
+				it_exchange_redirect( $url, 'buy-now-success-in-sw' );
+				die();
+			}
 		}
 
 		$error = empty( $error ) ? 'product-not-added-to-cart' : $error;
 		it_exchange_add_message( 'error', __( 'Product not added to cart', 'it-l10n-ithemes-exchange' ) );
-		wp_redirect( $url );
+		it_exchange_redirect( $url, 'buy-now-failed' );
 		die();
 	}
 
@@ -155,16 +161,22 @@ class IT_Exchange_Shopping_Cart {
 			$sw_state = is_user_logged_in() ? 'cart' : 'login';
 			// Get current URL without exchange query args
 			$url = it_exchange_clean_query_args();
-			$url = ( it_exchange_is_multi_item_cart_allowed() && it_exchange_get_page_url( 'cart' ) ) ? it_exchange_get_page_url( 'cart' ) : add_query_arg( 'ite-sw-state', $sw_state, $url );
 			it_exchange_add_message( 'notice', __( 'Product added to cart', 'it-l10n-ithemes-exchange' ) );
-			wp_redirect( $url );
-			die();
+			if ( it_exchange_is_multi_item_cart_allowed() && it_exchange_get_page_url( 'cart' ) ) {
+				$url = it_exchange_get_page_url( 'cart' );
+				it_exchange_redirect( $url, 'add-to-cart-success-no-sw' );
+				die();
+			} else {
+				$url = add_query_arg( 'ite-sw-state', $sw_state, $url );
+				it_exchange_redirect( $url, 'add-to-cart-success-in-sw' );
+				die();
+			}
 		}
 
 		$error_var = it_exchange_get_field_name( 'error_message' );
 		$error = empty( $error ) ? 'product-not-added-to-cart' : $error;
 		$url  = add_query_arg( array( $error_var => $error ), $cart );
-		wp_redirect( $url );
+		it_exchange_redirect( $url, 'add-to-cart-failed' );
 		die();
 	}
 
@@ -189,16 +201,21 @@ class IT_Exchange_Shopping_Cart {
 		if ( empty( $_REQUEST[$nonce_var] ) || ! wp_verify_nonce( $_REQUEST[$nonce_var], 'it-exchange-cart-action-' . $session_id ) ) {
 			$url = add_query_arg( array( $error_var => 'cart-not-emptied' ), $cart );
 			$url = remove_query_arg( it_exchange_get_field_name( 'empty_cart' ), $url );
-			wp_redirect( $url );
+
+			$redirect_options = array( 'query_arg' => array( $error_var => 'cart-not-emptied' ) );
+			it_exchange_redirect( $url, 'cart-empty-failed', $redirect_options );
 			die();
 		}
 
+		// Empty the cart
 		it_exchange_empty_shopping_cart();
 
 		$url = remove_query_arg( $error_var, $cart );
 		$url = add_query_arg( array( $message_var => 'cart-emptied' ), $url );
 		$url = remove_query_arg( it_exchange_get_field_name( 'empty_cart' ), $cart );
-		wp_redirect( $url );
+
+		$redirect_options = array( 'query_arg' => array( $message_var => 'cart-emptied' ) );
+		it_exchange_redirect( $url, 'cart-empty-success', $redirect_options );
 		die();
 	}
 
@@ -226,7 +243,9 @@ class IT_Exchange_Shopping_Cart {
 		if ( empty( $_REQUEST[$nonce_var] ) || ! wp_verify_nonce( $_REQUEST[$nonce_var], 'it-exchange-cart-action-' . $session_id ) ) {
 			$var = it_exchange_get_field_name( 'error_message' );
 			$url  = add_query_arg( array( $var => 'product-not-removed' ), $cart_url );
-			wp_redirect( $url );
+
+			$redirect_options = array( 'query_arg' => array( $var => 'product-not-removed' ) );
+			it_exchange_redirect( $url, 'cart-remove-product-failed', $redirect_options );
 			die();
 		}
 
@@ -236,7 +255,9 @@ class IT_Exchange_Shopping_Cart {
 
 		$var = it_exchange_get_field_name( 'alert_message' );
 		$url = add_query_arg( array( $var => 'product-removed' ), $cart_url );
-		wp_redirect( $url );
+
+		$redirect_options = array( 'query_arg' => array( $var => 'product-removed' ) );
+		it_exchange_redirect( $url, 'cart-remove-product-success', $redirect_options );
 		die();
 	}
 
@@ -262,7 +283,9 @@ class IT_Exchange_Shopping_Cart {
 
 			$url = add_query_arg( array( $var => 'cart-not-updated' ), $cart );
 			$url = remove_query_arg( it_exchange_get_field_name( 'empty_cart' ), $url );
-			wp_redirect( $url );
+
+			$redirect_options = array( 'query_arg' => array( $var => 'cart-not-updated' ) );
+			it_exchange_redirect( $url, 'cart-update-failed', $redirect_options );
 			die();
 		}
 
@@ -282,7 +305,8 @@ class IT_Exchange_Shopping_Cart {
 			$url = add_query_arg( array( $message_var => 'cart-updated' ), $url );
 			$url = remove_query_arg( it_exchange_get_field_name( 'empty_cart' ), $url );
 
-			wp_redirect( $url );
+			$redirect_options = array( 'query_arg' => array( $message_var => 'cart-updated' ) );
+			it_exchange_redirect( $url, 'cart-update-success', $redirect_options );
 			die();
 		}
 	}
@@ -390,7 +414,7 @@ class IT_Exchange_Shopping_Cart {
 			// Update Shipping if checked
 			if ( ! empty( $_REQUEST['it-exchange-ship-to-billing'] ) && '1' == $_REQUEST['it-exchange-ship-to-billing'] )
 				it_exchange_save_shipping_address( $billing, it_exchange_get_current_customer_id() );
-				
+
 		}
 		return true;
 	}
@@ -408,7 +432,7 @@ class IT_Exchange_Shopping_Cart {
 
 		// Redirect to Checkout
 		if ( $checkout = it_exchange_get_page_url( 'checkout' ) ) {
-			wp_redirect( $checkout );
+			it_exchange_redirect( $checkout, 'cart-proceed-to-checkout' );
 			die();
 		}
 	}
@@ -459,12 +483,12 @@ class IT_Exchange_Shopping_Cart {
 		$cart     = it_exchange_get_page_url( 'cart' );
 		$checkout = it_exchange_get_page_url( 'checkout' );
 
-		if ( empty( $checkout ) || ! is_page( $checkout ) )
+		if ( empty( $checkout ) || ! it_exchange_is_page( 'checkout' ) )
 			return;
 
 		$products = it_exchange_get_cart_products();
 		if ( empty( $products ) ){
-			wp_redirect( $cart );
+			it_exchange_redirect( $cart, 'checkout-empty-send-to-cart' );
 			die();
 		}
 	}

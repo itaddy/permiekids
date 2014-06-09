@@ -17,7 +17,7 @@ if ( !function_exists( 'create_it_exchange_categories' ) ) {
 	function it_exchange_categories_addon_create() {
 
 		$labels = array(
-			'name'              => __( 'Categories', 'it-l10n-ithemes-exchange' ),
+			'name'              => __( 'Product Categories', 'it-l10n-ithemes-exchange' ),
 			'singular_name'     => __( 'Product Category', 'it-l10n-ithemes-exchange' ),
 			'search_items'      => __( 'Search Product Categories', 'it-l10n-ithemes-exchange' ),
 			'all_items'         => __( 'All Product Categories', 'it-l10n-ithemes-exchange' ),
@@ -28,6 +28,10 @@ if ( !function_exists( 'create_it_exchange_categories' ) ) {
 			'add_new_item'      => __( 'Add New Product Categories', 'it-l10n-ithemes-exchange' ),
 			'new_item_name'     => '', //leave blank
 		);
+
+		// A little hackery for admin --> appearances --> menues page
+		if ( is_admin() && ! empty( $GLOBALS['pagenow'] ) && 'nav-menus.php' == $GLOBALS['pagenow'] )
+			$labels['name'] = __( 'Exchange Categories', 'it-l10n-ithemes-exchange' );
 
 		register_taxonomy(
 			'it_exchange_category',

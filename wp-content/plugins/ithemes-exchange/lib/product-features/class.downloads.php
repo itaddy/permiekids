@@ -599,7 +599,7 @@ class IT_Exchange_Product_Feature_Downloads {
 		if ( ! $hash_data = it_exchange_get_download_data_from_hash( $_GET['it-exchange-download'] ) ) {
 			it_exchange_add_message( 'error', __( 'Download not found', 'it-l10n-ithemes-exchange' ) );
 			$url = apply_filters( 'it_exchange_download_error_url', it_exchange_get_page_url( 'store' ) );
-			wp_redirect( $url );
+			it_exchange_redirect( $url, 'download-pickup-hash-not-found-to-store' );
 			die();
 		}
 
@@ -618,15 +618,20 @@ class IT_Exchange_Product_Feature_Downloads {
 		if ( ! empty( $require_user_login ) && ! is_user_logged_in() ) {
 			$redirect_url = site_url() . '?it-exchange-download=' . $hash_data['hash'];
 			it_exchange_add_session_data( 'login_redirect', $redirect_url );
-			wp_redirect( it_exchange_get_page_url( 'login' ) );
+			$url = it_exchange_get_page_url( 'login' );
+
+			$redirect_options = array( 'hash_data' => $hash_data );
+			it_exchange_redirect( $url, 'download-pickup-user-not-logged-in', $hash_data );
 			die();
 		}
 
-		// If transaction isn't cleared for delivery of product, don't give them the refund
+		// If transaction isn't cleared for delivery of product, don't give them the download
 		if ( ! it_exchange_transaction_is_cleared_for_delivery( $hash_data['transaction_id'] ) ) {
 			it_exchange_add_message( 'error', __( 'The transaction this download is attached to is not valid for download', 'it-l10n-ithemes-exchange' ) );
 			$redirect_url = apply_filters( 'it_exchange_redirect_transaction_not_cleared_to_pickup_file', it_exchange_get_page_url( 'downloads' ) );
-			wp_redirect( $redirect_url );
+
+			$redirect_options = array( 'hash_data' => $hash_data );
+			it_exchange_redirect( $redirect_url, 'download-pickup-not-cleared-for-delivery', $redirect_options );
 			die();
 		}
 
@@ -636,7 +641,8 @@ class IT_Exchange_Product_Feature_Downloads {
 			if ( empty( $customer->id ) || ( $customer->id != $hash_data['customer_id'] && ! current_user_can( 'administrator' ) ) ) {
 				it_exchange_add_message( 'error', __( 'You are not allowed to download this file.', 'it-l10n-ithemes-exchange' ) );
 				$redirect_url = apply_filters( 'it_exchange_redirect_no_permission_to_pickup_file', it_exchange_get_page_url( 'downloads' ) );
-				wp_redirect( $redirect_url );
+
+				it_exchange_redirect( $redirect_url, 'download-pickup-not-authorized-customer' );
 				die();
 			}
 		}
@@ -645,7 +651,8 @@ class IT_Exchange_Product_Feature_Downloads {
 		if ( ! empty( $hash_data['download_limit'] ) && $hash_data['downloads'] >= $hash_data['download_limit'] ) {
 			it_exchange_add_message( 'error', __( 'Download limit reached. Unable to download this file.', 'it-l10n-ithemes-exchange' ) );
 			$redirect_url = apply_filters( 'it_exchange_redirect_no_permission_to_pickup_file', it_exchange_get_page_url( 'downloads' ) );
-			wp_redirect( $redirect_url );
+
+			it_exchange_redirect( $redirect_url, 'download-pickup-download-limit-met' );
 			die();
 		}
 
@@ -653,7 +660,7 @@ class IT_Exchange_Product_Feature_Downloads {
 		if ( ! empty( $hash_data['expires'] ) && $hash_data['expire_time'] < ( time() ) ) {
 			it_exchange_add_message( 'error', __( 'Download expiration reached. Unable to download this file.', 'it-l10n-ithemes-exchange' ) );
 			$redirect_url = apply_filters( 'it_exchange_redirect_no_permission_to_pickup_file', it_exchange_get_page_url( 'downloads' ) );
-			wp_redirect( $redirect_url );
+			it_exchange_redirect( $redirect_url, 'download-pickup-download-expiration-passed' );
 			die();
 		}
 

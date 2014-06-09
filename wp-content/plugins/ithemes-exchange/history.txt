@@ -1,3 +1,13 @@
+1.8.2 - 2014-05-14 - Glenn Ansley, Lew Ayotte, Ty Carlson, Brad Ulrich, Elise Alley
+	Wrapped most instances of wp_redirect() inside it_exchange_redirect() to standardize filters
+	Fixed same border bug in confirmation table
+	Fixed bug where border would break in checkout table when amount is more than one line
+	Don't clear shipping method when card product (quantity) is updated
+	Changed 'Categories' to 'Exchange Categories' and 'Tags' to 'Exchange Tags' when viewing the Nav Menu page in admin.
+	Introduce setting to enable Visual Editor on Product Description Field
+	Responsive love for customer data -> transactions
+	Fixed line-height for it-exchange-remove-item so the x is in the vertical center
+	Add product quantity to Payment Details
 1.8.1 - 2014-05-14 - Glenn Ansley, Lew Ayotte, Ty Carlson, Brad Ulrich, Elise Alley
 	Fixed bug preventing nav menu from showing up on Product Category and Product Tag archive pages
 	Added Continue Shopping button to cart with setting to deactivate in Multi-Item Cart settings

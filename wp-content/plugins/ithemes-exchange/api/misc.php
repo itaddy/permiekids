@@ -497,3 +497,20 @@ function it_exchange_print_admin_settings_form( $options ) {
 	if ( $settings_form = new IT_Exchange_Admin_Settings_Form( $options ) )
 		$settings_form->print_form();
 }
+
+/**
+ * Wrapper for wp_redirect to allow standardized filtering
+ *
+ * @since 1.8.2
+ *
+ * @param  string $url     the URL to redirect the user to
+ * @param  string $context the context of the redirect to help with filtering
+ * @param  array  $options additional options available for filters
+ * @param  int    $status  HTTP code passed to wp_redirect's 2nd param
+ * @retrun string $url
+*/
+function it_exchange_redirect( $url, $context='', $options=array(), $status=302 ) {
+	$options['context'] = $context;
+	$url = apply_filters( 'it_exchange_redirect_for-' . $context, $url, $options, $status );
+	wp_redirect( $url, $status );
+}

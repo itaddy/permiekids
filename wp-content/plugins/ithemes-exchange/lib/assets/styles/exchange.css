@@ -117,9 +117,10 @@ a.it-exchange-button {text-decoration:none;}
 /** ---:[ totals ]:--- */
 #it-exchange-cart-totals{overflow:hidden;width:220px;float:right;border-top:none;border-right:0;}
 #it-exchange-cart-totals .it-exchange-table-row{border-bottom:0;}
-#it-exchange-cart-totals .it-exchange-table-column-inner{padding-bottom:0;border-right:1px solid #DDDDDD;}
+#it-exchange-cart-totals .it-exchange-table-column-inner{padding-bottom:0;}
 #it-exchange-cart-totals .it-exchange-cart-total .it-exchange-table-column-inner{padding-bottom:10px;}
-#it-exchange-cart-totals .it-exchange-cart-totals-title{text-align:right;}
+#it-exchange-cart-totals .it-exchange-cart-totals-amount .it-exchange-table-column-inner{border-right: 1px solid #DDDDDD;}
+#it-exchange-cart-totals .it-exchange-cart-totals-title {text-align:right;border-right: 1px solid #DDDDDD}
 #it-exchange-cart-totals .it-exchange-cart-totals-total .it-exchange-table-column-inner{border-bottom:1px solid #DDDDDD;}
 #it-exchange-cart-totals .it-exchange-cart-totals-total .it-exchange-table-column-inner{padding-bottom:10px;}
 #it-exchange-cart-totals .it-exchange-cart-total{font-weight:bold;}
@@ -199,7 +200,6 @@ a.it-exchange-button {text-decoration:none;}
 #it-exchange-confirmation .it-exchange-transaction-products{border:1px solid #DDD;border-bottom:0;}
 #it-exchange-confirmation .it-exchange-transaction-product{border-bottom:1px solid #DDD;}
 #it-exchange-confirmation .it-exchange-transaction-product-details{width:80%;}
-#it-exchange-confirmation .it-exchange-transaction-product-details .it-exchange-column-inner{border-right:1px solid #DDD;}
 #it-exchange-confirmation .it-exchange-transaction-product-details .it-exchange-featured-image{max-width:75px;margin-right:20px;float:left;}
 #it-exchange-confirmation .it-exchange-transaction-product-details h3{clear:none;float:left;margin:23px 0;}
 #it-exchange-confirmation .it-exchange-transaction-product-details .it-exchange-transaction-product-no-featured-image h3{margin:0 0 20px;}
@@ -210,10 +210,10 @@ a.it-exchange-button {text-decoration:none;}
 #it-exchange-confirmation .it-exchange-downloads-data li{margin-left:0;}
 #it-exchange-confirmation .it-exchange-transaction-summary-loop{overflow:hidden;width:220px;float:right;border-top:none;border-bottom:none;}
 #it-exchange-confirmation .it-exchange-transaction-summary-loop .it-exchange-table-row{border-bottom:0;}
-#it-exchange-confirmation .it-exchange-transaction-summary-loop .it-exchange-table-column-inner{padding:10px 10px 0;border-right:1px solid #DDD;}
-#it-exchange-confirmation .it-exchange-transaction-summary-loop .it-exchange-confirmation-totals-title{text-align:right;}
+#it-exchange-confirmation .it-exchange-transaction-summary-loop .it-exchange-table-column-inner{padding:10px 10px 0;}
+#it-exchange-confirmation .it-exchange-transaction-summary-loop .it-exchange-confirmation-totals-title {text-align:right;border-right:1px solid #DDD;}
 #it-exchange-confirmation .it-exchange-transaction-summary-loop .it-exchange-cart-totals-total .it-exchange-table-column-inner{padding:10px;border-bottom:1px solid #DDD;}
-
+#it-exchange-confirmation .it-exchange-transaction-summary-loop .it-exchange-confirmation-totals-amount .it-exchange-table-column-inner {border-right: 1px solid #DDD;}
 /** -----------------------------------------------------:[ store ]:---------- */
 #it-exchange-store .it-exchange-products {margin: 0;padding: 0;}
 #it-exchange-store .it-exchange-products li {list-style: none;display: block;float:left;width: 45%;margin: 0 0 5em 0;vertical-align: top;}

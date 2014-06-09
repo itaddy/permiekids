@@ -64,7 +64,6 @@ class IT_Exchange_Shipping {
 		add_action( 'it_exchange_empty_shopping_cart', array( $this, 'clear_cart_shipping_data' ) );
 		add_action( 'it_exchange_add_cart_product', array( $this, 'clear_cart_shipping_data' ) );
 		add_action( 'it_exchange_delete_cart_product', array( $this, 'clear_cart_shipping_data' ) );
-		add_action( 'it_exchange_update_cart_product', array( $this, 'clear_cart_shipping_data' ) );
 		add_action( 'it_exchange_shipping_address_updated', array( $this, 'clear_cart_shipping_method' ) );
 
 	}

@@ -29,7 +29,5 @@
 			?>
 		<?php endforeach; ?>
    	<?php do_action( 'it_exchange_content_registration_end_fields_loop' ); ?>
-	
 	</div>
 <?php do_action( 'it_exchange_content_registration_after_fields_loop' ); ?>
-

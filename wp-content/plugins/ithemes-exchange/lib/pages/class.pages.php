@@ -188,15 +188,23 @@ class IT_Exchange_Pages {
 	*/
 	function login_out_page_redirect() {
 		if ( is_user_logged_in() && 'login' == $this->_current_view ) {
-			wp_redirect( it_exchange_get_page_url( 'profile' ) );
+			$url = it_exchange_get_page_url( 'profile' );
+			it_exchange_redirect( $url, 'login-to-profile-when-user-logged-in' );
 			die();
 		} else if ( is_user_logged_in() && 'logout' == $this->_current_view ) {
-			$default = 'disabled' == it_exchange_get_page_type( 'login' ) ? get_home_url() : str_replace( '&amp;', '&', wp_logout_url( it_exchange_get_page_url( 'login', false, true ) ) );
+			/**
+			 * This redirect will not use it_exchange_redirect
+			 * If you want to filter the location off site, you will have to use the allowed_redirect_hosts filter also:
+			 * http://codex.wordpress.org/Function_Reference/wp_logout_url#Logout_and_Redirect_to_Another_Site
+			*/
+			$default = 'disabled' == it_exchange_get_page_type( 'login' ) ? '' : it_exchange_get_page_url( 'login', false, true );
 			$url = apply_filters( 'it_exchange_redirect_on_logout', $default );
-			wp_redirect( $url );
+			$url = str_replace( '&amp;', '&', wp_logout_url( $url ) );
+			wp_redirect( $url ); // See above block comment
 			die();
 		} else if ( ! is_user_logged_in() && 'logout' == $this->_current_view ) {
-			wp_redirect( it_exchange_get_page_url( 'login' ) );
+			$url = it_exchange_get_page_url( 'login' );
+			it_exchange_redirect( $url, 'logout-to-login-when-user-logged-out' );
 			die();
 		}
 	}
@@ -212,7 +220,8 @@ class IT_Exchange_Pages {
 	function registration_redirect() {
 		if ( is_user_logged_in() && 'registration' == $this->_current_view
 			&& ! current_user_can( 'administrator' ) ) {
-			wp_redirect( it_exchange_get_page_url( 'profile' ) );
+			$url = it_exchange_get_page_url( 'profile' );
+			it_exchange_redirect( $url, 'registration-to-profile-when-logged-in' );
 			die();
 		}
 	}
@@ -231,7 +240,8 @@ class IT_Exchange_Pages {
 			$enabled_product_types = it_exchange_get_enabled_addons( array( 'category' => 'product-type' ) );
 			$product_type = it_exchange_get_product_type();
 			if ( ! in_array( $product_type, array_keys( $enabled_product_types ) ) ) {
-				wp_redirect( it_exchange_get_page_url( 'store' ) );
+				$url = it_exchange_get_page_url( 'store' );
+				it_exchange_redirect( $url, 'disabled-product-to-store' );
 				die();
 			}
 		}
@@ -251,11 +261,13 @@ class IT_Exchange_Pages {
 			return;
 
 		// If user isn't logged in, redirect
-		if ( !is_user_logged_in() ) {
+		if ( ! is_user_logged_in() ) {
 			if ( $this->_current_view != 'login' && $this->_current_view != 'registration' )
 				it_exchange_add_session_data( 'login_redirect', it_exchange_get_page_url( $this->_current_view ) );
 			$redirect_url = apply_filters( 'it_exchange_pages_to_protect_redirect_if_not_logged_in', it_exchange_get_page_url( 'registration' ) );
-			wp_redirect( $redirect_url );
+
+			$redirect_options = array( 'current-page' => $this->_current_view );
+			it_exchange_redirect( $redirect_url, 'protected-pages-to-registration-when-not-logged-in', $redirect_options );
 			die();
 		} else if ( 'checkout' === $this->_current_view ) {
 			return; //We just want to make sure users are logged in to see the checkout page
@@ -272,9 +284,11 @@ class IT_Exchange_Pages {
 			if ( $transaction_hash = get_query_var( $page_slug ) )
 				$transaction_id = it_exchange_get_transaction_id_from_hash( $transaction_hash );
 
-			if ( !it_exchange_customer_has_transaction( $transaction_id, $user_id ) ) {
+			if ( ! it_exchange_customer_has_transaction( $transaction_id, $user_id ) ) {
 				$redirect_url = apply_filters( 'it_exchange_pages_to_protect_redirect_if_non_admin_requests_confirmation', it_exchange_get_page_url( 'purchases' ) );
-				wp_redirect( $redirect_url );
+
+				$redirect_options = array( 'transaction_id' => $transaction_id, 'user_id' => $user_id );
+				it_exchange_redirect( $redirect_url, 'incorrect-confirmation-to-purchases', $redirect_options );
 				die();
 			}
 
@@ -286,7 +300,8 @@ class IT_Exchange_Pages {
 		if ( in_array( $this->_current_view, $pages_to_protect )
 				&& $this->_account != $user_id && ! current_user_can( 'administrator' ) ) {
 			$redirect_url = apply_filters( 'it_exchange_pages_to_protect_redirect_if_non_admin_requests_account' , it_exchange_get_page_url( 'store' ) );
-			wp_redirect( $redirect_url );
+
+			it_exchange_redirect( $redirect_url, 'no-permission-account-to-store' );
 			die();
 		}
 		
@@ -305,7 +320,8 @@ class IT_Exchange_Pages {
 			return;
 
 		if ( ! it_exchange_get_cart_products() ) {
-			wp_redirect( it_exchange_get_page_url( 'cart' ) );
+			$cart = it_exchange_get_page_url( 'cart' );
+			it_exchange_redirect( $cart, 'checkout-empty-send-to-cart' );
 			die();
 		}
 
@@ -338,21 +354,21 @@ class IT_Exchange_Pages {
 						$confirmation_url = it_exchange_get_page_url( 'store' );
 
 					// Redirect
-					wp_redirect( $confirmation_url );
+					wp_redirect( $confirmation_url ); // no filter or it_exchange_redirect on this one
 					die();
 				}
 			}
 
 			if ( it_exchange_is_multi_item_cart_allowed() ) {
-				wp_redirect( it_exchange_get_page_url( 'checkout' ) );
+				wp_redirect( it_exchange_get_page_url( 'checkout' ) ); // no filter or it_exchange_redirect on this one
 			} else {
 				$transaction_object = it_exchange_generate_transaction_object();
 				if ( !empty( $transaction_object ) ) {
 					foreach ( $transaction_object->products as $product ) {
-						wp_redirect( get_permalink( $product['product_id'] ) );
+						wp_redirect( get_permalink( $product['product_id'] ) ); // no filter or it_exchange_redirect on this one
 					}
 				} else {
-					wp_redirect( it_exchange_get_page_url( 'store' ) );
+					wp_redirect( it_exchange_get_page_url( 'store' ) ); // no filter or it_exchange_redirect on this one
 				}
 			}
 			die();

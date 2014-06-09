@@ -23,7 +23,7 @@
 
 /** -----------------------------------------------------:[ global (page) ]:---------- */
 #poststuff label{font-weight:bold;font-size:13px;display:block;margin-bottom:10px;}
-.it-exchange-remove-item {-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;display:inline-block;width:20px;height:20px;margin-top:12px;margin-right:12px;border:2px solid transparent;border-radius:50%;font-size:14px;line-height:1.3em;text-decoration:none;text-align:center;color:#BBB;-webkit-transition:all .2s linear;-moz-transition:all .2s linear;transition:all .2s linear;}
+.it-exchange-remove-item {-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;display:inline-block;width:20px;height:20px;margin-top:12px;margin-right:12px;border:2px solid transparent;border-radius:50%;font-size:14px;line-height:1.4em;text-decoration:none;text-align:center;color:#BBB;-webkit-transition:all .2s linear;-moz-transition:all .2s linear;transition:all .2s linear;}
 .it-exchange-remove-item:active{outline:none;opacity:.8;}
 .it-exchange-remove-item:hover{border-color:#E1797A !important;color:#E1797A;}
 
@@ -42,6 +42,7 @@
 #it_exchange_normal-sortables #it-exchange-base-price{float:left;width:20%;}
 #it_exchange_normal-sortables #it-exchange-base-price input{text-align:right;}
 #it_exchange_normal-sortables #it-exchange-product-description{clear:both;width:100%;}
+#it_exchange_normal-sortables .wp-core-ui .quicktags-toolbar input.button.button-small {font-size: 12px; }
 
 /** -----------------------------------------------------:[ downloads ]:---------- */
 #it_exchange_normal-sortables  #it-exchange-product-downloads input{margin:5px;font-size:14px;width:98%;}
@@ -177,7 +178,9 @@
 #it-exchange-product-downloads-expiration .download-expiration input[type="number"]{width:60px;text-align:right;}
 
 /** ---:[ fixes ]:--- */
-#it-exchange-advanced-tabs .wp-switch-editor{height:26px;}
+#wp-it-exchange-product-description-field-editor-tools .wp-switch-editor,
+#it-exchange-advanced-tabs .wp-switch-editor{height:27px;}
+#wp-it-exchange-product-description-field-editor-container .wp-editor-area,
 #it-exchange-advanced-tabs .ui-tabs-panel .inner .wp-editor-area{border:none;font-size:13px;font-family:Consolas,Monaco,monospace;}
 
 /*  Responsive help above the default WordPress breaks. The first WP break is at 850, but we need it a little higher */

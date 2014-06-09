@@ -223,12 +223,17 @@ function handle_it_exchange_customer_registration_action() {
 			$login_redirect = it_exchange_get_session_data( 'login_redirect' );
 			if ( ! empty( $login_redirect ) ) {
 				$redirect = reset( $login_redirect );
+				$redirect_hook_slug  = 'registration-to-variable-return-url';
 				it_exchange_clear_session_data( 'login_redirect' );
 			}  else {
-				if ( it_exchange_is_page( 'registration' ) )
+				if ( it_exchange_is_page( 'registration' ) ) {
 					$redirect = it_exchange_get_page_url( 'profile' );
-				if ( it_exchange_is_page( 'checkout' ) )
+					$redirect_hook_slug = 'registration-to-profile';
+				}
+				if ( it_exchange_is_page( 'checkout' ) ) {
 					$redirect = it_exchange_get_page_url( 'checkout' );
+					$redirect_hook_slug = 'registration-to-checkout';
+				}
 			}
 		} else {
 			// They were in the superwidget
@@ -238,7 +243,7 @@ function handle_it_exchange_customer_registration_action() {
         do_action( 'handle_it_exchange_customer_registration_action' );
         do_action( 'after_handle_it_exchange_customer_registration_action' );
 
-        wp_redirect( $redirect );
+		it_exchange_redirect( $redirect, $redirect_hook_slug );
         die();
 
     }

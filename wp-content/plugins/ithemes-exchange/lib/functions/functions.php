@@ -1175,7 +1175,9 @@ function it_exchange_redirect_to_correct_login_form_on_error( $error ) {
 
 	if ( in_array( $wp_referer, $exchange_pages ) ) {
 		it_exchange_add_message( 'error', $error->get_error_message() );
-		wp_redirect( $wp_referer );
+
+		$url_target = ( $wp_referer == $exchange_pages[1] ) ? 'checkout' : 'login';
+		it_exchange_redirect( $wp_referer, 'login-failed-from-' . $url_target );
 		die();
 	}
 	return $error;

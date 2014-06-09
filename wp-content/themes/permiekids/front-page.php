@@ -48,7 +48,7 @@
 						</ul>
 					</div>
 					<div class="span5">
-						<img src="http://localhost/permiekids/images/image-1.jpg" class="img-responsive" />
+						<img src="<?php echo get_template_directory_uri(); ?>/images/image-1.jpg" class="img-responsive" />
 					</div>
 				</div>
 			</div>
@@ -64,7 +64,7 @@
 							<div class="podcast-content">
 								<h3>A Lesson Plan: Time</h3>
 								<center>
-									<img src="http://localhost/permiekids/images/podcast.jpg" class="img-responsive" />
+									<img src="<?php echo get_template_directory_uri(); ?>/images/podcast.jpg" class="img-responsive" />
 								</center>
 							</div>
 						</div>
@@ -74,7 +74,7 @@
 							<div class="podcast-content">
 								<h3>Resource Review: Kurent Journal</h3>
 								<center>
-									<img src="http://localhost/permiekids/images/podcast.jpg" class="img-responsive" />
+									<img src="<?php echo get_template_directory_uri(); ?>/images/podcast.jpg" class="img-responsive" />
 								</center>
 							</div>
 						</div>
@@ -90,22 +90,22 @@
 				<div class="row">
 					<div class="span7">
 						<h4 class="featured-h4">Featured Curriculum</h4>
-						<img src="http://localhost/permiekids/images/featured-curricula.jpg" class="img-responsive" />
+						<img src="<?php echo get_template_directory_uri(); ?>/images/featured-curricula.jpg" class="img-responsive" />
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla auctor nisl nec arcu tincidunt accumsan. Sed eu nunc aliquet, condimentum ligula vitae, accumsan nunc. Ut ut nulla porttitor, hendrerit lectus a, dictum justo.</p>
 					</div>
 					<div class="span4">
 						<h4>Curriculum Title</h4>
-						<img src="http://localhost/permiekids/images/curriculum.jpg" class="img-responsive" />
+						<img src="<?php echo get_template_directory_uri(); ?>/images/curriculum.jpg" class="img-responsive" />
 					</div>					
 				</div>
 				<div class="row">
 					<div class="span7">
 						<h4>Curriculum Title</h4>
-						<img src="http://localhost/permiekids/images/curriculum.jpg" class="img-responsive" />
+						<img src="<?php echo get_template_directory_uri(); ?>/images/curriculum.jpg" class="img-responsive" />
 					</div>
 					<div class="span4">
 						<h4>Curriculum Title</h4>
-						<img src="http://localhost/permiekids/images/curriculum.jpg" class="img-responsive" />
+						<img src="<?php echo get_template_directory_uri(); ?>/images/curriculum.jpg" class="img-responsive" />
 					</div>					
 				</div>	
 				<hr class="divider-bar" />
@@ -154,7 +154,7 @@
 						<p><a href="#" class="take-a-look">Take a Look</a></p>
 					</div>
 					<div class="span4">
-						<img src="http://localhost/permiekids/images/curriculum.jpg" class="img-responsive" />
+						<img src="<?php echo get_template_directory_uri(); ?>/images/curriculum.jpg" class="img-responsive" />
 					</div>
 				</div>	
 			</div>

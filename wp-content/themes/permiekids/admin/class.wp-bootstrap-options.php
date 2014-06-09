@@ -117,6 +117,7 @@ class WP_BootStrap_Theme_Options {
 		
 	</form>';
 	
+	
 	echo '<script type="text/javascript">
 		jQuery(document).ready(function($) {
 			var sections = [];';
@@ -171,6 +172,7 @@ class WP_BootStrap_Theme_Options {
 		});
 	</script>
 </div>';
+		
 		
 	}
 	
@@ -328,6 +330,8 @@ class WP_BootStrap_Theme_Options {
 			'posts_per_page' => -1
 		);
 	 
+		global $post;
+		
 		$the_query = new WP_Query($args);
 	 
 		while ($the_query->have_posts()) {

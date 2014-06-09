@@ -503,7 +503,9 @@ function it_exchange_do_confirmation_redirect( $transaction_id ) {
 	$confirmation_url = it_exchange_get_page_url( 'confirmation' );
 	$transaction_var  = it_exchange_get_field_name( 'transaction_id' );
 	$confirmation_url = add_query_arg( array( $transaction_var => $transaction_id ), $confirmation_url );
-	wp_redirect( $confirmation_url );
+
+	$redirect_options = array( 'transaction_id' => $transaction_id, 'transaction_var' => $transaction_var );
+	it_exchange_redirect( $confirmation_url, 'confirmation-redirect', $redirect_options );
 	die();
 }
 

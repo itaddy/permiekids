@@ -3,7 +3,7 @@ Contributors: ithemes, blepoxp, layotte, bradulrich, mattdanner
 Tags: ecommerce
 Requires at least: 3.5
 Tested up to: 3.8
-Stable tag: 1.8.1
+Stable tag: 1.8.2
 License: GPLv2 or later
 
 Easily sell your digital and physical products with iThemes Exchange, simple ecommerce for WordPress
@@ -85,6 +85,11 @@ Use the WordPress WSIWYG editor to make custom email templates for Admin Sales N
 
 Upload the Exchange plugin to your blog, activate it and enable the Digital Downloads add-on and a transaction method add-on. For more information, visit:
 http://ithemes.com/codex/page/Exchange_Installation
+
+== Changelog ==
+
+= All the versions =
+* http://ithemes.com/codex/page/Exchange_Changelog
 
 == Upgrade Notice ==
 http://ithemes.com/codex/page/Exchange_Changelog

@@ -505,7 +505,7 @@ class IT_Exchange_Transaction_Post_Type {
 						<?php do_action( 'it_exchange_transaction_details_begin_product_header', $post, $transaction_product ); ?>
 						<div class="product-title left">
 							<?php do_action( 'it_exchange_transaction_print_metabox_before_product_feature_title', $post, $transaction_product ); ?>
-							<?php echo it_exchange_get_transaction_product_feature( $transaction_product, 'title' ); ?>
+							<?php echo it_exchange_get_transaction_product_feature( $transaction_product, 'title' ); ?> (<?php echo it_exchange_get_transaction_product_feature( $transaction_product, 'count' ); ?>)
 							<?php do_action( 'it_exchange_transaction_print_metabox_after_product_feature_title', $post, $transaction_product ); ?>
 						</div>
 						<div class="product-subtotal right">

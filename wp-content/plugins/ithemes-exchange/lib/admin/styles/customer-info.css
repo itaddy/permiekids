@@ -27,7 +27,7 @@
 .user-edit-block .item-row:nth-child(2n+2){background:#FCFCFC;}
 .user-edit-block .item-column p{padding:15px;line-height: 1.5;}
 .user-edit-block .item-column .item{position:relative;}
-.user-edit-block .item-column input{margin-top:11px;}
+.user-edit-block .item-column input, .user-edit-block .item-column .button{margin-bottom:4px;}
 .user-edit-block .item-column p .details-toggle{font-size:30px;position:absolute;}
 .user-edit-block .item-column p .details-toggle{cursor:pointer;margin-top:-16px;margin-left:10px;color:#C9C9C9;}
 .user-edit-block .item-column p .details-toggle + .details-toggle{margin-top:-10px;}
@@ -49,8 +49,21 @@
 .transactions-user-edit-block .block-column-1{width:30%;}
 .transactions-user-edit-block .block-column-2{width:15%;}
 .transactions-user-edit-block .block-column-3{width:15%;}
-.transactions-user-edit-block .block-column-4{width:40%;padding-top:11px;}
+.transactions-user-edit-block .block-column-4{width:40%;padding: 11px 0;}
+
 .add-manual-transaction{margin-top:15px;}
+
+@media only screen and (max-width: 600px) {
+	.transactions-user-edit-block .block-column-2,
+	.transactions-user-edit-block .block-column-3 {
+		display:none;
+	}
+	
+	.transactions-user-edit-block .block-column-1,
+	.transactions-user-edit-block .block-column-4 {
+		width: 50%;
+	}
+}
 
 /** -----------------------------------------------------:[ activity ]:---------- */
 .activity-user-edit-block .block-column-1{width:80%;}

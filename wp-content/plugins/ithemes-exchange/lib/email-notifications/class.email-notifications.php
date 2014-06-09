@@ -85,7 +85,7 @@ class IT_Exchange_Email_Notifications {
 		if ( empty( $transaction->ID ) ) {
 			it_exchange_add_message( 'error', __( 'Invalid transaction. Confirmation email not sent.', 'it-l10n-ithemes-exchange' ) );
 			$url = remove_query_arg( array( 'it-exchange-customer-transaction-action', '_wpnonce' ) );
-			wp_redirect( $url );
+			it_exchange_redirect( $url, 'admin-confirmation-email-resend-failed' );
 			die();
 		}
 
@@ -94,7 +94,7 @@ class IT_Exchange_Email_Notifications {
 		if ( ! $nonce || ! wp_verify_nonce( $nonce, 'it-exchange-resend-confirmation-' . $transaction->ID ) ) {
 			it_exchange_add_message( 'error', __( 'Confirmation Email not sent. Please try again.', 'it-l10n-ithemes-exchange' ) );
 			$url = remove_query_arg( array( 'it-exchange-customer-transaction-action', '_wpnonce' ) );
-			wp_redirect( $url );
+			it_exchange_redirect( $url, 'admin-confirmation-email-resend-failed' );
 			die();
 		}
 
@@ -102,7 +102,7 @@ class IT_Exchange_Email_Notifications {
 		if ( ! current_user_can( 'administrator' ) ) {
 			it_exchange_add_message( 'error', __( 'You do not have permission to resend confirmation emails.', 'it-l10n-ithemes-exchange' ) );
 			$url = remove_query_arg( array( 'it-exchange-customer-transaction-action', '_wpnonce' ) );
-			wp_redirect( $url );
+			it_exchange_redirect( $url, 'admin-confirmation-email-resend-failed' );
 			die();
 		}
 
@@ -110,7 +110,7 @@ class IT_Exchange_Email_Notifications {
 		$this->send_purchase_emails( $transaction, false );
 		it_exchange_add_message( 'notice', __( 'Confirmation email resent', 'it-l10n-ithemes-exchange' ) );
 		$url = remove_query_arg( array( 'it-exchange-customer-transaction-action', '_wpnonce' ) );
-		wp_redirect( $url );
+		it_exchange_redirect( $url, 'admin-confirmation-email-resend-success' );
 		die();
 	}
 

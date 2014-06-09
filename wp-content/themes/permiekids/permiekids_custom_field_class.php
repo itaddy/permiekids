@@ -49,14 +49,18 @@ class IT_Theme_API_PermieKids_registration extends IT_Theme_API_Registration {
  
 			case 'field-name':
 				$output = $field_name;
- 
+
+			case 'field-value':
+				$output = $field_value;
+				break;
+				 
 			case 'label':
 				$output = esc_attr( $options['label'] );
  
 			case 'html':
 			default:
 				$output = '<label for="' . $field_id . '">' . esc_attr( $options['label'] ) . '</label>';
-				$output .= '<textarea rows="4" cols="50" id="' . $field_id . '" name="' . $field_name . '"></textarea>';
+				$output .= '<textarea rows="4" cols="50" id="' . $field_id . '" name="' . $field_name . '">' . $field_value . '</textarea>';
  
 		}
  
@@ -85,10 +89,14 @@ class IT_Theme_API_PermieKids_registration extends IT_Theme_API_Registration {
 			case 'label':
 				$output = esc_attr( $options['label'] );
  
+ 			case 'field-value':
+				$output = $field_value;
+				break;
+				
 			case 'html':
 			default:
 				$output = '<label for="' . $field_id . '">' . esc_attr( $options['label'] ) . '</label>';
-				$output .= '<input type="text" id="' . $field_id . '" name="' . $field_name . '" value="" />';
+				$output .= '<input type="text" id="' . $field_id . '" name="' . $field_name . '" value="' . $field_value . '" />';
  
 		}
  
@@ -113,13 +121,17 @@ class IT_Theme_API_PermieKids_registration extends IT_Theme_API_Registration {
 			case 'field-name':
 				$output = $field_name;
  
+  			case 'field-value':
+				$output = $field_value;
+				break;
+				
 			case 'label':
 				$output = esc_attr( $options['label'] );
  
 			case 'html':
 			default:
 				$output = '<label for="' . $field_id . '">' . esc_attr( $options['label'] ) . '</label>';
-				$output .= '<input type="text" id="' . $field_id . '" name="' . $field_name . '" value="" />';
+				$output .= '<input type="text" id="' . $field_id . '" name="' . $field_name . '" value="' . $field_value . '" />';
  
 		}
  
@@ -143,14 +155,18 @@ class IT_Theme_API_PermieKids_registration extends IT_Theme_API_Registration {
  
 			case 'field-name':
 				$output = $field_name;
- 
+
+  			case 'field-value':
+				$output = $field_value;
+				break;
+				 
 			case 'label':
 				$output = esc_attr( $options['label'] );
  
 			case 'html':
 			default:
 				$output = '<label for="' . $field_id . '">' . esc_attr( $options['label'] ) . '</label>';
-				$output .= '<input type="text" id="' . $field_id . '" name="' . $field_name . '" value="" />';
+				$output .= '<input type="text" id="' . $field_id . '" name="' . $field_name . '" value="' . $field_value . '" />';
  
 		}
  
@@ -178,10 +194,14 @@ class IT_Theme_API_PermieKids_registration extends IT_Theme_API_Registration {
 			case 'label':
 				$output = esc_attr( $options['label'] );
  
+   			case 'field-value':
+				$output = $field_value;
+				break;
+				
 			case 'html':
 			default:
 				$output = '<label for="' . $field_id . '">' . esc_attr( $options['label'] ) . '</label>';
-				$output .= '<input type="text" id="' . $field_id . '" name="' . $field_name . '" value="" />';
+				$output .= '<input type="text" id="' . $field_id . '" name="' . $field_name . '" value="' . $field_value . '" />';
  
 		}
  
@@ -209,10 +229,14 @@ class IT_Theme_API_PermieKids_registration extends IT_Theme_API_Registration {
 			case 'label':
 				$output = esc_attr( $options['label'] );
  
+    		case 'field-value':
+				$output = $field_value;
+				break;
+				
 			case 'html':
 			default:
 				$output = '<label for="' . $field_id . '">' . esc_attr( $options['label'] ) . '</label>';
-				$output .= '<input type="text" id="' . $field_id . '" name="' . $field_name . '" value="" />';
+				$output .= '<input type="text" id="' . $field_id . '" name="' . $field_name . '" value="'. $field_value .'" />';
  
 		}
  
@@ -240,10 +264,14 @@ class IT_Theme_API_PermieKids_registration extends IT_Theme_API_Registration {
 			case 'label':
 				$output = esc_attr( $options['label'] );
  
+     		case 'field-value':
+				$output = $field_value;
+				break;
+				
 			case 'html':
 			default:
 				$output = '<label for="' . $field_id . '">' . esc_attr( $options['label'] ) . '</label>';
-				$output .= '<input type="text" id="' . $field_id . '" name="' . $field_name . '" value="" />';
+				$output .= '<input type="text" id="' . $field_id . '" name="' . $field_name . '" value="' . $field_value . '" />';
  
 		}
  
@@ -271,10 +299,14 @@ class IT_Theme_API_PermieKids_registration extends IT_Theme_API_Registration {
 			case 'label':
 				$output = esc_attr( $options['label'] );
  
+ 			case 'field-value':
+				$output = $field_value;
+				break;
+				
 			case 'html':
 			default:
 				$output = '<label for="' . $field_id . '">' . esc_attr( $options['label'] ) . '</label>';
-				$output .= '<input type="text" id="' . $field_id . '" name="' . $field_name . '" value="" />';
+				$output .= '<input type="text" id="' . $field_id . '" name="' . $field_name . '" value="' . $field_value . '" />';
  
 		}
  
@@ -299,13 +331,17 @@ class IT_Theme_API_PermieKids_registration extends IT_Theme_API_Registration {
 			case 'field-name':
 				$output = $field_name;
  
+  			case 'field-value':
+				$output = $field_value;
+				break;
+				
 			case 'label':
 				$output = esc_attr( $options['label'] );
  
 			case 'html':
 			default:
 				$output = '<label for="' . $field_id . '">' . esc_attr( $options['label'] ) . '</label>';
-				$output .= '<input type="text" id="' . $field_id . '" name="' . $field_name . '" value="" />';
+				$output .= '<input type="text" id="' . $field_id . '" name="' . $field_name . '" value="' . $field_value . '" />';
  
 		}
  
@@ -330,13 +366,17 @@ class IT_Theme_API_PermieKids_registration extends IT_Theme_API_Registration {
 			case 'field-name':
 				$output = $field_name;
  
+   			case 'field-value':
+				$output = $field_value;
+				break;
+				
 			case 'label':
 				$output = esc_attr( $options['label'] );
  
 			case 'html':
 			default:
 				$output = '<label for="' . $field_id . '">' . esc_attr( $options['label'] ) . '</label>';
-				$output .= '<textarea rows="4" cols="50" id="' . $field_id . '" name="' . $field_name . '"></textarea>';
+				$output .= '<textarea rows="4" cols="50" id="' . $field_id . '" name="' . $field_name . '">' . $field_value . '</textarea>';
  
 		}
  
