@@ -28,6 +28,7 @@
 			it_exchange_get_template_part( 'content-profile/elements/' . $action );
 			?>
 		<?php endforeach; ?>
+	<?php do_action( 'save_custom_fields_action' ); ?>	
 	<?php do_action( 'it_exchange_content_profile_end_actions_loop' ); ?>
 	</div>
 <?php do_action( 'it_exchange_content_profile_after_actions_loop' ); ?>

@@ -104,6 +104,22 @@ register_sidebar( array(
 
 add_theme_support( 'post-thumbnails' ); 
 
+function save_custom_fields () {
+	$user_id = it_exchange_get_current_customer_id();
+	update_user_meta( $user_id, 'motto', sanitize_text_field(esc_attr($_POST['motto'])));
+	update_user_meta( $user_id, 'who_said_it', sanitize_text_field(esc_attr($_POST['who_said_it'])));
+	update_user_meta( $user_id, 'location', sanitize_text_field(esc_attr($_POST['location'])));	
+	update_user_meta( $user_id, 'family',sanitize_text_field(esc_attr($_POST['family'])));
+	update_user_meta( $user_id, 'occupation',sanitize_text_field(esc_attr($_POST['occupation'])));
+	update_user_meta( $user_id, 'experience',sanitize_text_field(esc_attr($_POST['experience'])));
+	update_user_meta( $user_id, 'facebook',sanitize_text_field(esc_attr($_POST['facebook'])));
+	update_user_meta( $user_id, 'twitter',sanitize_text_field(esc_attr($_POST['twitter'])));	
+	update_user_meta( $user_id, 'linkedin',sanitize_text_field(esc_attr($_POST['linkedin'])));
+	update_user_meta( $user_id, 'what_are_you_working_on',sanitize_text_field(esc_attr($_POST['what_are_you_working_on'])));						
+}
+
+add_action ('save_custom_fields_action', 'save_custom_fields');
+
 function registration_process_hook() {
 	if (isset($_POST['email']) && isset($_POST['password'])) {
 		if ( !wp_verify_nonce($_POST['add-nonce'],'adduserfield') ) {

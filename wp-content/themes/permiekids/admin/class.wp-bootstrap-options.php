@@ -11,7 +11,8 @@ class WP_BootStrap_Theme_Options {
 	private $sections;
 	private $checkboxes;
 	private $settings;
-	
+	private $membership;
+
 	/**
 	 * Construct
 	 *
@@ -22,7 +23,9 @@ class WP_BootStrap_Theme_Options {
 		// This will keep track of the checkbox options for the validate_settings function.
 		$this->checkboxes = array();
 		$this->settings = array();
+		$this->membership = array();
 		$this->get_settings();
+		$this->get_membership();
 		
 		$this->sections['appearance']   = __( 'Appearance' );
 		$this->sections['reset']        = __( 'Reset to Defaults' );
@@ -285,6 +288,26 @@ class WP_BootStrap_Theme_Options {
 		
 	}
 	
+	public function get_membership() {
+	
+		$this->membership[0] = 'Disabled';
+
+		// list the tabs
+		$args = array(
+			'post_type' => 'it_exchange_prod',
+			'post_status' => 'publish',
+			'suppress_filters' => 1, // wpml, ignore language filter
+			'posts_per_page' => -1
+		);
+	 
+ 		$the_query = new WP_Query($args);
+	 
+		while ($the_query->have_posts()) {
+			$the_query->the_post();
+			$this->membership[$the_query->post->ID] = get_the_title() ;
+		}	
+	}
+	
 	/**
 	 * Settings and defaults
 	 * 
@@ -320,26 +343,7 @@ class WP_BootStrap_Theme_Options {
 			'class'   => 'code'
 		);
 		
-		$membership[0] = 'Disabled';
 	 
-		// list the tabs
-		$args = array(
-			'post_type' => 'it_exchange_prod',
-			'post_status' => 'publish',
-			'suppress_filters' => 1, // wpml, ignore language filter
-			'posts_per_page' => -1
-		);
-	 
-		global $post;
-		
-		$the_query = new WP_Query($args);
-	 
-		while ($the_query->have_posts()) {
-			$the_query->the_post();
-			$membership[$the_query->post->ID] = get_the_title() ;
-		}
-	 
- 
 		$this->settings['free_registration_url'] = array(
 			'title'   => __( 'Registration URL for Free Subscription' ),
 			'desc'    => __( 'Enter here the url for the free subscription.' ),
@@ -347,7 +351,7 @@ class WP_BootStrap_Theme_Options {
 			'type'    => 'select',
 			'section' => 'appearance',
 			'class'   => 'code',
-			'choices' => $membership
+			'choices' => $this->membership
 		);
  		
 		$this->settings['basic_registration_url_for_monthly'] = array(
@@ -357,7 +361,7 @@ class WP_BootStrap_Theme_Options {
 			'type'    => 'select',
 			'section' => 'appearance',
 			'class'   => 'code',
-			'choices' => $membership
+			'choices' => $this->membership
 		);
 
 		$this->settings['basic_registration_url_for_yearly'] = array(
@@ -367,7 +371,7 @@ class WP_BootStrap_Theme_Options {
 			'type'    => 'select',
 			'section' => 'appearance',
 			'class'   => 'code',
-			'choices' => $membership
+			'choices' => $this->membership
 
 		);				
 
@@ -378,7 +382,7 @@ class WP_BootStrap_Theme_Options {
 			'type'    => 'select',
 			'section' => 'appearance',
 			'class'   => 'code',
-			'choices' => $membership
+			'choices' => $this->membership
 		);	
 		
 		$this->settings['contributing_registration_url_for_yearly'] = array(
@@ -388,7 +392,7 @@ class WP_BootStrap_Theme_Options {
 			'type'    => 'select',
 			'section' => 'appearance',
 			'class'   => 'code',
-			'choices' => $membership			
+			'choices' => $this->membership		
 		);	
 								
 		/* Reset
@@ -418,7 +422,9 @@ class WP_BootStrap_Theme_Options {
 			if ( $setting['type'] != 'heading' )
 				$default_settings[$id] = $setting['std'];
 		}
-		
+	
+			
+	
 		update_option( 'wp_bootstrap_options', $default_settings );
 		
 	}
