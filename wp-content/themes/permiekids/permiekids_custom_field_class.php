@@ -32,16 +32,20 @@ class IT_Theme_API_PermieKids_registration extends IT_Theme_API_Registration {
 		$this->_tag_map['what_are_you_working_on'] = 'what_are_you_working_on';	
 	}
  
+
+	
 	function motto( $options=array() ) {
+				
 		$defaults      = array(
 			'format'      => 'html',
 			'label'  => __( 'Motto', 'it-l10n-ithemes-exchange' ),
 		);
-		$options = ITUtility::merge_defaults( $options, $defaults );
- 
+		$options = ITUtility::merge_defaults( $options, $defaults );	
 		$field_id = 'motto';
 		$field_name = $field_id;
- 
+		$user_id = get_current_user_id();
+ 		$field_value = get_user_meta($user_id, $field_id);
+		
 		switch( $options['format'] ) {
  
 			case 'field-id':
@@ -60,7 +64,7 @@ class IT_Theme_API_PermieKids_registration extends IT_Theme_API_Registration {
 			case 'html':
 			default:
 				$output = '<label for="' . $field_id . '">' . esc_attr( $options['label'] ) . '</label>';
-				$output .= '<textarea rows="4" cols="50" id="' . $field_id . '" name="' . $field_name . '">' . $field_value . '</textarea>';
+				$output .= '<textarea rows="4" cols="50" id="' . $field_id . '" name="' . $field_name . '">' . $field_value[0] . '</textarea>';
  
 		}
  
@@ -77,7 +81,9 @@ class IT_Theme_API_PermieKids_registration extends IT_Theme_API_Registration {
  
 		$field_id = 'who_said_it';
 		$field_name = $field_id;
- 
+ 		$user_id = get_current_user_id();
+ 		$field_value = get_user_meta($user_id, $field_id);
+		
 		switch( $options['format'] ) {
  
 			case 'field-id':
@@ -96,7 +102,7 @@ class IT_Theme_API_PermieKids_registration extends IT_Theme_API_Registration {
 			case 'html':
 			default:
 				$output = '<label for="' . $field_id . '">' . esc_attr( $options['label'] ) . '</label>';
-				$output .= '<input type="text" id="' . $field_id . '" name="' . $field_name . '" value="' . $field_value . '" />';
+				$output .= '<input type="text" id="' . $field_id . '" name="' . $field_name . '" value="' . $field_value[0] . '" />';
  
 		}
  
@@ -112,7 +118,9 @@ class IT_Theme_API_PermieKids_registration extends IT_Theme_API_Registration {
  
 		$field_id = 'location';
 		$field_name = $field_id;
- 
+		$user_id = get_current_user_id();
+ 		$field_value = get_user_meta($user_id, $field_id);
+		 
 		switch( $options['format'] ) {
  
 			case 'field-id':
@@ -131,7 +139,7 @@ class IT_Theme_API_PermieKids_registration extends IT_Theme_API_Registration {
 			case 'html':
 			default:
 				$output = '<label for="' . $field_id . '">' . esc_attr( $options['label'] ) . '</label>';
-				$output .= '<input type="text" id="' . $field_id . '" name="' . $field_name . '" value="' . $field_value . '" />';
+				$output .= '<input type="text" id="' . $field_id . '" name="' . $field_name . '" value="' . $field_value[0] . '" />';
  
 		}
  
@@ -147,7 +155,9 @@ class IT_Theme_API_PermieKids_registration extends IT_Theme_API_Registration {
  
 		$field_id = 'family';
 		$field_name = $field_id;
- 
+		$user_id = get_current_user_id();
+ 		$field_value = get_user_meta($user_id, $field_id);
+		 
 		switch( $options['format'] ) {
  
 			case 'field-id':
@@ -166,7 +176,7 @@ class IT_Theme_API_PermieKids_registration extends IT_Theme_API_Registration {
 			case 'html':
 			default:
 				$output = '<label for="' . $field_id . '">' . esc_attr( $options['label'] ) . '</label>';
-				$output .= '<input type="text" id="' . $field_id . '" name="' . $field_name . '" value="' . $field_value . '" />';
+				$output .= '<input type="text" id="' . $field_id . '" name="' . $field_name . '" value="' . $field_value[0] . '" />';
  
 		}
  
@@ -182,7 +192,9 @@ class IT_Theme_API_PermieKids_registration extends IT_Theme_API_Registration {
  
 		$field_id = 'occupation';
 		$field_name = $field_id;
- 
+		$user_id = get_current_user_id();
+ 		$field_value = get_user_meta($user_id, $field_id);
+		 
 		switch( $options['format'] ) {
  
 			case 'field-id':
@@ -201,7 +213,7 @@ class IT_Theme_API_PermieKids_registration extends IT_Theme_API_Registration {
 			case 'html':
 			default:
 				$output = '<label for="' . $field_id . '">' . esc_attr( $options['label'] ) . '</label>';
-				$output .= '<input type="text" id="' . $field_id . '" name="' . $field_name . '" value="' . $field_value . '" />';
+				$output .= '<input type="text" id="' . $field_id . '" name="' . $field_name . '" value="' . $field_value[0] . '" />';
  
 		}
  
@@ -217,7 +229,9 @@ class IT_Theme_API_PermieKids_registration extends IT_Theme_API_Registration {
  
 		$field_id = 'experience';
 		$field_name = $field_id;
- 
+		$user_id = get_current_user_id();
+ 		$field_value = get_user_meta($user_id, $field_id);
+		 
 		switch( $options['format'] ) {
  
 			case 'field-id':
@@ -236,7 +250,7 @@ class IT_Theme_API_PermieKids_registration extends IT_Theme_API_Registration {
 			case 'html':
 			default:
 				$output = '<label for="' . $field_id . '">' . esc_attr( $options['label'] ) . '</label>';
-				$output .= '<input type="text" id="' . $field_id . '" name="' . $field_name . '" value="'. $field_value .'" />';
+				$output .= '<input type="text" id="' . $field_id . '" name="' . $field_name . '" value="'. $field_value[0] .'" />';
  
 		}
  
@@ -252,7 +266,9 @@ class IT_Theme_API_PermieKids_registration extends IT_Theme_API_Registration {
  
 		$field_id = 'facebook';
 		$field_name = $field_id;
- 
+ 		$user_id = get_current_user_id();
+ 		$field_value = get_user_meta($user_id, $field_id);
+		
 		switch( $options['format'] ) {
  
 			case 'field-id':
@@ -271,7 +287,7 @@ class IT_Theme_API_PermieKids_registration extends IT_Theme_API_Registration {
 			case 'html':
 			default:
 				$output = '<label for="' . $field_id . '">' . esc_attr( $options['label'] ) . '</label>';
-				$output .= '<input type="text" id="' . $field_id . '" name="' . $field_name . '" value="' . $field_value . '" />';
+				$output .= '<input type="text" id="' . $field_id . '" name="' . $field_name . '" value="' . $field_value[0] . '" />';
  
 		}
  
@@ -287,7 +303,9 @@ class IT_Theme_API_PermieKids_registration extends IT_Theme_API_Registration {
  
 		$field_id = 'twitter';
 		$field_name = $field_id;
- 
+		$user_id = get_current_user_id();
+ 		$field_value = get_user_meta($user_id, $field_id);
+		 
 		switch( $options['format'] ) {
  
 			case 'field-id':
@@ -306,7 +324,7 @@ class IT_Theme_API_PermieKids_registration extends IT_Theme_API_Registration {
 			case 'html':
 			default:
 				$output = '<label for="' . $field_id . '">' . esc_attr( $options['label'] ) . '</label>';
-				$output .= '<input type="text" id="' . $field_id . '" name="' . $field_name . '" value="' . $field_value . '" />';
+				$output .= '<input type="text" id="' . $field_id . '" name="' . $field_name . '" value="' . $field_value[0] . '" />';
  
 		}
  
@@ -322,7 +340,9 @@ class IT_Theme_API_PermieKids_registration extends IT_Theme_API_Registration {
  
 		$field_id = 'linkedin';
 		$field_name = $field_id;
- 
+		$user_id = get_current_user_id();
+ 		$field_value = get_user_meta($user_id, $field_id);
+		 
 		switch( $options['format'] ) {
  
 			case 'field-id':
@@ -341,7 +361,7 @@ class IT_Theme_API_PermieKids_registration extends IT_Theme_API_Registration {
 			case 'html':
 			default:
 				$output = '<label for="' . $field_id . '">' . esc_attr( $options['label'] ) . '</label>';
-				$output .= '<input type="text" id="' . $field_id . '" name="' . $field_name . '" value="' . $field_value . '" />';
+				$output .= '<input type="text" id="' . $field_id . '" name="' . $field_name . '" value="' . $field_value[0] . '" />';
  
 		}
  
@@ -357,7 +377,9 @@ class IT_Theme_API_PermieKids_registration extends IT_Theme_API_Registration {
  
 		$field_id = 'what_are_you_working_on';
 		$field_name = $field_id;
- 
+ 		$user_id = get_current_user_id();
+ 		$field_value = get_user_meta($user_id, $field_id);
+		
 		switch( $options['format'] ) {
  
 			case 'field-id':
@@ -376,7 +398,7 @@ class IT_Theme_API_PermieKids_registration extends IT_Theme_API_Registration {
 			case 'html':
 			default:
 				$output = '<label for="' . $field_id . '">' . esc_attr( $options['label'] ) . '</label>';
-				$output .= '<textarea rows="4" cols="50" id="' . $field_id . '" name="' . $field_name . '">' . $field_value . '</textarea>';
+				$output .= '<textarea rows="4" cols="50" id="' . $field_id . '" name="' . $field_name . '">' . $field_value[0] . '</textarea>';
  
 		}
  
