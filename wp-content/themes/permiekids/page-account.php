@@ -2,6 +2,7 @@
 
 
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+test
 <div class="line-separator"></div>	
 	<div class="container">
 		<div class="row">
@@ -13,7 +14,7 @@
 
 <div class="container">
 	<div class="row">
-		<div class="span12">
+		<div class="span8">
 			<?php 
 				if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
 					the_post_thumbnail();
@@ -33,13 +34,15 @@
 		 </div>
 		<?php endwhile; else: ?>
 		<div class="row">
-			<div class="span12">
+			<div class="span8">
 				<p><?php _e('Sorry, this page does not exist.'); ?></p>
 			</div>
 		</div>	
 		<?php endif; ?>
 		
+		<div class="span4">
+			<?php get_sidebar(); ?>	
+		</div>
 	</div>
-
 	
 <?php get_footer(); ?>

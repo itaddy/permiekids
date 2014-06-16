@@ -8,6 +8,7 @@ if ( file_exists( STYLESHEETPATH . '/permiekids_custom_field_class.php' ) ) {
 	require_once( STYLESHEETPATH . '/permiekids_custom_field_class.php' );
 }
 
+
 add_filter( 'gettext', 'ts_edit_password_email_text' );
 function ts_edit_password_email_text ( $text ) {
 	if ( $text == 'A password will be e-mailed to you.' ) {
@@ -211,6 +212,23 @@ function custom_post_type_ethics() {
 
 }
 
+function custom_roles() {
+	// basic
+	add_role('basic', 'Basic', array(
+		'read' => true, 
+		'edit_posts' => false,
+		'delete_posts' => false
+	));
+	
+	add_role('contributing', 'Contributing', array(
+		'read' => true,
+		'edit_posts' => true,
+		'delete_posts' => false, 
+	));
+}
+
+add_action('init', 'custom_roles', 1);
+
 add_action( 'init', 'custom_post_type_ethics', 0 );
 
 function custom_post_type_principles() {
@@ -348,5 +366,49 @@ function search_button ( $items, $args ) {
     return $items;
 }
 
+
+
+
+add_action('admin_enqueue_scripts', 'upload_script');
+ 
+function upload_script() {
+	wp_enqueue_media();
+	wp_register_script('my-upload-script', get_template_directory_uri() .'/upload-script.js', array('jquery'));
+	wp_enqueue_script('my-upload-script');
+}
+
+
+function custom_avatar_field( $user ) { 
+
+
+?>
+
+	<h3>Custom Avatar</h3>
+	 
+	<table class="form-table">
+	<tr>
+	<th><label for="custom_avatar">Custom Avatar URL:</label></th>
+	<td>
+	<input type="text" id="upload_image" class="regular-text" name="ad_image" value="<?php echo esc_attr( get_the_author_meta( 'custom_avatar', $user->ID ) ); ?>" /> <input id="upload_image_button" class="button" type="button" value="Upload Image" /><br />
+	<span>Type in the URL of the image you'd like to use as your avatar. This will override your default Gravatar, or show up if you don't have a Gravatar. <br /><strong>Image should be 200x200 pixels.</strong></span>
+	
+	</td>
+	</tr>
+	</table>
+
+
+	
+	<?php 
+}
+add_action( 'show_user_profile', 'custom_avatar_field' );
+add_action( 'edit_user_profile', 'custom_avatar_field' );
+ 
+
+function save_custom_avatar_field( $user_id ) {
+	if ( !current_user_can( 'edit_user', $user_id ) ) { return false; }
+		update_usermeta( $user_id, 'custom_avatar', $_POST['custom_avatar'] );
+}
+add_action( 'personal_options_update', 'save_custom_avatar_field' );
+add_action( 'edit_user_profile_update', 'save_custom_avatar_field' );
 
 ?>

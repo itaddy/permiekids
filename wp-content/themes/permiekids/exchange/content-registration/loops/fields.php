@@ -18,7 +18,7 @@
 <?php do_action( 'it_exchange_content_registration_before_fields_loop' ); ?>
 	<div class="it-exchange-customer-fields">
 	<?php do_action( 'it_exchange_content_registration_begin_fields_loop' ); ?>
-		<?php foreach ( it_exchange_get_template_part_elements( 'content_registration', 'fields', array( 'login', 'username', 'first-name', 'last-name', 'motto', 'email', 'password1', 'password2' ) ) as $field ) : ?>
+		<?php foreach ( it_exchange_get_template_part_elements( 'content_registration', 'fields', array( 'login', 'username', 'first-name', 'motto', 'last-name', 'motto', 'email', 'password1', 'password2' ) ) as $field ) : ?>
 			<?php
 			/**
 			 * Theme and add-on devs should add code to this loop by

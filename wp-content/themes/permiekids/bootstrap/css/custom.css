@@ -706,3 +706,10 @@ input#it-exchange-save-profile {
 	font-weight: bold;
 	height: 50px;
 }
+
+div.it-exchange-customer-avatar {
+	border: 2px solid #000000;
+	width: 200px;
+	height: 200px;
+	float: right;
+}

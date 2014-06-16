@@ -289,23 +289,25 @@ class WP_BootStrap_Theme_Options {
 	}
 	
 	public function get_membership() {
+		if ($_GET["page"]=='wp-bootstrap-options') {
+		 
+			$this->membership[0] = 'Disabled';
 	
-		$this->membership[0] = 'Disabled';
-
-		// list the tabs
-		$args = array(
-			'post_type' => 'it_exchange_prod',
-			'post_status' => 'publish',
-			'suppress_filters' => 1, // wpml, ignore language filter
-			'posts_per_page' => -1
-		);
-	 
- 		$the_query = new WP_Query($args);
-	 
-		while ($the_query->have_posts()) {
-			$the_query->the_post();
-			$this->membership[$the_query->post->ID] = get_the_title() ;
-		}	
+			// list the tabs
+			$args = array(
+				'post_type' => 'it_exchange_prod',
+				'post_status' => 'publish',
+				'suppress_filters' => 1, // wpml, ignore language filter
+				'posts_per_page' => -1
+			);
+		 
+			$the_query = new WP_Query($args);
+		 
+			while ($the_query->have_posts()) {
+				$the_query->the_post();
+				$this->membership[$the_query->post->ID] = get_the_title() ;
+			}	
+		}
 	}
 	
 	/**

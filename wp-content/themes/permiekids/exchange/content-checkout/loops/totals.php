@@ -31,6 +31,7 @@
 				?>
 			</div>
 		<?php endforeach; ?>
+		
 	<?php do_action( 'it_exchange_content_checkout_end_totals_loop' ); ?>
 <?php do_action( 'it_exchange_content_checkout_before_totals_loop' ); ?>
 </div>

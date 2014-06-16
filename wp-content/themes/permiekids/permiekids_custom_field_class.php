@@ -30,10 +30,27 @@ class IT_Theme_API_PermieKids_registration extends IT_Theme_API_Registration {
 		$this->_tag_map['twitter'] = 'twitter';
 		$this->_tag_map['linkedin'] = 'linkedin';	
 		$this->_tag_map['what_are_you_working_on'] = 'what_are_you_working_on';	
+		$this->_tag_map['avatar'] = 'avatar';
 	}
  
 
-	
+
+	/**
+	 * Outputs the customer's avatar data
+	 *
+	 * @since 0.4.0
+	 * @return string
+	*/
+	function avatar( $options=array() ) {
+		$defaults = array(
+			'size' => 200,
+		);
+		$options = ITUtility::merge_defaults( $options, $defaults );
+		$user_id = get_current_user_id();
+		$user_info = get_userdata($user_id);
+		return get_avatar( $user_info->user_email, 200 ) . 'Edit your profile photo' ;
+	}
+		
 	function motto( $options=array() ) {
 				
 		$defaults      = array(
