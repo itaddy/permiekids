@@ -1,0 +1,117 @@
+#search-controls table tr th {
+    text-align: right;
+    width:      33%;
+}
+
+#search-controls table tr th h4 {
+    text-align: left;
+}
+
+#search-controls table tr th.label-top {
+    vertical-align: top;
+}
+
+#search, #reset {
+    float:      left;
+    width:      100%;
+    max-width:  265px;
+    text-align: center;
+}
+
+#search {
+    margin-top: 10px;
+}
+
+#export {
+    margin-bottom: -28px;
+    display:       block;
+}
+
+.column-ID {
+    width: 50px;
+}
+
+.tablenav.top {
+    margin-top: -15px;
+}
+
+.tablenav-pages .current-page {
+    text-align: center;
+    width:      auto;
+    font-size:  14px;
+    padding:    0 5px 5px 3px;
+    margin:     1px;
+}
+
+#search-controls > div {
+    float:         left;
+    width:         30%;
+    padding-right: 3%;
+}
+
+#search-controls > div > table {
+    width: 100%;
+}
+
+#search-controls .submit {
+    margin:  0;
+    padding: 0;
+}
+
+@media screen and (max-width: 782px) {
+    #search-controls > div {
+        width: 100%;
+    }
+
+    #search-controls > div > table {
+        width: 100%;
+    }
+
+    #search-controls .submit {
+        float:     left;
+        width:     100%;
+        max-width: 265px;
+    }
+
+    .column-date_paid, .column-fee_paid,
+    .column-paid_by, .column-invoice,
+    .column-receipt, .column-email {
+        display: none;
+    }
+
+    #search-controls {
+        margin-top: 15px;
+    }
+
+    #search, #reset {
+        max-width: 265px;
+    }
+
+    #export {
+        margin-bottom: 0;
+    }
+
+    .displaying-num {
+        width:      100%;
+        margin-top: -15px;
+    }
+
+    .toplevel_page_ldmw-manage-members .wrap .add-new-h2 {
+        width:       95%;
+        display:     inline-block;
+        margin-top:  10px;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 468px) {
+    .column-division {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .column-ID {
+        display: none;
+    }
+}

@@ -1,0 +1,1 @@
+<td><a href="<?php it_exchange( 'papers', 'download' ); ?>" class="btn rounded btn-flat btn-default btn-small" style="margin: 0">Download</a></td>

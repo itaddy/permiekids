@@ -1,0 +1,3396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="8" />
+    <option name="CUSTOM_SCOPE_NAME" value="Project Files" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1526e090-0313-487d-8d16-2e98fd3f2291" name="Default" comment="" />
+    <ignored path="site-specific-code.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="site-specific-code" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="load.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/conference/load.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="240">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="class.base.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/conference/papers/admin/class.base.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1313" max-vertical-offset="3030">
+              <caret line="100" column="39" selection-start-line="100" selection-start-column="39" selection-end-line="100" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="site-specific-code.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/site-specific-code.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.12304251" vertical-offset="0" max-vertical-offset="2130">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="customers.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ithemes-exchange/api/customers.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-30.875" vertical-offset="2049" max-vertical-offset="4260">
+              <caret line="191" column="34" selection-start-line="191" selection-start-column="9" selection-end-line="191" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="init.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/init.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="1695">
+              <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="class.fm_author.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/journal/admin/class.fm_author.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1590">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="class.base.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/conference/tec/class.base.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="615">
+              <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="load.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/journal/load.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="540">
+              <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fieldmanager.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../wordpress-fieldmanager-master/fieldmanager.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1643" max-vertical-offset="5715">
+              <caret line="138" column="9" selection-start-line="138" selection-start-column="9" selection-end-line="138" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="class-fieldmanager-datepicker.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../wordpress-fieldmanager-master/php/class-fieldmanager-datepicker.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="556" max-vertical-offset="1785">
+              <caret line="56" column="36" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="production" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/lib/conference/exchange/class.checkout.php" />
+        <option value="$PROJECT_DIR$/lib/managemembers/abstract.controller.php" />
+        <option value="$PROJECT_DIR$/lib/managemembers/controller/class.import.php" />
+        <option value="$PROJECT_DIR$/lib/managemembers/controller/class.export.php" />
+        <option value="$PROJECT_DIR$/lib/managemembers/class.dispatch.php" />
+        <option value="$PROJECT_DIR$/lib/conference/exchange/load.php" />
+        <option value="$PROJECT_DIR$/lib/managemembers/model/class.users.php" />
+        <option value="$PROJECT_DIR$/lib/conference/tec/class.page.php" />
+        <option value="$PROJECT_DIR$/../../../wp-includes/rewrite.php" />
+        <option value="$PROJECT_DIR$/../wordpress-fieldmanager-master/php/class-fieldmanager-group.php" />
+        <option value="$PROJECT_DIR$/../../../wp-includes/class-wp-editor.php" />
+        <option value="$PROJECT_DIR$/../wordpress-fieldmanager-master/php/class-fieldmanager-richtextarea.php" />
+        <option value="$PROJECT_DIR$/lib/conference/metabox/class.speakers.php" />
+        <option value="$PROJECT_DIR$/lib/testing/class.base.php" />
+        <option value="$PROJECT_DIR$/lib/options/class.options-controller.php" />
+        <option value="$PROJECT_DIR$/lib/conference/attendees/load.php" />
+        <option value="$PROJECT_DIR$/lib/conference/exchange/class.base.php" />
+        <option value="$PROJECT_DIR$/lib/conference/attendees/class.model.php" />
+        <option value="$PROJECT_DIR$/lib/managemembers/controller/class.table.php" />
+        <option value="$PROJECT_DIR$/lib/managemembers/view/class.list.php" />
+        <option value="$PROJECT_DIR$/lib/conference/attendees/class.controller.php" />
+        <option value="$PROJECT_DIR$/lib/conference/attendees/class.table.php" />
+        <option value="$PROJECT_DIR$/lib/managemembers/abstract.view.php" />
+        <option value="$PROJECT_DIR$/lib/conference/attendees/class.export.php" />
+        <option value="$PROJECT_DIR$/lib/managemembers/controller/class.list.php" />
+        <option value="$PROJECT_DIR$/lib/conference/attendees/class.view.php" />
+        <option value="$PROJECT_DIR$/lib/conference/attendees/class.dispatch.php" />
+        <option value="$PROJECT_DIR$/lib/managemembers/view/class.export.php" />
+        <option value="$PROJECT_DIR$/lib/conference/tec/class.base.php" />
+        <option value="$PROJECT_DIR$/lib/conference/papers/display/class.base.php" />
+        <option value="$PROJECT_DIR$/lib/conference/metabox/load.php" />
+        <option value="$PROJECT_DIR$/lib/journal/exchange/class.display.php" />
+        <option value="$PROJECT_DIR$/lib/conference/papers/exchange/class.display.php" />
+        <option value="$PROJECT_DIR$/templates/exchange/content-papers/loops/fields.php" />
+        <option value="$PROJECT_DIR$/templates/exchange/content-papers/elements/view.php" />
+        <option value="$PROJECT_DIR$/templates/exchange/content-papers/elements/publish-date.php" />
+        <option value="$PROJECT_DIR$/templates/exchange/content-papers/elements/name.php" />
+        <option value="$PROJECT_DIR$/templates/exchange/content-papers/elements/download.php" />
+        <option value="$PROJECT_DIR$/templates/exchange/content-papers/elements/author.php" />
+        <option value="$PROJECT_DIR$/templates/exchange/content-papers.php" />
+        <option value="$PROJECT_DIR$/../the-events-calendar/lib/tribe-event-query.class.php" />
+        <option value="$PROJECT_DIR$/lib/conference/papers/exchange/class.api.php" />
+        <option value="$PROJECT_DIR$/lib/users/class.base.php" />
+        <option value="$PROJECT_DIR$/lib/conference/metabox/class.page.php" />
+        <option value="$PROJECT_DIR$/lib/conference/load.php" />
+        <option value="$PROJECT_DIR$/lib/conference/papers/admin/class.base.php" />
+        <option value="$PROJECT_DIR$/init.php" />
+        <option value="$PROJECT_DIR$/../wordpress-fieldmanager-master/fieldmanager.php" />
+        <option value="$PROJECT_DIR$/../wordpress-fieldmanager-master/php/class-fieldmanager-datepicker.php" />
+        <option value="$PROJECT_DIR$/lib/journal/load.php" />
+        <option value="$PROJECT_DIR$/site-specific-code.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="Unnamed">
+    <include_path>
+      <path value="$PROJECT_DIR$/../../../wp-admin" />
+      <path value="$PROJECT_DIR$/../../../wp-includes" />
+      <path value="$PROJECT_DIR$/../gravityforms" />
+      <path value="$PROJECT_DIR$/../ithemes-exchange" />
+      <path value="$PROJECT_DIR$/../exchange-addon-invoices" />
+      <path value="$PROJECT_DIR$/../exchange-addon-prorated-subscriptions" />
+      <path value="$PROJECT_DIR$/../exchange-addon-membership-product-restriction" />
+      <path value="$PROJECT_DIR$/../exchange-addon-manual-purchases" />
+      <path value="$PROJECT_DIR$/../exchange-addon-stripe" />
+      <path value="$PROJECT_DIR$/../wpmandrill" />
+      <path value="$PROJECT_DIR$/../exchange-addon-recurring-payments" />
+      <path value="$PROJECT_DIR$/../exchange-addon-membership" />
+      <path value="$PROJECT_DIR$/../bbpress" />
+      <path value="$PROJECT_DIR$/../wordpress-fieldmanager-master" />
+      <path value="$PROJECT_DIR$/../taxonomy-metadata" />
+      <path value="$PROJECT_DIR$/../exchange-addon-variants" />
+      <path value="$PROJECT_DIR$/../exchange-addon-membership-bbpress" />
+      <path value="$PROJECT_DIR$/../exchange-addon-quantity-discounts" />
+      <path value="$PROJECT_DIR$/../exchange-addon-free-offers" />
+      <path value="$PROJECT_DIR$/../exchange-addon-events" />
+      <path value="$PROJECT_DIR$/../posts-to-posts" />
+      <path value="$PROJECT_DIR$/../the-events-calendar" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="2560" />
+    <option name="height" value="1440" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site-specific-code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.jetbrains.php.config.PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PHP" />
+              <option name="myItemType" value="com.jetbrains.php.config.PhpExternalLibrariesNodePatcher$PatchedLibraryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site-specific-code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.jetbrains.php.config.PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PHP" />
+              <option name="myItemType" value="com.jetbrains.php.config.PhpExternalLibrariesNodePatcher$PatchedLibraryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wordpress-fieldmanager-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site-specific-code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.jetbrains.php.config.PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PHP" />
+              <option name="myItemType" value="com.jetbrains.php.config.PhpExternalLibrariesNodePatcher$PatchedLibraryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="the-events-calendar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site-specific-code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.jetbrains.php.config.PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PHP" />
+              <option name="myItemType" value="com.jetbrains.php.config.PhpExternalLibrariesNodePatcher$PatchedLibraryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="the-events-calendar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site-specific-code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.jetbrains.php.config.PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PHP" />
+              <option name="myItemType" value="com.jetbrains.php.config.PhpExternalLibrariesNodePatcher$PatchedLibraryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ithemes-exchange" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site-specific-code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.jetbrains.php.config.PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PHP" />
+              <option name="myItemType" value="com.jetbrains.php.config.PhpExternalLibrariesNodePatcher$PatchedLibraryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ithemes-exchange" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site-specific-code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.jetbrains.php.config.PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PHP" />
+              <option name="myItemType" value="com.jetbrains.php.config.PhpExternalLibrariesNodePatcher$PatchedLibraryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ithemes-exchange" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site-specific-code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site-specific-code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site-specific-code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site-specific-code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site-specific-code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site-specific-code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="options" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site-specific-code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site-specific-code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="journal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site-specific-code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site-specific-code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="journal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../www.permiekidsdev.dev/wp-content/plugins" />
+    <property name="FullScreen" value="true" />
+    <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
+    <property name="options.lastSelected" value="Configurable.PHP" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="SearchEverywhereHistory" value="generate_renewa&#10;renewal&#10;status&#10;ibd_notify_Em&#10;WP_DEBUG_LOG&#10;generate_re&#10;get_application_typ&#10;//&#10;'#start" />
+    <property name="LayoutCode.rearrangeEntriesCSS" value="false" />
+    <property name="LayoutCode.rearrangeEntriesJavaScript" value="false" />
+    <property name="LayoutCode.rearrangeEntries" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="wp_post&#9;null&#9;null&#10;&#9;FILE&#9;file:///Users/timothybjacobs/Documents/Websites/www.itexchange.dev/wp-content/plugins/site-specific-code/lib/conference/papers/admin/class.cpt.php&#10;wpdb&#9;null&#9;null&#10;WP_Query&#9;null&#9;null&#10;wp_tax&#9;null&#9;null&#10;WP_Term&#9;null&#9;null&#10;network_site_u&#9;null&#9;null&#10;it_exchange_product&#9;null&#9;null&#10;get_user&#9;null&#9;null&#10;is_email&#9;null&#9;null&#10;post_list&#9;null&#9;null&#10;it_exchange_Get_products&#9;null&#9;null&#10;date_i1&#9;null&#9;null&#10;add_metada&#9;null&#9;null&#10;restore_curr&#9;null&#9;null&#10;wp_unreg&#9;null&#9;null&#10;Core_&#9;null&#9;null&#10;transition_p&#9;null&#9;null&#10;sort&#9;null&#9;null&#10;translate_wit&#9;null&#9;null&#10;wp_user_list&#9;null&#9;null&#10;wp_user_query&#9;null&#9;null&#10;get_post_status&#9;null&#9;null&#10;LDMW_User&#9;null&#9;null&#10;update_metada&#9;null&#9;null&#10;it_exchange_register_core&#9;null&#9;null&#10;get_header&#9;null&#9;null&#10;wp_insert_u&#9;null&#9;null&#10;is_user&#9;null&#9;null&#10;generate&#9;null&#9;null&#10;setup_me&#9;null&#9;null&#10;LDMW_O&#9;null&#9;null&#10;loginout&#9;null&#9;null&#10;set_ur&#9;null&#9;null&#10;register_met&#9;null&#9;null&#10;states.&#9;FILE&#9;file:///Users/timothybjacobs/Documents/Websites/www.itexchange.dev/wp-content/plugins/ithemes-exchange/api/data-sets/states.php&#10;coun&#9;FILE&#9;file:///Users/timothybjacobs/Documents/Websites/www.itexchange.dev/wp-content/plugins/ithemes-exchange/api/data-sets/countries.php&#10;membership&#9;null&#9;null&#10;add_subm&#9;null&#9;null&#10;it_exchange_get_count&#9;null&#9;null&#10;it_exchange_get_sta&#9;null&#9;null&#10;it_exchange_get_coun&#9;null&#9;null&#10;checkout_req&#9;null&#9;null&#10;messages&#9;null&#9;null&#10;password_res&#9;null&#9;null&#10;get_met&#9;null&#9;null&#10;applicabl&#9;null&#9;null&#10;grades&#9;null&#9;null&#10;current_user_can&#9;null&#9;null&#10;welcome_&#9;null&#9;null" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates/exchange" />
+      <recent name="$PROJECT_DIR$/templates/exchange/content-invoice-product/elements" />
+      <recent name="$PROJECT_DIR$/templates/exchange/content-profile/loops" />
+      <recent name="$PROJECT_DIR$/templates/exchange/content-profile" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/conference/papers" />
+      <recent name="$PROJECT_DIR$/lib/conference/papers/admin" />
+      <recent name="$PROJECT_DIR$/templates/exchange/content-invoice-product" />
+      <recent name="$PROJECT_DIR$/lib/exchange/assets/css" />
+      <recent name="$PROJECT_DIR$/assets/vendor/jquery.modal" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" myUseAcceleration="nothing">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1526e090-0313-487d-8d16-2e98fd3f2291" name="Default" comment="" />
+      <created>1391814234896</created>
+      <option name="number" value="Default" />
+      <updated>1391814234896</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Manually add the membership product when a user is imported.">
+      <created>1393355126110</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1393355126110</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Parse CSV into data suitable for model.">
+      <created>1393356237071</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1393356237071</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Send new user notification emails, and add default_password_nag because password was transmitted in plain-text.">
+      <created>1393357560678</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1393357560678</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add CSV headers">
+      <created>1393357911407</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1393357911407</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Code format CSV">
+      <created>1393360475367</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1393360475367</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Check if valid string for datetime, before formatting">
+      <created>1393360673398</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1393360673398</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Code formatting">
+      <created>1393363242762</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1393363242762</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Display errors">
+      <created>1393363346350</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1393363346350</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Fix user importing. Check if we are editing or inserting user during parsing of CSV. Correct user_id, to grab from WP_User object so that if we are updating based on email, we are all good.">
+      <created>1393363423903</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1393363423903</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Check if errors exist before rendering">
+      <created>1393365308465</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1393365308465</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Code formatting.">
+      <created>1393365456818</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1393365456818</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Pass correct value to Coseva::_flushEmptyRow(), because the row wasn't being passed by reference, the flushEmptyRow check was provided the pre-filtered row, and as such didn't properly unset the row.">
+      <created>1393366617329</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1393366617329</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Check if row is empty() each time a Coseva filter is applied. Solves problem of array indexes not being set when a previous filter already cleared the row.">
+      <created>1393366860613</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1393366860613</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Remove first error from CSV header">
+      <created>1393367378432</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1393367378432</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Fix default sorting column.">
+      <created>1393367435113</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1393367435113</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Fix disappearing metadata by moving update_user_meta() to end of function. No idea why this makes a difference, but somehow the userdata was being overwritten.">
+      <created>1393368652180</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1393368652180</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Correct sorting when data is numeric.">
+      <created>1393369440825</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1393369440825</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Correct usage of wildcard searching.">
+      <created>1393369925076</created>
+      <option name="number" value="00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1393369925076</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Move List Table to Controller">
+      <created>1393370423178</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1393370423178</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Clean up documentation, and remove excess.">
+      <created>1393370804414</created>
+      <option name="number" value="00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1393370804414</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Move sorting for static columns to WP_User_Query. For dynamically generated data, we fall back to usort.">
+      <created>1393372833256</created>
+      <option name="number" value="00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1393372833256</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Properly check if we are using order &amp; orderby, and populate this data into hidden form fields so we can use them while performing a custom search.">
+      <created>1393373429757</created>
+      <option name="number" value="00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1393373429757</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Fix bug where couldn't sort and search if the sort column was a different column then the column you were searching on.">
+      <created>1393373475514</created>
+      <option name="number" value="00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1393373475514</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Correct documentation.">
+      <created>1393375473158</created>
+      <option name="number" value="00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1393375473158</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Add hooks to add new member, when passed create-member query arg">
+      <created>1393376340116</created>
+      <option name="number" value="00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1393376340116</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Code formatting, and new function to go from membership status slug to name.">
+      <created>1393378185121</created>
+      <option name="number" value="00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1393378185121</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Add ability to manually create memberships from default WP add new user page.">
+      <created>1393378207554</created>
+      <option name="number" value="00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1393378207554</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Move membership grade and division to WP_User_Util">
+      <created>1393378493095</created>
+      <option name="number" value="00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1393378493095</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Add membership division link">
+      <created>1393392780425</created>
+      <option name="number" value="00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1393392780425</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Strip slashes.">
+      <created>1393392895833</created>
+      <option name="number" value="00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1393392895833</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Correct email variables.">
+      <created>1393393135291</created>
+      <option name="number" value="00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1393393135291</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Refactor so single application action edit, extends single application view. Replace ad hoc metabox functionality with add_meta_box and do_meta_boxes API. Fix bug when editing an application that has parent fields that are different, but single fields are the same.">
+      <created>1393446347056</created>
+      <option name="number" value="00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1393446347056</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Debugging.">
+      <created>1393447235718</created>
+      <option name="number" value="00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1393447235718</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Fix application form editing when multidimensional arrays of data.">
+      <created>1393457079580</created>
+      <option name="number" value="00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1393457079580</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Add more specialized error messages, and migrate existing error message to Notify.">
+      <created>1393467785849</created>
+      <option name="number" value="00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1393467785849</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Correct placement of boolean returns during update &amp; inserting users.">
+      <created>1393467933480</created>
+      <option name="number" value="00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1393467933480</updated>
+    </task>
+    <task id="LOCAL-00037" summary="While updating users, ensure that the ID field is set. Remove user_email from wp_update_user, since email is also associated with username.">
+      <created>1393468135826</created>
+      <option name="number" value="00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1393468135826</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Shrink page selector textbox to normal size.">
+      <created>1393468455432</created>
+      <option name="number" value="00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1393468455432</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Add members per page screen option.">
+      <created>1393475790464</created>
+      <option name="number" value="00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1393475790464</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Add password nag to members who are manually created.">
+      <created>1393509966006</created>
+      <option name="number" value="00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1393509966006</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Move renewal notifications to notifications package, and correct diff ordering.">
+      <created>1393510401256</created>
+      <option name="number" value="00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1393510401256</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Use total days for diff, not just days part.">
+      <created>1393510439736</created>
+      <option name="number" value="00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1393510439736</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Add different prices for different membership grades.">
+      <created>1393619322574</created>
+      <option name="number" value="00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1393619322574</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Added correct membership statuses and divisions.">
+      <created>1393619546996</created>
+      <option name="number" value="00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1393619546996</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Add company name to billing address.">
+      <created>1393635227337</created>
+      <option name="number" value="00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1393635227337</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Change Stripe payment label to pay now from checkout.">
+      <created>1393635520301</created>
+      <option name="number" value="00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1393635520301</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Remove shipping address from confirmation screen.">
+      <created>1393637708010</created>
+      <option name="number" value="00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1393637708010</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Add company_name to checkout by prepending the company_name to the fetched elements.">
+      <created>1393638227244</created>
+      <option name="number" value="00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1393638227253</updated>
+    </task>
+    <task id="LOCAL-00049" summary="In-line docs.">
+      <created>1393693130921</created>
+      <option name="number" value="00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1393693130925</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Add special Notify notification for Flatco theme.">
+      <created>1393822496412</created>
+      <option name="number" value="00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1393822496413</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Prompt for notes on application approval/rejection. Allow for applications to be rejected for incompleteness.">
+      <created>1393896346932</created>
+      <option name="number" value="00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1393896346932</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Hide iThemes Exchange membership product from non-approved applicants">
+      <created>1393900936581</created>
+      <option name="number" value="00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1393900936581</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Add growl notifications for when applications are approved, denied &amp; rejected.">
+      <created>1393902886907</created>
+      <option name="number" value="00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1393902886908</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Make textarea modals start out as having 10 rows.">
+      <created>1393905601423</created>
+      <option name="number" value="00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1393905601424</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Flatco notification should use Flatco message themeing.">
+      <created>1393964670782</created>
+      <option name="number" value="00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1393964670782</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Docs and spacing.">
+      <created>1393964685573</created>
+      <option name="number" value="00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1393964685573</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Make default class &quot;info&quot; instead of warning.">
+      <created>1393964855607</created>
+      <option name="number" value="00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1393964855607</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Correct in_array call.">
+      <created>1393965413761</created>
+      <option name="number" value="00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1393965413761</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Only generate a renewal invoice if one does not exist.">
+      <created>1394050968768</created>
+      <option name="number" value="00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1394050968769</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Pass names not slugs of division, grade, and status in email templates.">
+      <created>1394070967216</created>
+      <option name="number" value="00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1394070967216</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Add testing page in the admin area.">
+      <created>1394070998009</created>
+      <option name="number" value="00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1394070998009</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Fix problems with renewal emails and actions.">
+      <created>1394071022093</created>
+      <option name="number" value="00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1394071022094</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Display status name, not slug.">
+      <created>1394202983779</created>
+      <option name="number" value="00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1394202983779</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Allow email subject lines to be controlled.">
+      <created>1394675547896</created>
+      <option name="number" value="00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1394675547897</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Add logos to top right of invoices.">
+      <created>1394677260600</created>
+      <option name="number" value="00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1394677260600</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Add membership period to renewal invoice titles.">
+      <created>1394677577844</created>
+      <option name="number" value="00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1394677577844</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Generated invoices should have a comment status of closed.">
+      <created>1394679255267</created>
+      <option name="number" value="00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1394679255267</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Add $this to action.">
+      <created>1394679973590</created>
+      <option name="number" value="00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1394679973590</updated>
+    </task>
+    <task id="LOCAL-00069" summary="Add billing address to customer from on invoice.">
+      <created>1394680112925</created>
+      <option name="number" value="00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1394680112925</updated>
+    </task>
+    <task id="LOCAL-00070" summary="Add GST to invoices.">
+      <created>1394680943281</created>
+      <option name="number" value="00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1394680943281</updated>
+    </task>
+    <task id="LOCAL-00071" summary="Display invoice logo better.">
+      <created>1394681332800</created>
+      <option name="number" value="00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1394681332800</updated>
+    </task>
+    <task id="LOCAL-00072" summary="Add notification after paid invoice telling them to update their info.">
+      <created>1394682650616</created>
+      <option name="number" value="00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1394682650616</updated>
+    </task>
+    <task id="LOCAL-00073" summary="Rename miscellaneous tab to membership.">
+      <created>1394683071964</created>
+      <option name="number" value="00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1394683071964</updated>
+    </task>
+    <task id="LOCAL-00074" summary="Move GST to new line.">
+      <created>1394683590753</created>
+      <option name="number" value="00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1394683590754</updated>
+    </task>
+    <task id="LOCAL-00075" summary="Diff should be calculated by number of days, not day parts.">
+      <created>1394684121525</created>
+      <option name="number" value="00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1394684121525</updated>
+    </task>
+    <task id="LOCAL-00076" summary="If no GST settings is present, then bail.">
+      <created>1394684458630</created>
+      <option name="number" value="00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1394684458631</updated>
+    </task>
+    <task id="LOCAL-00077" summary="Better align logo.">
+      <created>1394684640791</created>
+      <option name="number" value="00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1394684640791</updated>
+    </task>
+    <task id="LOCAL-00078" summary="Add actions to sent renewal emails, and a days to renewal hook.">
+      <created>1394724933184</created>
+      <option name="number" value="00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1394724933184</updated>
+    </task>
+    <task id="LOCAL-00079" summary="Mark membership status as overdue after 1st of september deadline, and mark as current when they pay.">
+      <created>1394727750897</created>
+      <option name="number" value="00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1394727750898</updated>
+    </task>
+    <task id="LOCAL-00080" summary="Refactor membership view to use static util methods instead of their own functions.">
+      <created>1394740602558</created>
+      <option name="number" value="00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1394740602559</updated>
+    </task>
+    <task id="LOCAL-00081" summary="Add communication preferences to user profile.">
+      <created>1394844516122</created>
+      <option name="number" value="00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1394844516122</updated>
+    </task>
+    <task id="LOCAL-00082" summary="Add addresses and phone numbers to user profile.">
+      <created>1394856136451</created>
+      <option name="number" value="00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1394856136452</updated>
+    </task>
+    <task id="LOCAL-00083" summary="Add transactions tab to my account.">
+      <created>1394917198804</created>
+      <option name="number" value="00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1394917198804</updated>
+    </task>
+    <task id="LOCAL-00084" summary="Allow receipts to be resent.">
+      <created>1394924566479</created>
+      <option name="number" value="00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1394924566479</updated>
+    </task>
+    <task id="LOCAL-00085" summary="Check nonce before processing.">
+      <created>1394924999874</created>
+      <option name="number" value="00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1394924999875</updated>
+    </task>
+    <task id="LOCAL-00086" summary="Add link to view receipt.">
+      <created>1394925334640</created>
+      <option name="number" value="00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1394925334641</updated>
+    </task>
+    <task id="LOCAL-00087" summary="Dispatch requests; only load classes on their pages.">
+      <created>1394926685778</created>
+      <option name="number" value="00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1394926685778</updated>
+    </task>
+    <task id="LOCAL-00088" summary="Remove downloads from account.">
+      <created>1394927146016</created>
+      <option name="number" value="00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1394927146016</updated>
+    </task>
+    <task id="LOCAL-00089" summary="Add membership info to account member page.">
+      <created>1394930909298</created>
+      <option name="number" value="00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1394930909299</updated>
+    </task>
+    <task id="LOCAL-00090" summary="Allow custom fields to be populated dynamically.">
+      <created>1394934285434</created>
+      <option name="number" value="00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1394934285434</updated>
+    </task>
+    <task id="LOCAL-00091" summary="Add logic to allow custom fields to be populated dynamically.">
+      <created>1394935027678</created>
+      <option name="number" value="00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1394935027678</updated>
+    </task>
+    <task id="LOCAL-00092" summary="Show all products in dropdown.">
+      <created>1394936894673</created>
+      <option name="number" value="00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1394936894673</updated>
+    </task>
+    <task id="LOCAL-00093" summary="Add ABN number to invoice.">
+      <created>1394938370312</created>
+      <option name="number" value="00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1394938370312</updated>
+    </task>
+    <task id="LOCAL-00094" summary="Add GST to email.">
+      <created>1394940907204</created>
+      <option name="number" value="00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1394940907204</updated>
+    </task>
+    <task id="LOCAL-00095" summary="Remove menu from confirmation page.">
+      <created>1394942260920</created>
+      <option name="number" value="00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1394942260920</updated>
+    </task>
+    <task id="LOCAL-00096" summary="Fix problem where simple fields wouldn't save.">
+      <created>1394943806096</created>
+      <option name="number" value="00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1394943806096</updated>
+    </task>
+    <task id="LOCAL-00097" summary="Change application product buy now text to pay application fee">
+      <created>1394944715072</created>
+      <option name="number" value="00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1394944715072</updated>
+    </task>
+    <task id="LOCAL-00098" summary="Change grace period to 30 days.">
+      <created>1394945821010</created>
+      <option name="number" value="00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1394945821010</updated>
+    </task>
+    <task id="LOCAL-00099" summary="Allow for non-australian addresses.">
+      <created>1394981369158</created>
+      <option name="number" value="00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1394981369159</updated>
+    </task>
+    <task id="LOCAL-00100" summary="Use jquery autocomplete on states and countries">
+      <created>1394987338871</created>
+      <option name="number" value="00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1394987338872</updated>
+    </task>
+    <task id="LOCAL-00101" summary="Only display membership class on the membership product.">
+      <created>1394988773547</created>
+      <option name="number" value="00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1394988773547</updated>
+    </task>
+    <task id="LOCAL-00102" summary="Only allow profile pages to be edited by people with edit_users capability.">
+      <created>1394996675930</created>
+      <option name="number" value="00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1394996675930</updated>
+    </task>
+    <task id="LOCAL-00103" summary="Fix last login time, by using passed WP_User object instead of the get_current_user_id() function.">
+      <created>1394996956845</created>
+      <option name="number" value="00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1394996956846</updated>
+    </task>
+    <task id="LOCAL-00104" summary="Block member's from viewing admin interface.">
+      <created>1394998085846</created>
+      <option name="number" value="00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1394998085847</updated>
+    </task>
+    <task id="LOCAL-00105" summary="Have transfer form GET to the application form page, and automatically fill some fields.">
+      <created>1395005961895</created>
+      <option name="number" value="00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1395005961896</updated>
+    </task>
+    <task id="LOCAL-00106" summary="Allow for automatic membership upgrades.">
+      <created>1395007736388</created>
+      <option name="number" value="00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1395007736388</updated>
+    </task>
+    <task id="LOCAL-00107" summary="Allow filtering based on product type.">
+      <created>1395011691207</created>
+      <option name="number" value="00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1395011691207</updated>
+    </task>
+    <task id="LOCAL-00108" summary="Make sure get_current_screen function exists before using it. Prevents problems when a WP_Query_* is used before the current_screen hook.">
+      <created>1395012850546</created>
+      <option name="number" value="00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1395012850547</updated>
+    </task>
+    <task id="LOCAL-00109" summary="Allow for pending applications to be searched.">
+      <created>1395170177288</created>
+      <option name="number" value="00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1395170177288</updated>
+    </task>
+    <task id="LOCAL-00110" summary="Naming.">
+      <created>1395190372881</created>
+      <option name="number" value="00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1395190372881</updated>
+    </task>
+    <task id="LOCAL-00111" summary="Allow applications to be exported.">
+      <created>1395192071755</created>
+      <option name="number" value="00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1395192071756</updated>
+    </task>
+    <task id="LOCAL-00112" summary="Make sure current user can list_users before rendering CSV.">
+      <created>1395192602677</created>
+      <option name="number" value="00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1395192602677</updated>
+    </task>
+    <task id="LOCAL-00113" summary="Add billing address to customer receipts.">
+      <created>1395193831285</created>
+      <option name="number" value="00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1395193831285</updated>
+    </task>
+    <task id="LOCAL-00114" summary="Update division names.">
+      <created>1395196121050</created>
+      <option name="number" value="00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1395196121050</updated>
+    </task>
+    <task id="LOCAL-00115" summary="Add full titles for membership grades.">
+      <created>1395196500147</created>
+      <option name="number" value="00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1395196500147</updated>
+    </task>
+    <task id="LOCAL-00116" summary="Hide available membership content from confirmations.">
+      <created>1395196867114</created>
+      <option name="number" value="00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1395196867114</updated>
+    </task>
+    <task id="LOCAL-00117" summary="Add GST to confirmation screen.">
+      <created>1395199130629</created>
+      <option name="number" value="00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1395199130629</updated>
+    </task>
+    <task id="LOCAL-00118" summary="Fix bug where GST calculations were zeroing out the price in the confirmation emails.">
+      <created>1395199258014</created>
+      <option name="number" value="00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1395199258014</updated>
+    </task>
+    <task id="LOCAL-00119" summary="Add application form product to user on import as well as the membership product.">
+      <created>1395202092169</created>
+      <option name="number" value="00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1395202092170</updated>
+    </task>
+    <task id="LOCAL-00120" summary="Make gravity form selects autocomplete.">
+      <created>1395265478094</created>
+      <option name="number" value="00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1395265478095</updated>
+    </task>
+    <task id="LOCAL-00121" summary="Target only selects in the gform_wrapper div">
+      <created>1395266077255</created>
+      <option name="number" value="00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1395266077255</updated>
+    </task>
+    <task id="LOCAL-00122" summary="Remove unused application types.">
+      <created>1395267281835</created>
+      <option name="number" value="00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1395267281835</updated>
+    </task>
+    <task id="LOCAL-00123" summary="Don't add JS making selects autocomplete.">
+      <created>1395320163740</created>
+      <option name="number" value="00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1395320163741</updated>
+    </task>
+    <task id="LOCAL-00124" summary="Use utility functions instead of getting the data directly.">
+      <created>1395320191654</created>
+      <option name="number" value="00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1395320191654</updated>
+    </task>
+    <task id="LOCAL-00125" summary="Add a billing_address function to the ITE email shortcode">
+      <created>1395342067515</created>
+      <option name="number" value="00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1395342067515</updated>
+    </task>
+    <task id="LOCAL-00126" summary="Add ability to use a separate email template for payments made via offline-payments.">
+      <created>1395347045905</created>
+      <option name="number" value="00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1395347045905</updated>
+    </task>
+    <task id="LOCAL-00127" summary="Only replace if transaction isn't cleared for delivery.">
+      <created>1395349140839</created>
+      <option name="number" value="00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1395349140839</updated>
+    </task>
+    <task id="LOCAL-00128" summary="Exit out of filtering products if we aren't filtering">
+      <created>1395351280121</created>
+      <option name="number" value="00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1395351280121</updated>
+    </task>
+    <task id="LOCAL-00129" summary="Use Exchange's method of determining payment method name">
+      <created>1395351461677</created>
+      <option name="number" value="00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1395351461678</updated>
+    </task>
+    <task id="LOCAL-00130" summary="Use transaction ID to trigger a re-pull of the transaction from the DB">
+      <created>1395352209487</created>
+      <option name="number" value="00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1395352209487</updated>
+    </task>
+    <task id="LOCAL-00131" summary="Check data exists before using.">
+      <created>1395352470372</created>
+      <option name="number" value="00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1395352470372</updated>
+    </task>
+    <task id="LOCAL-00132" summary="Make sure values are set before using">
+      <created>1395353693075</created>
+      <option name="number" value="00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1395353693076</updated>
+    </task>
+    <task id="LOCAL-00133" summary="Change application page tab title.">
+      <created>1395358608228</created>
+      <option name="number" value="00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1395358608229</updated>
+    </task>
+    <task id="LOCAL-00134" summary="Fix problem where late fees were being applied backwards.">
+      <created>1395438846445</created>
+      <option name="number" value="00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1395438846446</updated>
+    </task>
+    <task id="LOCAL-00135" summary="Add membership grade and division to invoice">
+      <created>1395439985865</created>
+      <option name="number" value="00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1395439985865</updated>
+    </task>
+    <task id="LOCAL-00136" summary="Delete invoice ids on membership reset, and save it to a separate meta location for old invoices.">
+      <created>1395440259089</created>
+      <option name="number" value="00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1395440259090</updated>
+    </task>
+    <task id="LOCAL-00137" summary="Clear crons on deactivation, and only add crons if one isn't already scheduled.">
+      <created>1395443642176</created>
+      <option name="number" value="00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1395443642177</updated>
+    </task>
+    <task id="LOCAL-00138" summary="DateInterval doesn't actually return a negative amount for days, instead we have to check if the invert property is equal to one, which tells us that the days are negative.">
+      <created>1395443730652</created>
+      <option name="number" value="00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1395443730653</updated>
+    </task>
+    <task id="LOCAL-00139" summary="DateInterval doesn't actually return a negative amount for days, instead we have to check if the invert property is equal to one, which tells us that the days are negative.">
+      <created>1395443760797</created>
+      <option name="number" value="00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1395443760797</updated>
+    </task>
+    <task id="LOCAL-00140" summary="Remove debug code.">
+      <created>1395443777265</created>
+      <option name="number" value="00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1395443777266</updated>
+    </task>
+    <task id="LOCAL-00141" summary="Check application fields are set before using">
+      <created>1395443986740</created>
+      <option name="number" value="00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1395443986740</updated>
+    </task>
+    <task id="LOCAL-00142" summary="Check values are set before using them.">
+      <created>1395444286082</created>
+      <option name="number" value="00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1395444286083</updated>
+    </task>
+    <task id="LOCAL-00143" summary="Field values for complex fields come from $input">
+      <created>1395444409330</created>
+      <option name="number" value="00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1395444409331</updated>
+    </task>
+    <task id="LOCAL-00144" summary="Rearrange order things are loaded.">
+      <created>1395445144278</created>
+      <option name="number" value="00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1395445144278</updated>
+    </task>
+    <task id="LOCAL-00145" summary="Force gritter text white.">
+      <created>1395445250336</created>
+      <option name="number" value="00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1395445250337</updated>
+    </task>
+    <task id="LOCAL-00146" summary="Instead of requiring once in load files, simply instantiate desired objects that follow PSR-4, thus allowing the autoloader to take over. Otherwise, can lead to conflicts where classes are being instantiated twice.">
+      <created>1395445597871</created>
+      <option name="number" value="00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1395445597871</updated>
+    </task>
+    <task id="LOCAL-00147" summary="Remove duplicate growl notifications, and move to notifications classes.">
+      <created>1395445770366</created>
+      <option name="number" value="00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1395445770378</updated>
+    </task>
+    <task id="LOCAL-00148" summary="Use correct call to user ID">
+      <created>1395446414684</created>
+      <option name="number" value="00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1395446414684</updated>
+    </task>
+    <task id="LOCAL-00149" summary="Prevent multiple notifications from being sent at same time by establishing a lock out">
+      <created>1395447945404</created>
+      <option name="number" value="00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1395447945405</updated>
+    </task>
+    <task id="LOCAL-00150" summary="Save membership grade earlier to allow for membership fee to be changed.">
+      <created>1395450788468</created>
+      <option name="number" value="00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1395450788469</updated>
+    </task>
+    <task id="LOCAL-00151" summary="Provide default values for billing address">
+      <created>1395498596744</created>
+      <option name="number" value="00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1395498596744</updated>
+    </task>
+    <task id="LOCAL-00152" summary="Registrars are advised when application is either approved or denied.">
+      <created>1395498742797</created>
+      <option name="number" value="00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1395498742797</updated>
+    </task>
+    <task id="LOCAL-00153" summary="Add certificate sent times to application">
+      <created>1395500713256</created>
+      <option name="number" value="00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1395500713256</updated>
+    </task>
+    <task id="LOCAL-00154" summary="Allow for new files to be added to the application">
+      <created>1395504654158</created>
+      <option name="number" value="00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1395504654158</updated>
+    </task>
+    <task id="LOCAL-00155" summary="Handle confirmation fields differently to prevent field from messing up layout due to its long length">
+      <created>1395505998270</created>
+      <option name="number" value="00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1395505998270</updated>
+    </task>
+    <task id="LOCAL-00156" summary="Add a link from application page directly to user profile">
+      <created>1395506401502</created>
+      <option name="number" value="00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1395506401502</updated>
+    </task>
+    <task id="LOCAL-00157" summary="Add membership application link, and renewal invoice link to membership user profile screen. Increase definition between table rows">
+      <created>1395507290531</created>
+      <option name="number" value="00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1395507290531</updated>
+    </task>
+    <task id="LOCAL-00158" summary="Save membership application">
+      <created>1395507401244</created>
+      <option name="number" value="00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1395507401244</updated>
+    </task>
+    <task id="LOCAL-00159" summary="Add edit application link">
+      <created>1395507880690</created>
+      <option name="number" value="00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1395507880690</updated>
+    </task>
+    <task id="LOCAL-00160" summary="Remove empty function">
+      <created>1395510626983</created>
+      <option name="number" value="00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1395510626983</updated>
+    </task>
+    <task id="LOCAL-00161" summary="Fix bug where Flatco notify notifications wouldn't disappear.">
+      <created>1395511749262</created>
+      <option name="number" value="00161" />
+      <option name="project" value="LOCAL" />
+      <updated>1395511749262</updated>
+    </task>
+    <task id="LOCAL-00162" summary="Add message before login button on super widget register">
+      <created>1395512268350</created>
+      <option name="number" value="00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1395512268350</updated>
+    </task>
+    <task id="LOCAL-00163" summary="Fix payment for membership product">
+      <created>1395542718769</created>
+      <option name="number" value="00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1395542718769</updated>
+    </task>
+    <task id="LOCAL-00164" summary="Save user's membership grade and division earlier so that we can send out emails properly">
+      <created>1395542928064</created>
+      <option name="number" value="00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1395542928064</updated>
+    </task>
+    <task id="LOCAL-00165" summary="Add pending applicants view">
+      <created>1395632237829</created>
+      <option name="number" value="00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1395632237829</updated>
+    </task>
+    <task id="LOCAL-00166" summary="Update naming">
+      <created>1395681226712</created>
+      <option name="number" value="00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1395681226712</updated>
+    </task>
+    <task id="LOCAL-00167" summary="Naming">
+      <created>1395681769075</created>
+      <option name="number" value="00167" />
+      <option name="project" value="LOCAL" />
+      <updated>1395681769075</updated>
+    </task>
+    <task id="LOCAL-00168" summary="Save membership status as current by default">
+      <created>1395703755701</created>
+      <option name="number" value="00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1395703755701</updated>
+    </task>
+    <task id="LOCAL-00169" summary="Echo start date">
+      <created>1395703769737</created>
+      <option name="number" value="00169" />
+      <option name="project" value="LOCAL" />
+      <updated>1395703769737</updated>
+    </task>
+    <task id="LOCAL-00170" summary="Provide default value for membership status">
+      <created>1395703894538</created>
+      <option name="number" value="00170" />
+      <option name="project" value="LOCAL" />
+      <updated>1395703894538</updated>
+    </task>
+    <task id="LOCAL-00171" summary="Provide better membership status default.">
+      <created>1395704756766</created>
+      <option name="number" value="00171" />
+      <option name="project" value="LOCAL" />
+      <updated>1395704756766</updated>
+    </task>
+    <task id="LOCAL-00172" summary="Allow for applications to be searched">
+      <created>1395706197426</created>
+      <option name="number" value="00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1395706197426</updated>
+    </task>
+    <task id="LOCAL-00173" summary="Make sure $screen is an instance of WP_Screen">
+      <created>1395706214739</created>
+      <option name="number" value="00173" />
+      <option name="project" value="LOCAL" />
+      <updated>1395706214739</updated>
+    </task>
+    <task id="LOCAL-00174" summary="Start process later to make sure everything else is loaded before we send renewals.">
+      <created>1395871500166</created>
+      <option name="number" value="00174" />
+      <option name="project" value="LOCAL" />
+      <updated>1395871500166</updated>
+    </task>
+    <task id="LOCAL-00175" summary="Add user onboarding">
+      <created>1395883572852</created>
+      <option name="number" value="00175" />
+      <option name="project" value="LOCAL" />
+      <updated>1395883572852</updated>
+    </task>
+    <task id="LOCAL-00176" summary="Have get started button trigger next pane">
+      <created>1395884380468</created>
+      <option name="number" value="00176" />
+      <option name="project" value="LOCAL" />
+      <updated>1395884380468</updated>
+    </task>
+    <task id="LOCAL-00177" summary="Add phone numbers and website">
+      <created>1395886690429</created>
+      <option name="number" value="00177" />
+      <option name="project" value="LOCAL" />
+      <updated>1395886690429</updated>
+    </task>
+    <task id="LOCAL-00178" summary="Properly save communications preferences">
+      <created>1395887453834</created>
+      <option name="number" value="00178" />
+      <option name="project" value="LOCAL" />
+      <updated>1395887453834</updated>
+    </task>
+    <task id="LOCAL-00179" summary="Scroll on responsive screens">
+      <created>1395889978798</created>
+      <option name="number" value="00179" />
+      <option name="project" value="LOCAL" />
+      <updated>1395889978798</updated>
+    </task>
+    <task id="LOCAL-00180" summary="Only check inputs if moving right">
+      <created>1395890437217</created>
+      <option name="number" value="00180" />
+      <option name="project" value="LOCAL" />
+      <updated>1395890437217</updated>
+    </task>
+    <task id="LOCAL-00181" summary="Render modal before other content">
+      <created>1395891352062</created>
+      <option name="number" value="00181" />
+      <option name="project" value="LOCAL" />
+      <updated>1395891352062</updated>
+    </task>
+    <task id="LOCAL-00182" summary="Make transactions table responsive">
+      <created>1395892099954</created>
+      <option name="number" value="00182" />
+      <option name="project" value="LOCAL" />
+      <updated>1395892099954</updated>
+    </task>
+    <task id="LOCAL-00183" summary="Make membership tab responsive">
+      <created>1395892174018</created>
+      <option name="number" value="00183" />
+      <option name="project" value="LOCAL" />
+      <updated>1395892174018</updated>
+    </task>
+    <task id="LOCAL-00184" summary="Make sure selectToAutocomplete() function is defined before using">
+      <created>1395897776255</created>
+      <option name="number" value="00184" />
+      <option name="project" value="LOCAL" />
+      <updated>1395897776255</updated>
+    </task>
+    <task id="LOCAL-00185" summary="Prevent body element from scrolling when modal is visible">
+      <created>1395900871552</created>
+      <option name="number" value="00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1395900871552</updated>
+    </task>
+    <task id="LOCAL-00186" summary="Use the membership's product purchase-message as the generated renewal invoices purchase messages">
+      <created>1395954492886</created>
+      <option name="number" value="00186" />
+      <option name="project" value="LOCAL" />
+      <updated>1395954492886</updated>
+    </task>
+    <task id="LOCAL-00187" summary="Add novalidate attribute">
+      <created>1395967357593</created>
+      <option name="number" value="00187" />
+      <option name="project" value="LOCAL" />
+      <updated>1395967357593</updated>
+    </task>
+    <task id="LOCAL-00188" summary="Update copy">
+      <created>1395968859572</created>
+      <option name="number" value="00188" />
+      <option name="project" value="LOCAL" />
+      <updated>1395968859572</updated>
+    </task>
+    <task id="LOCAL-00189" summary="Make profile fields two columns">
+      <created>1396031472476</created>
+      <option name="number" value="00189" />
+      <option name="project" value="LOCAL" />
+      <updated>1396031472476</updated>
+    </task>
+    <task id="LOCAL-00190" summary="Correctly align fields">
+      <created>1396031595235</created>
+      <option name="number" value="00190" />
+      <option name="project" value="LOCAL" />
+      <updated>1396031595235</updated>
+    </task>
+    <task id="LOCAL-00191" summary="Update purchase invoice message">
+      <created>1396038866000</created>
+      <option name="number" value="00191" />
+      <option name="project" value="LOCAL" />
+      <updated>1396038866001</updated>
+    </task>
+    <task id="LOCAL-00192" summary="Prevent page from jumping when resending email receipts">
+      <created>1396043955488</created>
+      <option name="number" value="00192" />
+      <option name="project" value="LOCAL" />
+      <updated>1396043955488</updated>
+    </task>
+    <task id="LOCAL-00193" summary="Add function to determine if a given user is a AAS Member">
+      <created>1396149835140</created>
+      <option name="number" value="00193" />
+      <option name="project" value="LOCAL" />
+      <updated>1396149835140</updated>
+    </task>
+    <task id="LOCAL-00194" summary="Code formatting">
+      <created>1396310840791</created>
+      <option name="number" value="00194" />
+      <option name="project" value="LOCAL" />
+      <updated>1396310840791</updated>
+    </task>
+    <task id="LOCAL-00195" summary="Remove application fee">
+      <created>1396310961644</created>
+      <option name="number" value="00195" />
+      <option name="project" value="LOCAL" />
+      <updated>1396310961644</updated>
+    </task>
+    <task id="LOCAL-00196" summary="Add search by status">
+      <created>1396311417102</created>
+      <option name="number" value="00196" />
+      <option name="project" value="LOCAL" />
+      <updated>1396311417102</updated>
+    </task>
+    <task id="LOCAL-00197" summary="Label">
+      <created>1396311800398</created>
+      <option name="number" value="00197" />
+      <option name="project" value="LOCAL" />
+      <updated>1396311800398</updated>
+    </task>
+    <task id="LOCAL-00198" summary="Perspective members can only apply to a select amount of membership grades">
+      <created>1396399563996</created>
+      <option name="number" value="00198" />
+      <option name="project" value="LOCAL" />
+      <updated>1396399563997</updated>
+    </task>
+    <task id="LOCAL-00199" summary="Add invite only label">
+      <created>1396402114053</created>
+      <option name="number" value="00199" />
+      <option name="project" value="LOCAL" />
+      <updated>1396402114054</updated>
+    </task>
+    <task id="LOCAL-00200" summary="Add CRM tab with user's addresses and communication preferences.">
+      <created>1396467706000</created>
+      <option name="number" value="00200" />
+      <option name="project" value="LOCAL" />
+      <updated>1396467706001</updated>
+    </task>
+    <task id="LOCAL-00201" summary="Add spacing after name">
+      <created>1396468389120</created>
+      <option name="number" value="00201" />
+      <option name="project" value="LOCAL" />
+      <updated>1396468389121</updated>
+    </task>
+    <task id="LOCAL-00202" summary="Add work, home, and billing address">
+      <created>1396570167291</created>
+      <option name="number" value="00202" />
+      <option name="project" value="LOCAL" />
+      <updated>1396570167291</updated>
+    </task>
+    <task id="LOCAL-00203" summary="Add first, last, and email address">
+      <created>1396571759553</created>
+      <option name="number" value="00203" />
+      <option name="project" value="LOCAL" />
+      <updated>1396571759553</updated>
+    </task>
+    <task id="LOCAL-00204" summary="Add membership grade and division shortcodes">
+      <created>1396573366710</created>
+      <option name="number" value="00204" />
+      <option name="project" value="LOCAL" />
+      <updated>1396573366711</updated>
+    </task>
+    <task id="LOCAL-00205" summary="Add membership grade and division shortcodes to email template">
+      <created>1396573676177</created>
+      <option name="number" value="00205" />
+      <option name="project" value="LOCAL" />
+      <updated>1396573676177</updated>
+    </task>
+    <task id="LOCAL-00206" summary="Strip all non alphanumeric characters from phone numbers">
+      <created>1396650478211</created>
+      <option name="number" value="00206" />
+      <option name="project" value="LOCAL" />
+      <updated>1396650478212</updated>
+    </task>
+    <task id="LOCAL-00207" summary="Sanitize text fields, and escape output">
+      <created>1396650969346</created>
+      <option name="number" value="00207" />
+      <option name="project" value="LOCAL" />
+      <updated>1396650969347</updated>
+    </task>
+    <task id="LOCAL-00208" summary="Rename upgrade to transfer, and only list the applicable membership grades">
+      <created>1396974398780</created>
+      <option name="number" value="00208" />
+      <option name="project" value="LOCAL" />
+      <updated>1396974398780</updated>
+    </task>
+    <task id="LOCAL-00209" summary="Allow for multi-file uploads">
+      <created>1396974713112</created>
+      <option name="number" value="00209" />
+      <option name="project" value="LOCAL" />
+      <updated>1396974713112</updated>
+    </task>
+    <task id="LOCAL-00210" summary="Send separate email for transfer applications">
+      <created>1396974981291</created>
+      <option name="number" value="00210" />
+      <option name="project" value="LOCAL" />
+      <updated>1396974981291</updated>
+    </task>
+    <task id="LOCAL-00211" summary="Force the close button to display initially">
+      <created>1396976368136</created>
+      <option name="number" value="00211" />
+      <option name="project" value="LOCAL" />
+      <updated>1396976368136</updated>
+    </task>
+    <task id="LOCAL-00212" summary="Add a growl notification for application transfer approval">
+      <created>1396976884604</created>
+      <option name="number" value="00212" />
+      <option name="project" value="LOCAL" />
+      <updated>1396976884604</updated>
+    </task>
+    <task id="LOCAL-00213" summary="Convert password reset email that is plaintext to HTML">
+      <created>1397008621581</created>
+      <option name="number" value="00213" />
+      <option name="project" value="LOCAL" />
+      <updated>1397008621581</updated>
+    </task>
+    <task id="LOCAL-00214" summary="Correctly replace linebreaks">
+      <created>1397078540721</created>
+      <option name="number" value="00214" />
+      <option name="project" value="LOCAL" />
+      <updated>1397078540721</updated>
+    </task>
+    <task id="LOCAL-00215" summary="Make sure that the dropdown shows">
+      <created>1397097774726</created>
+      <option name="number" value="00215" />
+      <option name="project" value="LOCAL" />
+      <updated>1397097774726</updated>
+    </task>
+    <task id="LOCAL-00216" summary="Ensure autocomplete box is showing">
+      <created>1397097913179</created>
+      <option name="number" value="00216" />
+      <option name="project" value="LOCAL" />
+      <updated>1397097913179</updated>
+    </task>
+    <task id="LOCAL-00217" summary="Store a history of membership grades and divisions">
+      <created>1397101374765</created>
+      <option name="number" value="00217" />
+      <option name="project" value="LOCAL" />
+      <updated>1397101374765</updated>
+    </task>
+    <task id="LOCAL-00218" summary="Ensure that we update the user meta before we send the emails">
+      <created>1397101392501</created>
+      <option name="number" value="00218" />
+      <option name="project" value="LOCAL" />
+      <updated>1397101392501</updated>
+    </task>
+    <task id="LOCAL-00219" summary="Implement is sustaining member function">
+      <created>1397101537689</created>
+      <option name="number" value="00219" />
+      <option name="project" value="LOCAL" />
+      <updated>1397101537689</updated>
+    </task>
+    <task id="LOCAL-00220" summary="Redirect users to log in page">
+      <created>1397183407621</created>
+      <option name="number" value="00220" />
+      <option name="project" value="LOCAL" />
+      <updated>1397183407621</updated>
+    </task>
+    <task id="LOCAL-00221" summary="Typo">
+      <created>1397183425078</created>
+      <option name="number" value="00221" />
+      <option name="project" value="LOCAL" />
+      <updated>1397183425078</updated>
+    </task>
+    <task id="LOCAL-00222" summary="Redirect users from registration to login">
+      <created>1397183835873</created>
+      <option name="number" value="00222" />
+      <option name="project" value="LOCAL" />
+      <updated>1397183835873</updated>
+    </task>
+    <task id="LOCAL-00223" summary="Remove the registration link from the log in page">
+      <created>1397184268663</created>
+      <option name="number" value="00223" />
+      <option name="project" value="LOCAL" />
+      <updated>1397184268663</updated>
+    </task>
+    <task id="LOCAL-00224" summary="Show different text if app is already submitted">
+      <created>1397415195904</created>
+      <option name="number" value="00224" />
+      <option name="project" value="LOCAL" />
+      <updated>1397415195904</updated>
+    </task>
+    <task id="LOCAL-00225" summary="Add federal council role">
+      <created>1397416600060</created>
+      <option name="number" value="00225" />
+      <option name="project" value="LOCAL" />
+      <updated>1397416600060</updated>
+    </task>
+    <task id="LOCAL-00226" summary="Add divisions page for federal council people">
+      <created>1397418311588</created>
+      <option name="number" value="00226" />
+      <option name="project" value="LOCAL" />
+      <updated>1397418311588</updated>
+    </task>
+    <task id="LOCAL-00227" summary="Only allow one division per person, and add function to get users from that division">
+      <created>1397419089988</created>
+      <option name="number" value="00227" />
+      <option name="project" value="LOCAL" />
+      <updated>1397419089988</updated>
+    </task>
+    <task id="LOCAL-00228" summary="Add notification to members of federal council of target division after application approval">
+      <created>1397422237431</created>
+      <option name="number" value="00228" />
+      <option name="project" value="LOCAL" />
+      <updated>1397422237431</updated>
+    </task>
+    <task id="LOCAL-00229" summary="Make inputs fit their container">
+      <created>1397422428411</created>
+      <option name="number" value="00229" />
+      <option name="project" value="LOCAL" />
+      <updated>1397422428411</updated>
+    </task>
+    <task id="LOCAL-00230" summary="Make sure their is a description">
+      <created>1397426159897</created>
+      <option name="number" value="00230" />
+      <option name="project" value="LOCAL" />
+      <updated>1397426159897</updated>
+    </task>
+    <task id="LOCAL-00231" summary="Try to ensure that the new data is saved, before sending the application">
+      <created>1397426864701</created>
+      <option name="number" value="00231" />
+      <option name="project" value="LOCAL" />
+      <updated>1397426864702</updated>
+    </task>
+    <task id="LOCAL-00232" summary="Make sure prepopulate data isset before using">
+      <created>1397427261715</created>
+      <option name="number" value="00232" />
+      <option name="project" value="LOCAL" />
+      <updated>1397427261715</updated>
+    </task>
+    <task id="LOCAL-00233" summary="Properly parse multi-file attachments">
+      <created>1397428751501</created>
+      <option name="number" value="00233" />
+      <option name="project" value="LOCAL" />
+      <updated>1397428751501</updated>
+    </task>
+    <task id="LOCAL-00234" summary="Allow for billing address, mobile and work phone, customer notes, title, membership start time to be imported along with the other user data">
+      <created>1397493002506</created>
+      <option name="number" value="00234" />
+      <option name="project" value="LOCAL" />
+      <updated>1397493002506</updated>
+    </task>
+    <task id="LOCAL-00235" summary="Correct logic for when to display onboard for application or not">
+      <created>1397493289488</created>
+      <option name="number" value="00235" />
+      <option name="project" value="LOCAL" />
+      <updated>1397493289488</updated>
+    </task>
+    <task id="LOCAL-00236" summary="Only display application links if an app exists">
+      <created>1397524590491</created>
+      <option name="number" value="00236" />
+      <option name="project" value="LOCAL" />
+      <updated>1397524590491</updated>
+    </task>
+    <task id="LOCAL-00237" summary="Add rejected application status.">
+      <created>1397524801238</created>
+      <option name="number" value="00237" />
+      <option name="project" value="LOCAL" />
+      <updated>1397524801238</updated>
+    </task>
+    <task id="LOCAL-00238" summary="Allow for custom callback functions to gain access to the instance of the notification">
+      <created>1397525704915</created>
+      <option name="number" value="00238" />
+      <option name="project" value="LOCAL" />
+      <updated>1397525704915</updated>
+    </task>
+    <task id="LOCAL-00239" summary="If we are in ssl, and asking for logo url, convert url to ssl">
+      <created>1397575738639</created>
+      <option name="number" value="00239" />
+      <option name="project" value="LOCAL" />
+      <updated>1397575738639</updated>
+    </task>
+    <task id="LOCAL-00240" summary="Add persistent notification about application being approved, and it is time to pay">
+      <created>1397601482241</created>
+      <option name="number" value="00240" />
+      <option name="project" value="LOCAL" />
+      <updated>1397601482241</updated>
+    </task>
+    <task id="LOCAL-00241" summary="Only add files if a file URL exists">
+      <created>1397610134535</created>
+      <option name="number" value="00241" />
+      <option name="project" value="LOCAL" />
+      <updated>1397610134536</updated>
+    </task>
+    <task id="LOCAL-00242" summary="Remove person name from invoice">
+      <created>1397615289402</created>
+      <option name="number" value="00242" />
+      <option name="project" value="LOCAL" />
+      <updated>1397615289403</updated>
+    </task>
+    <task id="LOCAL-00243" summary="Modify payment terms text on renewal invoices">
+      <created>1397619339656</created>
+      <option name="number" value="00243" />
+      <option name="project" value="LOCAL" />
+      <updated>1397619339656</updated>
+    </task>
+    <task id="LOCAL-00244" summary="Send notification to federal registrar as well">
+      <created>1397662272053</created>
+      <option name="number" value="00244" />
+      <option name="project" value="LOCAL" />
+      <updated>1397662272053</updated>
+    </task>
+    <task id="LOCAL-00245" summary="Allow shortcodes in the product message section">
+      <created>1397702437608</created>
+      <option name="number" value="00245" />
+      <option name="project" value="LOCAL" />
+      <updated>1397702437608</updated>
+    </task>
+    <task id="LOCAL-00246" summary="Pull user ID of member, not person we are sending it to">
+      <created>1397702910773</created>
+      <option name="number" value="00246" />
+      <option name="project" value="LOCAL" />
+      <updated>1397702910773</updated>
+    </task>
+    <task id="LOCAL-00247" summary="Pass user ID not WP_User object">
+      <created>1397703362649</created>
+      <option name="number" value="00247" />
+      <option name="project" value="LOCAL" />
+      <updated>1397703362649</updated>
+    </task>
+    <task id="LOCAL-00248" summary="Ensure proper date diff parsing">
+      <created>1397703891806</created>
+      <option name="number" value="00248" />
+      <option name="project" value="LOCAL" />
+      <updated>1397703891806</updated>
+    </task>
+    <task id="LOCAL-00249" summary="Only display grading committees in app approval dropdown.">
+      <created>1397706345642</created>
+      <option name="number" value="00249" />
+      <option name="project" value="LOCAL" />
+      <updated>1397706345642</updated>
+    </task>
+    <task id="LOCAL-00250" summary="Ensure we send the email last.">
+      <created>1397708536734</created>
+      <option name="number" value="00250" />
+      <option name="project" value="LOCAL" />
+      <updated>1397708536734</updated>
+    </task>
+    <task id="LOCAL-00251" summary="Make sure user is not a member, before displaying reminder to pay notification">
+      <created>1397780107881</created>
+      <option name="number" value="00251" />
+      <option name="project" value="LOCAL" />
+      <updated>1397780107881</updated>
+    </task>
+    <task id="LOCAL-00252" summary="Add option to determine general secretary">
+      <created>1397782197331</created>
+      <option name="number" value="00252" />
+      <option name="project" value="LOCAL" />
+      <updated>1397782197331</updated>
+    </task>
+    <task id="LOCAL-00253" summary="Add gen sec notification and pass proper user ID">
+      <created>1397782739398</created>
+      <option name="number" value="00253" />
+      <option name="project" value="LOCAL" />
+      <updated>1397782739398</updated>
+    </task>
+    <task id="LOCAL-00254" summary="Implement permissions">
+      <created>1397786344249</created>
+      <option name="number" value="00254" />
+      <option name="project" value="LOCAL" />
+      <updated>1397786344249</updated>
+    </task>
+    <task id="LOCAL-00255" summary="Float reject button right">
+      <created>1397786633477</created>
+      <option name="number" value="00255" />
+      <option name="project" value="LOCAL" />
+      <updated>1397786633478</updated>
+    </task>
+    <task id="LOCAL-00256" summary="Check permissions on save and delete">
+      <created>1397786804865</created>
+      <option name="number" value="00256" />
+      <option name="project" value="LOCAL" />
+      <updated>1397786804865</updated>
+    </task>
+    <task id="LOCAL-00257" summary="Redirect user to list if they can't view">
+      <created>1397787369011</created>
+      <option name="number" value="00257" />
+      <option name="project" value="LOCAL" />
+      <updated>1397787369011</updated>
+    </task>
+    <task id="LOCAL-00258" summary="Update permissions name, and prevent viewing of applications if they can't read_application">
+      <created>1397787855794</created>
+      <option name="number" value="00258" />
+      <option name="project" value="LOCAL" />
+      <updated>1397787855795</updated>
+    </task>
+    <task id="LOCAL-00259" summary="Fix purchase message spacing issues">
+      <created>1398126325280</created>
+      <option name="number" value="00259" />
+      <option name="project" value="LOCAL" />
+      <updated>1398126325281</updated>
+    </task>
+    <task id="LOCAL-00260" summary="Fix purchase message spacing issues">
+      <created>1398127519575</created>
+      <option name="number" value="00260" />
+      <option name="project" value="LOCAL" />
+      <updated>1398127519576</updated>
+    </task>
+    <task id="LOCAL-00261" summary="Make gritter notifications more readable.">
+      <created>1398173857612</created>
+      <option name="number" value="00261" />
+      <option name="project" value="LOCAL" />
+      <updated>1398173857612</updated>
+    </task>
+    <task id="LOCAL-00262" summary="Make code more readable">
+      <created>1398190220577</created>
+      <option name="number" value="00262" />
+      <option name="project" value="LOCAL" />
+      <updated>1398190220577</updated>
+    </task>
+    <task id="LOCAL-00263" summary="Make gritter more legible.">
+      <created>1398211510248</created>
+      <option name="number" value="00263" />
+      <option name="project" value="LOCAL" />
+      <updated>1398211510248</updated>
+    </task>
+    <task id="LOCAL-00264" summary="Check the proper array of user data">
+      <created>1398282461845</created>
+      <option name="number" value="00264" />
+      <option name="project" value="LOCAL" />
+      <updated>1398282461845</updated>
+    </task>
+    <task id="LOCAL-00265" summary="Ensure entries is an array">
+      <created>1398282881616</created>
+      <option name="number" value="00265" />
+      <option name="project" value="LOCAL" />
+      <updated>1398282881617</updated>
+    </task>
+    <task id="LOCAL-00266" summary="Don't send exchange receipts for products added during import.">
+      <created>1398293110285</created>
+      <option name="number" value="00266" />
+      <option name="project" value="LOCAL" />
+      <updated>1398293110285</updated>
+    </task>
+    <task id="LOCAL-00267" summary="Don't send new user password notifications.">
+      <created>1398295436964</created>
+      <option name="number" value="00267" />
+      <option name="project" value="LOCAL" />
+      <updated>1398295436964</updated>
+    </task>
+    <task id="LOCAL-00268" summary="Inline docs">
+      <created>1398295581931</created>
+      <option name="number" value="00268" />
+      <option name="project" value="LOCAL" />
+      <updated>1398295581931</updated>
+    </task>
+    <task id="LOCAL-00269" summary="Send in batches of 10">
+      <created>1398297721909</created>
+      <option name="number" value="00269" />
+      <option name="project" value="LOCAL" />
+      <updated>1398297721909</updated>
+    </task>
+    <task id="LOCAL-00270" summary="Send in batches of 5">
+      <created>1398297758493</created>
+      <option name="number" value="00270" />
+      <option name="project" value="LOCAL" />
+      <updated>1398297758493</updated>
+    </task>
+    <task id="LOCAL-00271" summary="Only get members whose membership status is not overdue">
+      <created>1398301752079</created>
+      <option name="number" value="00271" />
+      <option name="project" value="LOCAL" />
+      <updated>1398301752079</updated>
+    </task>
+    <task id="LOCAL-00272" summary="Only load up users when we are actually on the pending applications page, and then only query for users with the default role, subscriber">
+      <created>1398347742974</created>
+      <option name="number" value="00272" />
+      <option name="project" value="LOCAL" />
+      <updated>1398347742974</updated>
+    </task>
+    <task id="LOCAL-00273" summary="Remove unused Gravity Form hooks">
+      <created>1398349149521</created>
+      <option name="number" value="00273" />
+      <option name="project" value="LOCAL" />
+      <updated>1398349149521</updated>
+    </task>
+    <task id="LOCAL-00274" summary="Try to improve performance by only returning users required when not doing a paid_by search">
+      <created>1398547453709</created>
+      <option name="number" value="00274" />
+      <option name="project" value="LOCAL" />
+      <updated>1398547453709</updated>
+    </task>
+    <task id="LOCAL-00275" summary="Only return ID fields when calculating total users">
+      <created>1398548444300</created>
+      <option name="number" value="00275" />
+      <option name="project" value="LOCAL" />
+      <updated>1398548444301</updated>
+    </task>
+    <task id="LOCAL-00276" summary="Correct user count when doing search">
+      <created>1398549565824</created>
+      <option name="number" value="00276" />
+      <option name="project" value="LOCAL" />
+      <updated>1398549565824</updated>
+    </task>
+    <task id="LOCAL-00277" summary="Use more efficient count users function when not doing a search">
+      <created>1398551190826</created>
+      <option name="number" value="00277" />
+      <option name="project" value="LOCAL" />
+      <updated>1398551190826</updated>
+    </task>
+    <task id="LOCAL-00278" summary="Save product array into a transient">
+      <created>1398738480106</created>
+      <option name="number" value="00278" />
+      <option name="project" value="LOCAL" />
+      <updated>1398738480106</updated>
+    </task>
+    <task id="LOCAL-00279" summary="Save users into transient">
+      <created>1398739047416</created>
+      <option name="number" value="00279" />
+      <option name="project" value="LOCAL" />
+      <updated>1398739047416</updated>
+    </task>
+    <task id="LOCAL-00280" summary="Make application fee product a membership product">
+      <created>1398740486742</created>
+      <option name="number" value="00280" />
+      <option name="project" value="LOCAL" />
+      <updated>1398740486749</updated>
+    </task>
+    <task id="LOCAL-00281" summary="Only grab post data">
+      <created>1398742335604</created>
+      <option name="number" value="00281" />
+      <option name="project" value="LOCAL" />
+      <updated>1398742335604</updated>
+    </task>
+    <task id="LOCAL-00282" summary="We only need to add roles once">
+      <created>1398742570159</created>
+      <option name="number" value="00282" />
+      <option name="project" value="LOCAL" />
+      <updated>1398742570159</updated>
+    </task>
+    <task id="LOCAL-00283" summary="Add notification if there is a file system error.">
+      <created>1398746016617</created>
+      <option name="number" value="00283" />
+      <option name="project" value="LOCAL" />
+      <updated>1398746016617</updated>
+    </task>
+    <task id="LOCAL-00284" summary="Force membership status to lowercase">
+      <created>1398747428793</created>
+      <option name="number" value="00284" />
+      <option name="project" value="LOCAL" />
+      <updated>1398747428793</updated>
+    </task>
+    <task id="LOCAL-00285" summary="Return empty string instead of $0 for non payments">
+      <created>1398748930195</created>
+      <option name="number" value="00285" />
+      <option name="project" value="LOCAL" />
+      <updated>1398748930195</updated>
+    </task>
+    <task id="LOCAL-00286" summary="Trim the email addresses before verifying">
+      <created>1398789494561</created>
+      <option name="number" value="00286" />
+      <option name="project" value="LOCAL" />
+      <updated>1398789494561</updated>
+    </task>
+    <task id="LOCAL-00287" summary="Only do pagination when we have access to the curretn_screen">
+      <created>1398821353123</created>
+      <option name="number" value="00287" />
+      <option name="project" value="LOCAL" />
+      <updated>1398821353123</updated>
+    </task>
+    <task id="LOCAL-00288" summary="Fix broken users">
+      <created>1398823724813</created>
+      <option name="number" value="00288" />
+      <option name="project" value="LOCAL" />
+      <updated>1398823724813</updated>
+    </task>
+    <task id="LOCAL-00289" summary="Check proper function">
+      <created>1398823943098</created>
+      <option name="number" value="00289" />
+      <option name="project" value="LOCAL" />
+      <updated>1398823943098</updated>
+    </task>
+    <task id="LOCAL-00290" summary="Do import at set_current_screen function">
+      <created>1398824089223</created>
+      <option name="number" value="00290" />
+      <option name="project" value="LOCAL" />
+      <updated>1398824089223</updated>
+    </task>
+    <task id="LOCAL-00291" summary="Use proper list of IDs">
+      <created>1398824317162</created>
+      <option name="number" value="00291" />
+      <option name="project" value="LOCAL" />
+      <updated>1398824317162</updated>
+    </task>
+    <task id="LOCAL-00292" summary="Remove repair users code">
+      <created>1398830980296</created>
+      <option name="number" value="00292" />
+      <option name="project" value="LOCAL" />
+      <updated>1398830980296</updated>
+    </task>
+    <task id="LOCAL-00293" summary="Make search table 100% width">
+      <created>1398859922055</created>
+      <option name="number" value="00293" />
+      <option name="project" value="LOCAL" />
+      <updated>1398859922055</updated>
+    </task>
+    <task id="LOCAL-00294" summary="Make manage members screen more responsive">
+      <created>1398860265317</created>
+      <option name="number" value="00294" />
+      <option name="project" value="LOCAL" />
+      <updated>1398860265317</updated>
+    </task>
+    <task id="LOCAL-00295" summary="Add extra margin on the search controls on mobile">
+      <created>1398860335743</created>
+      <option name="number" value="00295" />
+      <option name="project" value="LOCAL" />
+      <updated>1398860335743</updated>
+    </task>
+    <task id="LOCAL-00296" summary="Correct max-width call">
+      <created>1398860638523</created>
+      <option name="number" value="00296" />
+      <option name="project" value="LOCAL" />
+      <updated>1398860638523</updated>
+    </task>
+    <task id="LOCAL-00297" summary="Move styling to CSS rules so we can change them on mobile">
+      <created>1398861247090</created>
+      <option name="number" value="00297" />
+      <option name="project" value="LOCAL" />
+      <updated>1398861247090</updated>
+    </task>
+    <task id="LOCAL-00298" summary="Make search and reset buttons conform to the center column">
+      <created>1398861408904</created>
+      <option name="number" value="00298" />
+      <option name="project" value="LOCAL" />
+      <updated>1398861408904</updated>
+    </task>
+    <task id="LOCAL-00299" summary="Align search control buttons">
+      <created>1398861514910</created>
+      <option name="number" value="00299" />
+      <option name="project" value="LOCAL" />
+      <updated>1398861514910</updated>
+    </task>
+    <task id="LOCAL-00300" summary="Add proper margin to search control buttons">
+      <created>1398861939541</created>
+      <option name="number" value="00300" />
+      <option name="project" value="LOCAL" />
+      <updated>1398861939541</updated>
+    </task>
+    <task id="LOCAL-00301" summary="Hide email column and make export button properly aligned on mobile">
+      <created>1398862145187</created>
+      <option name="number" value="00301" />
+      <option name="project" value="LOCAL" />
+      <updated>1398862145187</updated>
+    </task>
+    <task id="LOCAL-00302" summary="Hide division column">
+      <created>1398862474445</created>
+      <option name="number" value="00302" />
+      <option name="project" value="LOCAL" />
+      <updated>1398862474445</updated>
+    </task>
+    <task id="LOCAL-00303" summary="Style count to center in column on mobile">
+      <created>1398862704188</created>
+      <option name="number" value="00303" />
+      <option name="project" value="LOCAL" />
+      <updated>1398862704188</updated>
+    </task>
+    <task id="LOCAL-00304" summary="Correct CSS selector">
+      <created>1398862898083</created>
+      <option name="number" value="00304" />
+      <option name="project" value="LOCAL" />
+      <updated>1398862898083</updated>
+    </task>
+    <task id="LOCAL-00305" summary="Hide ID column on iPhone width screen">
+      <created>1398863303437</created>
+      <option name="number" value="00305" />
+      <option name="project" value="LOCAL" />
+      <updated>1398863303438</updated>
+    </task>
+    <task id="LOCAL-00306" summary="Style add new H2s to be usable on mobile">
+      <created>1398863706821</created>
+      <option name="number" value="00306" />
+      <option name="project" value="LOCAL" />
+      <updated>1398863706821</updated>
+    </task>
+    <task id="LOCAL-00307" summary="Max the search and reset buttons">
+      <created>1398867237963</created>
+      <option name="number" value="00307" />
+      <option name="project" value="LOCAL" />
+      <updated>1398867237963</updated>
+    </task>
+    <task id="LOCAL-00308" summary="Float the search buttons left">
+      <created>1398867473930</created>
+      <option name="number" value="00308" />
+      <option name="project" value="LOCAL" />
+      <updated>1398867473930</updated>
+    </task>
+    <task id="LOCAL-00309" summary="Change invoice header to &quot;tax invoice #&quot; from &quot;invoice #&quot;">
+      <created>1398905664276</created>
+      <option name="number" value="00309" />
+      <option name="project" value="LOCAL" />
+      <updated>1398905664276</updated>
+    </task>
+    <task id="LOCAL-00310" summary="Fix automatic conversion of reset URL to partial HTML tags because of the &quot;&lt;&quot; characters inserted around the URL by WP">
+      <created>1398906912561</created>
+      <option name="number" value="00310" />
+      <option name="project" value="LOCAL" />
+      <updated>1398906912561</updated>
+    </task>
+    <task id="LOCAL-00311" summary="Redirect users to their account page if they don't have the &quot;read&quot; capability, ie members, or subscribers">
+      <created>1398964370323</created>
+      <option name="number" value="00311" />
+      <option name="project" value="LOCAL" />
+      <updated>1398964370323</updated>
+    </task>
+    <task id="LOCAL-00312" summary="If a user is already a member, use a different welcome message in the onboard">
+      <created>1398965235375</created>
+      <option name="number" value="00312" />
+      <option name="project" value="LOCAL" />
+      <updated>1398965235375</updated>
+    </task>
+    <task id="LOCAL-00313" summary="Add ability to resend renewal notifications">
+      <created>1399140195464</created>
+      <option name="number" value="00313" />
+      <option name="project" value="LOCAL" />
+      <updated>1399140195465</updated>
+    </task>
+    <task id="LOCAL-00314" summary="Add basic journal file structure">
+      <created>1399155493886</created>
+      <option name="number" value="00314" />
+      <option name="project" value="LOCAL" />
+      <updated>1399155493886</updated>
+    </task>
+    <task id="LOCAL-00315" summary="Create Taxonomy and Custom Post Type url structure for journal">
+      <created>1399353679075</created>
+      <option name="number" value="00315" />
+      <option name="project" value="LOCAL" />
+      <updated>1399353679075</updated>
+    </task>
+    <task id="LOCAL-00316" summary="Improve documentation">
+      <created>1399388604099</created>
+      <option name="number" value="00316" />
+      <option name="project" value="LOCAL" />
+      <updated>1399388604099</updated>
+    </task>
+    <task id="LOCAL-00317" summary="Add support for adding an author of an article.">
+      <created>1399484465458</created>
+      <option name="number" value="00317" />
+      <option name="project" value="LOCAL" />
+      <updated>1399484465458</updated>
+    </task>
+    <task id="LOCAL-00318" summary="Create ithemes exchange product from new articles.">
+      <created>1399499815724</created>
+      <option name="number" value="00318" />
+      <option name="project" value="LOCAL" />
+      <updated>1399499815724</updated>
+    </task>
+    <task id="LOCAL-00319" summary="Don't overwrite rules, instead add them to existing rules">
+      <created>1399501359682</created>
+      <option name="number" value="00319" />
+      <option name="project" value="LOCAL" />
+      <updated>1399501359682</updated>
+    </task>
+    <task id="LOCAL-00320" summary="Create membership product when new volume is added.">
+      <created>1399508228604</created>
+      <option name="number" value="00320" />
+      <option name="project" value="LOCAL" />
+      <updated>1399508228605</updated>
+    </task>
+    <task id="LOCAL-00321" summary="Journal docs are free two years after publish date, not before.">
+      <created>1399508259942</created>
+      <option name="number" value="00321" />
+      <option name="project" value="LOCAL" />
+      <updated>1399508259942</updated>
+    </task>
+    <task id="LOCAL-00322" summary="Add taxonoy metadata">
+      <created>1399565481807</created>
+      <option name="number" value="00322" />
+      <option name="project" value="LOCAL" />
+      <updated>1399565481807</updated>
+    </task>
+    <task id="LOCAL-00323" summary="Use publish date when determining the free after date for taxonomies.">
+      <created>1399566181722</created>
+      <option name="number" value="00323" />
+      <option name="project" value="LOCAL" />
+      <updated>1399566181722</updated>
+    </task>
+    <task id="LOCAL-00324" summary="Allow for uncategorized journal articles">
+      <created>1399588364394</created>
+      <option name="number" value="00324" />
+      <option name="project" value="LOCAL" />
+      <updated>1399588364394</updated>
+    </task>
+    <task id="LOCAL-00325" summary="Redirect away from the /articles/ page to the /journals/ page.">
+      <created>1399588679686</created>
+      <option name="number" value="00325" />
+      <option name="project" value="LOCAL" />
+      <updated>1399588679686</updated>
+    </task>
+    <task id="LOCAL-00326" summary="Serve PDF files without exposing file URL">
+      <created>1399652686917</created>
+      <option name="number" value="00326" />
+      <option name="project" value="LOCAL" />
+      <updated>1399652686917</updated>
+    </task>
+    <task id="LOCAL-00327" summary="Don't query for posts when displaying a volume">
+      <created>1399654156617</created>
+      <option name="number" value="00327" />
+      <option name="project" value="LOCAL" />
+      <updated>1399654156617</updated>
+    </task>
+    <task id="LOCAL-00328" summary="Check if value exists before using it">
+      <created>1399655342392</created>
+      <option name="number" value="00328" />
+      <option name="project" value="LOCAL" />
+      <updated>1399655342392</updated>
+    </task>
+    <task id="LOCAL-00329" summary="Check value before using">
+      <created>1399655775052</created>
+      <option name="number" value="00329" />
+      <option name="project" value="LOCAL" />
+      <updated>1399655775052</updated>
+    </task>
+    <task id="LOCAL-00330" summary="Remove unused fields when saving fields of interest and areas of competence">
+      <created>1400118015667</created>
+      <option name="number" value="00330" />
+      <option name="project" value="LOCAL" />
+      <updated>1400118015667</updated>
+    </task>
+    <task id="LOCAL-00331" summary="Add textarea to edit content for sustaining members to profile page.">
+      <created>1400128155891</created>
+      <option name="number" value="00331" />
+      <option name="project" value="LOCAL" />
+      <updated>1400128155891</updated>
+    </task>
+    <task id="LOCAL-00332" summary="Implement pagination rewrite rules">
+      <created>1400133947702</created>
+      <option name="number" value="00332" />
+      <option name="project" value="LOCAL" />
+      <updated>1400133947702</updated>
+    </task>
+    <task id="LOCAL-00333" summary="Save volume and article ID on exchange product">
+      <created>1400184669119</created>
+      <option name="number" value="00333" />
+      <option name="project" value="LOCAL" />
+      <updated>1400184669119</updated>
+    </task>
+    <task id="LOCAL-00334" summary="Add page of all journal purchases">
+      <created>1400353888097</created>
+      <option name="number" value="00334" />
+      <option name="project" value="LOCAL" />
+      <updated>1400353888097</updated>
+    </task>
+    <task id="LOCAL-00335" summary=" Make product free for *non-members* after a certain date, not free for members after a certain date.">
+      <created>1400357163627</created>
+      <option name="number" value="00335" />
+      <option name="project" value="LOCAL" />
+      <updated>1400357163627</updated>
+    </task>
+    <task id="LOCAL-00336" summary="Add divisional notices">
+      <created>1400374226039</created>
+      <option name="number" value="00336" />
+      <option name="project" value="LOCAL" />
+      <updated>1400374226039</updated>
+    </task>
+    <task id="LOCAL-00337" summary="Only orderby taxonomy for divisional post types">
+      <created>1400376180476</created>
+      <option name="number" value="00337" />
+      <option name="project" value="LOCAL" />
+      <updated>1400376180476</updated>
+    </task>
+    <task id="LOCAL-00338" summary="Allow for news articles to be marked as featured, and to have a PDF download of the article">
+      <created>1400527647708</created>
+      <option name="number" value="00338" />
+      <option name="project" value="LOCAL" />
+      <updated>1400527647708</updated>
+    </task>
+    <task id="LOCAL-00339" summary="Add educational opportunities cpt">
+      <created>1400544464977</created>
+      <option name="number" value="00339" />
+      <option name="project" value="LOCAL" />
+      <updated>1400544464977</updated>
+    </task>
+    <task id="LOCAL-00340" summary="Remove debug code">
+      <created>1400549491131</created>
+      <option name="number" value="00340" />
+      <option name="project" value="LOCAL" />
+      <updated>1400549491131</updated>
+    </task>
+    <task id="LOCAL-00341" summary="Add jobs to backend">
+      <created>1400620432826</created>
+      <option name="number" value="00341" />
+      <option name="project" value="LOCAL" />
+      <updated>1400620432826</updated>
+    </task>
+    <task id="LOCAL-00342" summary="Provide correct title for jobs metabox">
+      <created>1400621472558</created>
+      <option name="number" value="00342" />
+      <option name="project" value="LOCAL" />
+      <updated>1400621472565</updated>
+    </task>
+    <task id="LOCAL-00343" summary="Add awards code">
+      <created>1400622902862</created>
+      <option name="number" value="00343" />
+      <option name="project" value="LOCAL" />
+      <updated>1400622902862</updated>
+    </task>
+    <task id="LOCAL-00344" summary="Load up awards code">
+      <created>1400623264257</created>
+      <option name="number" value="00344" />
+      <option name="project" value="LOCAL" />
+      <updated>1400623264257</updated>
+    </task>
+    <task id="LOCAL-00345" summary="Add supporting gallery code">
+      <created>1400636218891</created>
+      <option name="number" value="00345" />
+      <option name="project" value="LOCAL" />
+      <updated>1400636218891</updated>
+    </task>
+    <task id="LOCAL-00346" summary="Allow for gallery photos to be filtered by tag">
+      <created>1400638241399</created>
+      <option name="number" value="00346" />
+      <option name="project" value="LOCAL" />
+      <updated>1400638241399</updated>
+    </task>
+    <task id="LOCAL-00347" summary="Allow for excerpts for event descriptions">
+      <created>1400638953644</created>
+      <option name="number" value="00347" />
+      <option name="project" value="LOCAL" />
+      <updated>1400638953644</updated>
+    </task>
+    <task id="LOCAL-00348" summary="Prevent isset errors">
+      <created>1400639348068</created>
+      <option name="number" value="00348" />
+      <option name="project" value="LOCAL" />
+      <updated>1400639348068</updated>
+    </task>
+    <task id="LOCAL-00349" summary="Process custom search">
+      <created>1400642233178</created>
+      <option name="number" value="00349" />
+      <option name="project" value="LOCAL" />
+      <updated>1400642233178</updated>
+    </task>
+    <task id="LOCAL-00350" summary="Add research supporting code">
+      <created>1400725718020</created>
+      <option name="number" value="00350" />
+      <option name="project" value="LOCAL" />
+      <updated>1400725718020</updated>
+    </task>
+    <task id="LOCAL-00351" summary="Add basic outline of bbPress functionality with restriction based on capabilities.">
+      <created>1400875957521</created>
+      <option name="number" value="00351" />
+      <option name="project" value="LOCAL" />
+      <updated>1400875957521</updated>
+    </task>
+    <task id="LOCAL-00352" summary="Display login form on restricted bbPress pages">
+      <created>1400883599091</created>
+      <option name="number" value="00352" />
+      <option name="project" value="LOCAL" />
+      <updated>1400883599091</updated>
+    </task>
+    <task id="LOCAL-00353" summary="Display login form on all restricted pages.">
+      <created>1400883678129</created>
+      <option name="number" value="00353" />
+      <option name="project" value="LOCAL" />
+      <updated>1400883678129</updated>
+    </task>
+    <task id="LOCAL-00354" summary="Layout initial file structure of conferences">
+      <created>1401379324485</created>
+      <option name="number" value="00354" />
+      <option name="project" value="LOCAL" />
+      <updated>1401379324485</updated>
+    </task>
+    <task id="LOCAL-00355" summary="Move cpt registration to proper class">
+      <created>1401379518930</created>
+      <option name="number" value="00355" />
+      <option name="project" value="LOCAL" />
+      <updated>1401379518930</updated>
+    </task>
+    <task id="LOCAL-00356" summary="Register paper taxonomy">
+      <created>1401379529140</created>
+      <option name="number" value="00356" />
+      <option name="project" value="LOCAL" />
+      <updated>1401379529140</updated>
+    </task>
+    <task id="LOCAL-00357" summary="Setup basic permalink structure for papers">
+      <created>1401384018810</created>
+      <option name="number" value="00357" />
+      <option name="project" value="LOCAL" />
+      <updated>1401384018810</updated>
+    </task>
+    <task id="LOCAL-00358" summary="Add ability to purchase individual conference papers, or all papers in a conference">
+      <created>1401390390898</created>
+      <option name="number" value="00358" />
+      <option name="project" value="LOCAL" />
+      <updated>1401390390898</updated>
+    </task>
+    <task id="LOCAL-00359" summary="Add paper purchases to custom user meta list of purchased conference paper products">
+      <created>1401391622450</created>
+      <option name="number" value="00359" />
+      <option name="project" value="LOCAL" />
+      <updated>1401391622450</updated>
+    </task>
+    <task id="LOCAL-00360" summary="Outline exchange portion of conference tickets">
+      <created>1401395174594</created>
+      <option name="number" value="00360" />
+      <option name="project" value="LOCAL" />
+      <updated>1401395174594</updated>
+    </task>
+    <task id="LOCAL-00361" summary="Move gravity forms checkout to separate plugin">
+      <created>1401425141020</created>
+      <option name="number" value="00361" />
+      <option name="project" value="LOCAL" />
+      <updated>1401425141020</updated>
+    </task>
+    <task id="LOCAL-00362" summary="Remove reference to removed class">
+      <created>1401425947303</created>
+      <option name="number" value="00362" />
+      <option name="project" value="LOCAL" />
+      <updated>1401425947303</updated>
+    </task>
+    <task id="LOCAL-00363" summary="Make managemembers table more abstracted and separated so it can be reused for the attendees page">
+      <created>1401426494209</created>
+      <option name="number" value="00363" />
+      <option name="project" value="LOCAL" />
+      <updated>1401426494209</updated>
+    </task>
+    <task id="LOCAL-00364" summary="Make args overridable in child class">
+      <created>1401723491406</created>
+      <option name="number" value="00364" />
+      <option name="project" value="LOCAL" />
+      <updated>1401723491406</updated>
+    </task>
+    <task id="LOCAL-00365" summary="Add code for the easy creation of pseudo conference pages">
+      <created>1401738135386</created>
+      <option name="number" value="00365" />
+      <option name="project" value="LOCAL" />
+      <updated>1401738135386</updated>
+    </task>
+    <task id="LOCAL-00366" summary="Make metaboxes appear higher on the post edit screen by setting priority to high">
+      <created>1401738201664</created>
+      <option name="number" value="00366" />
+      <option name="project" value="LOCAL" />
+      <updated>1401738201664</updated>
+    </task>
+    <task id="LOCAL-00367" summary="Make conference metabox easier to use by making everything but the title optional">
+      <created>1401738699869</created>
+      <option name="number" value="00367" />
+      <option name="project" value="LOCAL" />
+      <updated>1401738699869</updated>
+    </task>
+    <task id="LOCAL-00368" summary="Add necessary metabox pages">
+      <created>1401739334036</created>
+      <option name="number" value="00368" />
+      <option name="project" value="LOCAL" />
+      <updated>1401739334036</updated>
+    </task>
+    <task id="LOCAL-00369" summary="Add code for speakers metabox">
+      <created>1401749599572</created>
+      <option name="number" value="00369" />
+      <option name="project" value="LOCAL" />
+      <updated>1401749599572</updated>
+    </task>
+    <task id="LOCAL-00370" summary="Add code to allow for images to be added to fieldmanager editors">
+      <created>1401749628111</created>
+      <option name="number" value="00370" />
+      <option name="project" value="LOCAL" />
+      <updated>1401749628111</updated>
+    </task>
+    <task id="LOCAL-00371" summary="Add ability to send late payment notifications for due conference payments">
+      <created>1401753645158</created>
+      <option name="number" value="00371" />
+      <option name="project" value="LOCAL" />
+      <updated>1401753645158</updated>
+    </task>
+    <task id="LOCAL-00372" summary="Make distinction between exhibitors information and sponsors">
+      <created>1401754723804</created>
+      <option name="number" value="00372" />
+      <option name="project" value="LOCAL" />
+      <updated>1401754723804</updated>
+    </task>
+    <task id="LOCAL-00373" summary="Make column displays less tightly woven">
+      <created>1401756154406</created>
+      <option name="number" value="00373" />
+      <option name="project" value="LOCAL" />
+      <updated>1401756154406</updated>
+    </task>
+    <task id="LOCAL-00374" summary="Mark a user as having purchased a certain conference to speed up searching">
+      <created>1401757771008</created>
+      <option name="number" value="00374" />
+      <option name="project" value="LOCAL" />
+      <updated>1401757771008</updated>
+    </task>
+    <task id="LOCAL-00375" summary="Store transaction ID alongside the purchased conference">
+      <created>1401757802397</created>
+      <option name="number" value="00375" />
+      <option name="project" value="LOCAL" />
+      <updated>1401757802397</updated>
+    </task>
+    <task id="LOCAL-00376" summary="Use LSB to override static method parse_get">
+      <created>1401758361244</created>
+      <option name="number" value="00376" />
+      <option name="project" value="LOCAL" />
+      <updated>1401758361244</updated>
+    </task>
+    <task id="LOCAL-00377" summary="Move the preparation of the users outside of the serve() method">
+      <created>1401759056512</created>
+      <option name="number" value="00377" />
+      <option name="project" value="LOCAL" />
+      <updated>1401759056512</updated>
+    </task>
+    <task id="LOCAL-00378" summary="Get columns intelligently from first row of data">
+      <created>1401760818058</created>
+      <option name="number" value="00378" />
+      <option name="project" value="LOCAL" />
+      <updated>1401760818058</updated>
+    </task>
+    <task id="LOCAL-00379" summary="Move count to external method">
+      <created>1401760960718</created>
+      <option name="number" value="00379" />
+      <option name="project" value="LOCAL" />
+      <updated>1401760960719</updated>
+    </task>
+    <task id="LOCAL-00380" summary="Save conference data when a conference item is purchased">
+      <created>1401760980688</created>
+      <option name="number" value="00380" />
+      <option name="project" value="LOCAL" />
+      <updated>1401760980688</updated>
+    </task>
+    <task id="LOCAL-00381" summary="Move counting of total items to seprate method">
+      <created>1401762072383</created>
+      <option name="number" value="00381" />
+      <option name="project" value="LOCAL" />
+      <updated>1401762072383</updated>
+    </task>
+    <task id="LOCAL-00382" summary="Determine page programatically">
+      <created>1401762391568</created>
+      <option name="number" value="00382" />
+      <option name="project" value="LOCAL" />
+      <updated>1401762391568</updated>
+    </task>
+    <task id="LOCAL-00383" summary="Dynamically retrieve the page title">
+      <created>1401762713312</created>
+      <option name="number" value="00383" />
+      <option name="project" value="LOCAL" />
+      <updated>1401762713318</updated>
+    </task>
+    <task id="LOCAL-00384" summary="Add list of conference attendees">
+      <created>1401764900917</created>
+      <option name="number" value="00384" />
+      <option name="project" value="LOCAL" />
+      <updated>1401764900917</updated>
+    </task>
+    <task id="LOCAL-00385" summary="Implement code to serve files">
+      <created>1401771535686</created>
+      <option name="number" value="00385" />
+      <option name="project" value="LOCAL" />
+      <updated>1401771535686</updated>
+    </task>
+    <task id="LOCAL-00386" summary="Correct paging">
+      <created>1401819211607</created>
+      <option name="number" value="00386" />
+      <option name="project" value="LOCAL" />
+      <updated>1401819211608</updated>
+    </task>
+    <task id="LOCAL-00387" summary="Allow for search on post types">
+      <created>1401819522150</created>
+      <option name="number" value="00387" />
+      <option name="project" value="LOCAL" />
+      <updated>1401819522150</updated>
+    </task>
+    <task id="LOCAL-00388" summary="Allow for search by tax">
+      <created>1401819906960</created>
+      <option name="number" value="00388" />
+      <option name="project" value="LOCAL" />
+      <updated>1401819906960</updated>
+    </task>
+    <task id="LOCAL-00389" summary="Allow or search by excerpt">
+      <created>1401820187887</created>
+      <option name="number" value="00389" />
+      <option name="project" value="LOCAL" />
+      <updated>1401820187887</updated>
+    </task>
+    <task id="LOCAL-00390" summary="Only do tax query if the paper_theme is set">
+      <created>1401820223127</created>
+      <option name="number" value="00390" />
+      <option name="project" value="LOCAL" />
+      <updated>1401820223127</updated>
+    </task>
+    <task id="LOCAL-00391" summary="Reorder conference metaboxes">
+      <created>1401824555368</created>
+      <option name="number" value="00391" />
+      <option name="project" value="LOCAL" />
+      <updated>1401824555368</updated>
+    </task>
+    <task id="LOCAL-00392" summary="Add papers page to account dashboard">
+      <created>1401827029349</created>
+      <option name="number" value="00392" />
+      <option name="project" value="LOCAL" />
+      <updated>1401827029349</updated>
+    </task>
+    <task id="LOCAL-00393" summary="Add purchased products to admin dashboard">
+      <created>1401832559963</created>
+      <option name="number" value="00393" />
+      <option name="project" value="LOCAL" />
+      <updated>1401832559963</updated>
+    </task>
+    <task id="LOCAL-00394" summary="Unique the conference papers purchased">
+      <created>1401837844934</created>
+      <option name="number" value="00394" />
+      <option name="project" value="LOCAL" />
+      <updated>1401837844935</updated>
+    </task>
+    <task id="LOCAL-00395" summary="Fix bug where mini-pages would get overwritten">
+      <created>1401948443935</created>
+      <option name="number" value="00395" />
+      <option name="project" value="LOCAL" />
+      <updated>1401948443935</updated>
+    </task>
+    <task id="LOCAL-00396" summary="Force conference papers archive to not be a 404">
+      <created>1402037007180</created>
+      <option name="number" value="00396" />
+      <option name="project" value="LOCAL" />
+      <updated>1402037007180</updated>
+    </task>
+    <task id="LOCAL-00397" summary="Only load fm date styles on necessary pages">
+      <created>1402065817324</created>
+      <option name="number" value="00397" />
+      <option name="project" value="LOCAL" />
+      <updated>1402065817324</updated>
+    </task>
+    <option name="localTasksCounter" value="398" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.09296875" sideWeight="0.6730066" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32957503" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32950467" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31483087" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32870772" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Duplicates" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32950467" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="Make column displays less tightly woven" />
+    <MESSAGE value="Mark a user as having purchased a certain conference to speed up searching" />
+    <MESSAGE value="Store transaction ID alongside the purchased conference" />
+    <MESSAGE value="Use LSB to override static method parse_get" />
+    <MESSAGE value="Move the preparation of the users outside of the serve() method" />
+    <MESSAGE value="Get columns intelligently from first row of data" />
+    <MESSAGE value="Move count to external method" />
+    <MESSAGE value="Save conference data when a conference item is purchased" />
+    <MESSAGE value="Move counting of total items to seprate method" />
+    <MESSAGE value="Determine page programatically" />
+    <MESSAGE value="Dynamically retrieve the page title" />
+    <MESSAGE value="Add list of conference attendees" />
+    <MESSAGE value="Implement code to serve files" />
+    <MESSAGE value="Correct paging" />
+    <MESSAGE value="Allow for search on post types" />
+    <MESSAGE value="Allow for search by tax" />
+    <MESSAGE value="Allow or search by excerpt" />
+    <MESSAGE value="Only do tax query if the paper_theme is set" />
+    <MESSAGE value="Reorder conference metaboxes" />
+    <MESSAGE value="Add papers page to account dashboard" />
+    <MESSAGE value="Add purchased products to admin dashboard" />
+    <MESSAGE value="Unique the conference papers purchased" />
+    <MESSAGE value="Fix bug where mini-pages would get overwritten" />
+    <MESSAGE value="Force conference papers archive to not be a 404" />
+    <MESSAGE value="Only load fm date styles on necessary pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Only load fm date styles on necessary pages" />
+  </component>
+  <component name="WordPressConfiguration" enabled="true">
+    <wordpressPath>$PROJECT_DIR$/../../..</wordpressPath>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/lib/managemembers/view/class.export.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-25.0" vertical-offset="0" max-vertical-offset="1185">
+          <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/conference/attendees/class.view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.25" vertical-offset="0" max-vertical-offset="645">
+          <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/conference/attendees/class.table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-34.375" vertical-offset="0" max-vertical-offset="960">
+          <caret line="55" column="70" selection-start-line="55" selection-start-column="70" selection-end-line="55" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/conference/attendees/class.model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="675">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/conference/exchange/class.base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-27.75" vertical-offset="114" max-vertical-offset="1455">
+          <caret line="57" column="38" selection-start-line="57" selection-start-column="38" selection-end-line="59" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/conference/papers/display/class.base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-66.25" vertical-offset="0" max-vertical-offset="2010">
+          <caret line="106" column="35" selection-start-line="106" selection-start-column="35" selection-end-line="106" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/journal/exchange/class.base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3705">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/journal/exchange/class.display.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-32.5" vertical-offset="0" max-vertical-offset="2985">
+          <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/conference/papers/exchange/class.display.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-89.375" vertical-offset="0" max-vertical-offset="2310">
+          <caret line="143" column="8" selection-start-line="143" selection-start-column="8" selection-end-line="143" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/journal/exchange/class.api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="3060">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/conference/papers/load.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1125">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/exchange/content-papers/elements/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1101">
+          <caret line="0" column="39" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/exchange/content-papers/elements/publish-date.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1101">
+          <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/exchange/content-papers/elements/name.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1101">
+          <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/exchange/content-papers/elements/download.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="90">
+          <caret line="0" column="39" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/exchange/content-papers/elements/author.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="90">
+          <caret line="0" column="29" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../the-events-calendar/lib/the-events-calendar.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32697546" vertical-offset="0" max-vertical-offset="69210">
+          <caret line="26" column="83" selection-start-line="26" selection-start-column="83" selection-end-line="26" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../the-events-calendar/the-events-calendar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3133515" vertical-offset="0" max-vertical-offset="1101">
+          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/gallery/class.base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.59128064" vertical-offset="1989" max-vertical-offset="3090">
+          <caret line="176" column="53" selection-start-line="176" selection-start-column="53" selection-end-line="198" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/conference/papers/admin/class.cpt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="1515">
+          <caret line="14" column="59" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/exchange/content-papers/loops/fields.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="630">
+          <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/exchange/content-papers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="990">
+          <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/conference/papers/exchange/class.base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3240" max-vertical-offset="3360">
+          <caret line="216" column="88" selection-start-line="216" selection-start-column="58" selection-end-line="216" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../the-events-calendar/lib/tribe-event-query.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="13875">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../wp-includes/query.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="33735" max-vertical-offset="68355">
+          <caret line="2249" column="13" selection-start-line="2249" selection-start-column="13" selection-end-line="2249" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../wp-includes/post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="6765" max-vertical-offset="85365">
+          <caret line="451" column="12" selection-start-line="451" selection-start-column="12" selection-end-line="451" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/conference/papers/exchange/class.api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3090" max-vertical-offset="3600">
+          <caret line="206" column="23" selection-start-line="206" selection-start-column="23" selection-end-line="206" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/users/class.base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="3555">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../wp-includes/link-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.6348774" vertical-offset="3390" max-vertical-offset="46995">
+          <caret line="111" column="9" selection-start-line="111" selection-start-column="9" selection-end-line="111" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ithemes-exchange/api/misc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="6.5531335" vertical-offset="0" max-vertical-offset="7770">
+          <caret line="485" column="50" selection-start-line="485" selection-start-column="50" selection-end-line="485" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ithemes-exchange/lib/customers/class.customer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.2997276" vertical-offset="2184" max-vertical-offset="3810">
+          <caret line="245" column="52" selection-start-line="245" selection-start-column="52" selection-end-line="245" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../wp-includes/pluggable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34059945" vertical-offset="15885" max-vertical-offset="33045">
+          <caret line="1089" column="9" selection-start-line="1089" selection-start-column="9" selection-end-line="1089" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34059945" vertical-offset="12645" max-vertical-offset="16890">
+          <caret line="868" column="9" selection-start-line="868" selection-start-column="9" selection-end-line="868" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../wp-includes/formatting.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3689591" vertical-offset="53873" max-vertical-offset="57405">
+          <caret line="3624" column="17" selection-start-line="3624" selection-start-column="17" selection-end-line="3624" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/conference/metabox/class.page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-168.75" vertical-offset="0" max-vertical-offset="4215">
+          <caret line="270" column="42" selection-start-line="270" selection-start-column="42" selection-end-line="270" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/conference/metabox/load.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="435">
+          <caret line="24" column="67" selection-start-line="24" selection-start-column="67" selection-end-line="24" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/conference/load.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="240">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/conference/papers/admin/class.base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1313" max-vertical-offset="3030">
+          <caret line="100" column="39" selection-start-line="100" selection-start-column="39" selection-end-line="100" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/options/class.options-model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="16.0" vertical-offset="384" max-vertical-offset="1485">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/options/class.options-controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.7520437" vertical-offset="7434" max-vertical-offset="8535">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/options/class.options-view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4410">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/options/load.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1125">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="1695">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/journal/admin/class.fm_author.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1590">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/journal/display/class.base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16348773" vertical-offset="0" max-vertical-offset="1860">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/conference/tec/class.base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="615">
+          <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../wordpress-fieldmanager-master/php/class-fieldmanager-datepicker.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="556" max-vertical-offset="1785">
+          <caret line="56" column="36" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../wordpress-fieldmanager-master/fieldmanager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1643" max-vertical-offset="5715">
+          <caret line="138" column="9" selection-start-line="138" selection-start-column="9" selection-end-line="138" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/journal/load.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="540">
+          <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ithemes-exchange/api/customers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-30.875" vertical-offset="2049" max-vertical-offset="4260">
+          <caret line="191" column="34" selection-start-line="191" selection-start-column="9" selection-end-line="191" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site-specific-code.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12304251" vertical-offset="0" max-vertical-offset="2130">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+
