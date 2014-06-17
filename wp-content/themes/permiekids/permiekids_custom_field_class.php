@@ -31,16 +31,12 @@ class IT_Theme_API_PermieKids_registration extends IT_Theme_API_Registration {
 		$this->_tag_map['linkedin'] = 'linkedin';	
 		$this->_tag_map['what_are_you_working_on'] = 'what_are_you_working_on';	
 		$this->_tag_map['avatar'] = 'avatar';
+		$this->_tag_map['four'] = 'four';
+		$this->_tag_map['contact_information'] = 'contact_information';
 	}
  
 
 
-	/**
-	 * Outputs the customer's avatar data
-	 *
-	 * @since 0.4.0
-	 * @return string
-	*/
 	function avatar( $options=array() ) {
 		$defaults = array(
 			'size' => 200,
@@ -50,12 +46,20 @@ class IT_Theme_API_PermieKids_registration extends IT_Theme_API_Registration {
 		$user_info = get_userdata($user_id);
 		return get_avatar( $user_info->user_email, 200 ) . 'Edit your profile photo' ;
 	}
-		
+
+	function four( $options=array() ) {
+		return '<span class="for_facts">Four Facts</span>' ;
+	}
+
+	function contact_information( $options=array() ) {
+		return '<span class="contact_information">Contact Information</span><br /><span class="ci_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span><br />' ;
+	}
+				
 	function motto( $options=array() ) {
 				
 		$defaults      = array(
 			'format'      => 'html',
-			'label'  => __( 'Motto', 'it-l10n-ithemes-exchange' ),
+			'label'  => __( 'Your Personal Motto', 'it-l10n-ithemes-exchange' ),
 		);
 		$options = ITUtility::merge_defaults( $options, $defaults );	
 		$field_id = 'motto';
@@ -81,6 +85,7 @@ class IT_Theme_API_PermieKids_registration extends IT_Theme_API_Registration {
 			case 'html':
 			default:
 				$output = '<label for="' . $field_id . '">' . esc_attr( $options['label'] ) . '</label>';
+				$output .= '<br /><span class="motto-description">This is a short description of what your quote is for and why you should pick something awesome</span><br />';
 				$output .= '<textarea rows="4" cols="50" id="' . $field_id . '" name="' . $field_name . '">' . $field_value[0] . '</textarea>';
  
 		}
@@ -415,6 +420,7 @@ class IT_Theme_API_PermieKids_registration extends IT_Theme_API_Registration {
 			case 'html':
 			default:
 				$output = '<label for="' . $field_id . '">' . esc_attr( $options['label'] ) . '</label>';
+				$output .='<br /><span class="waywo_description">This is a short description of what your quote is for and why you should pick something awesome</span><br />';
 				$output .= '<textarea rows="4" cols="50" id="' . $field_id . '" name="' . $field_name . '">' . $field_value[0] . '</textarea>';
  
 		}
