@@ -42,9 +42,10 @@ class IT_Theme_API_PermieKids_registration extends IT_Theme_API_Registration {
 			'size' => 200,
 		);
 		$options = ITUtility::merge_defaults( $options, $defaults );
+		$field_name = $field_id;
 		$user_id = get_current_user_id();
-		$user_info = get_userdata($user_id);
-		return get_avatar( $user_info->user_email, 200 ) . 'Edit your profile photo' ;
+ 		$field_value = get_user_meta($user_id, 'custom_avatar');
+		return '<div class="the_avatar_image"><img src="'. $field_value[0] . '"></div><br /><input id="upload_image_button" class="button" type="button" value="Edit your Profile Photo" />' ;
 	}
 
 	function four( $options=array() ) {

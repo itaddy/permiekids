@@ -16,6 +16,7 @@
 ?>
 
 <?php do_action( 'it_exchange_super_widget_registration_before_contact_information_elements' ); ?>
+<div style="clear:both;"></div>
 <div class="contact_information">
     <?php it_exchange( 'permiekids_registration', 'contact_information' ); ?>
 </div>

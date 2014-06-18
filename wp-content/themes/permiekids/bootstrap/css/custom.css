@@ -708,6 +708,7 @@ div.it-exchange-customer-avatar {
 	width: 200px;
 	height: 200px;
 	float: right;
+	text-align:center;
 }
 
 div.it-exchange-customer-info label {
@@ -822,4 +823,23 @@ div.it-exchange-customer-info label[for="twitter"] {
 div.it-exchange-customer-info label[for="linkedin"] {
 	padding-left: 50px;
 	background: url(../../images/linkedin-icon.jpg) no-repeat top left;
+}
+
+span.contact_information {
+	display: block;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+div.contact_information {
+	margin-top: 20px;
+}
+
+button.upload-avatar {
+	margin-top: 10px;
+}
+
+input#upload_image_button {
+	width: 100%;
+	margin-top: 5px;
 }

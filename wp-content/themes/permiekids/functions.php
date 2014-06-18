@@ -370,6 +370,8 @@ function search_button ( $items, $args ) {
 
 
 add_action('admin_enqueue_scripts', 'upload_script');
+
+add_action('it_exchange_content_profile_before_wrap', 'upload_script');
  
 function upload_script() {
 	wp_enqueue_media();
@@ -382,7 +384,6 @@ function custom_avatar_field( $user ) {
 
 
 ?>
-
 	<h3>Custom Avatar</h3>
 	 
 	<table class="form-table">
@@ -395,9 +396,6 @@ function custom_avatar_field( $user ) {
 	</td>
 	</tr>
 	</table>
-
-
-	
 	<?php 
 }
 add_action( 'show_user_profile', 'custom_avatar_field' );
@@ -406,8 +404,10 @@ add_action( 'edit_user_profile', 'custom_avatar_field' );
 
 function save_custom_avatar_field( $user_id ) {
 	if ( !current_user_can( 'edit_user', $user_id ) ) { return false; }
-		update_usermeta( $user_id, 'custom_avatar', $_POST['custom_avatar'] );
+		update_usermeta( $user_id, 'custom_avatar', $_POST['ad_image'] );
+
 }
+
 add_action( 'personal_options_update', 'save_custom_avatar_field' );
 add_action( 'edit_user_profile_update', 'save_custom_avatar_field' );
 
