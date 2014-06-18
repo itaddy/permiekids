@@ -117,7 +117,8 @@ function save_custom_fields () {
 		update_user_meta( $user_id, 'facebook',sanitize_text_field(esc_attr($_POST['facebook'])));
 		update_user_meta( $user_id, 'twitter',sanitize_text_field(esc_attr($_POST['twitter'])));	
 		update_user_meta( $user_id, 'linkedin',sanitize_text_field(esc_attr($_POST['linkedin'])));
-		update_user_meta( $user_id, 'what_are_you_working_on',sanitize_text_field(esc_attr($_POST['what_are_you_working_on'])));						
+		update_user_meta( $user_id, 'what_are_you_working_on',sanitize_text_field(esc_attr($_POST['what_are_you_working_on'])));	
+		update_user_meta( $user_id, 'custom_avatar',sanitize_text_field(esc_attr($_POST['custom_avatar'])));					
 	}
 }
 
@@ -371,8 +372,6 @@ function search_button ( $items, $args ) {
 
 add_action('admin_enqueue_scripts', 'upload_script');
 
-add_action('it_exchange_content_profile_before_wrap', 'upload_script');
- 
 function upload_script() {
 	wp_enqueue_media();
 	wp_register_script('my-upload-script', get_template_directory_uri() .'/upload-script.js', array('jquery'));
@@ -410,5 +409,14 @@ function save_custom_avatar_field( $user_id ) {
 
 add_action( 'personal_options_update', 'save_custom_avatar_field' );
 add_action( 'edit_user_profile_update', 'save_custom_avatar_field' );
+
+function add_media_upload_scripts() {
+    if ( is_admin() ) {
+         return;
+       }
+    wp_enqueue_media();
+}
+add_action('wp_enqueue_scripts', 'add_media_upload_scripts');
+
 
 ?>

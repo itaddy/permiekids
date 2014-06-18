@@ -45,7 +45,10 @@ class IT_Theme_API_PermieKids_registration extends IT_Theme_API_Registration {
 		$field_name = $field_id;
 		$user_id = get_current_user_id();
  		$field_value = get_user_meta($user_id, 'custom_avatar');
-		return '<div class="the_avatar_image"><img src="'. $field_value[0] . '"></div><br />	<input type="hidden" id="upload_image" class="regular-text" name="ad_image" value="' . $field_value[0] . '" /><input id="upload_image_button" class="button" type="button" value="Edit your Profile Photo" />' ;
+		return '<div class="the_avatar_image"><img src="'. $field_value[0] . '"></div><br /><div class="uploader">
+  <input type="hidden" name="custom_avatar" id="_unique_name" value="' . $field_value[0] . '" />
+  <input type="button" class="uploadbutton" name="_unique_name_button" id="_unique_name_button" value="Edit Profile Image" />
+</div>' ;
 	}
 
 	function four( $options=array() ) {
