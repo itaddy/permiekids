@@ -122,7 +122,7 @@ function save_custom_fields () {
 	}
 }
 
-add_action ('save_custom_fields_action', 'save_custom_fields');
+add_action ('handle_it_exchange_save_profile_action', 'save_custom_fields');
 
 function registration_process_hook() {
 	if (isset($_POST['email']) && isset($_POST['password'])) {
