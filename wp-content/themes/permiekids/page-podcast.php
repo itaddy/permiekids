@@ -31,7 +31,7 @@ get_header(); ?>
 			<div class="span4">	
 				<h2><?php the_title(); ?></h2>
 				<?php the_content(); ?>
-				<p><?php the_tags('','',''); ?></p>
+				<p class="tag-box"><?php the_tags('','',''); ?></p>
 			</div>		
 	
 			<?php endwhile; else: ?>

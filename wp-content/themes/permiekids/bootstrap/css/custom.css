@@ -847,3 +847,18 @@ input#upload_image_button {
 input#_unique_name_button {
 	width: 100%;
 }
+
+.tag-box a {
+	border: 2px solid #000000;
+	width: 200px;
+	background: #ffffff;
+	font-size: 16px;
+	padding: 5px;
+	-webkit-box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 0.75);
+	box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 0.75);
+	outline: none;
+	color: #000000;
+	font-weight: bold;
+	margin-right: 10px;
+}
