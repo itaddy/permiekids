@@ -415,6 +415,7 @@ function add_media_upload_scripts() {
          return;
        }
     wp_enqueue_media();
+	
 }
 add_action('wp_enqueue_scripts', 'add_media_upload_scripts');
 
