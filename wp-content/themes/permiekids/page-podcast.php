@@ -29,7 +29,7 @@ get_header(); ?>
 			if ( $list_of_posts->have_posts() ) : while ( $list_of_posts->have_posts() ) : $list_of_posts->the_post(); ?>
 	
 			<div class="span4">	
-				<h2><?php the_title(); ?></h2>
+				<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
 				<?php the_content(); ?>
 				<p class="tag-box"><?php the_tags('','',''); ?></p>
 			</div>		
