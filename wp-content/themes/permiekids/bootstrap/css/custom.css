@@ -862,3 +862,32 @@ input#_unique_name_button {
 	font-weight: bold;
 	margin-right: 10px;
 }
+
+.it-exchange-account .it-exchange-customer-menu li.current a {
+	background:#cccccc;
+}
+
+img.member-avatar {
+	border: 3px solid #000000;
+}
+
+span.member-name {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+span.location {
+	font-size: 20px;
+	color: #bbbbbb;
+}
+
+span.motto {
+	font-size: 18px;
+	margin: 10px 0px;
+	display: block;
+}
+
+span.connect-link a {
+	font-size: 18px;
+	text-decoration: none;
+}

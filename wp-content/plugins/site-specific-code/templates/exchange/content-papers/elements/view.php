@@ -1,1 +1,0 @@
-<td><a href="<?php it_exchange( 'papers', 'view' ); ?>" class="btn rounded btn-flat btn-default btn-small" style="margin: 0">View</a></td>

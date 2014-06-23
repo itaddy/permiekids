@@ -1,1 +1,0 @@
-<td><?php it_exchange('journals', 'publish-date'); ?></td>

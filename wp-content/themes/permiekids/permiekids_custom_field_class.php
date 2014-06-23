@@ -33,10 +33,31 @@ class IT_Theme_API_PermieKids_registration extends IT_Theme_API_Registration {
 		$this->_tag_map['avatar'] = 'avatar';
 		$this->_tag_map['four'] = 'four';
 		$this->_tag_map['contact_information'] = 'contact_information';
+		$this->_tag_map['members'] = 'members';
 	}
  
 
+	function members () {
+		$headercontent = '<h2>Search Results</h2>';
+		$blogusers = get_users( 'orderby=nicename' );
+		// Array of WP_User objects.
+		foreach ( $blogusers as $user ) {
+			$memberlocation=$user->location;
+			$membermotto=$user->motto;		
+			$memberfirstname =$user->first_name;
+			$memberlastname =$user->last_name;
+			$avatar= $user->custom_avatar;
+			if ($avatar!='') {
+				$memberavatar=$avatar;
+			} else {
+				$memberavatar= get_template_directory_uri() . '/images/no-image.jpg';
+			}
 
+			$members .= '<div class="span6"><div class="row-fluid"><div class="span4"><img src="' . esc_html ($memberavatar) . '" class="member-avatar"></div><div class="span7"><span class="member-name">' . esc_html( $memberfirstname ) . ' ' .  esc_html( $memberlastname ) . '</span><span class="location">- ' . esc_html( $memberlocation ) . '</span><div style="clear:both;"></div><span class="motto">' . esc_html( $membermotto ) . '</span><div style="clear:both;"></div><span class="connect-link"><a href="#">Connect with ' . $memberfirstname . '</a></span></div></div></div>';
+		}	
+		return $headercontent . '<div class="row-fluid">' . $members . '</div>';
+	}
+	
 	function avatar( $options=array() ) {
 		$defaults = array(
 			'size' => 200,

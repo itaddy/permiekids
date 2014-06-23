@@ -1,1 +1,0 @@
-<td><?php it_exchange('papers', 'author'); ?></td>

@@ -26,7 +26,7 @@ get_header(); ?>
 				} 
 			?>		
 			<?php
-				$blogusers = get_users( 'blog_id=1&orderby=nicename' );
+				$blogusers = get_users( 'orderby=nicename' );
 				// Array of WP_User objects.
 				foreach ( $blogusers as $user ) {
 					echo '<span>' . esc_html( $user->user_email ) . '</span>';
