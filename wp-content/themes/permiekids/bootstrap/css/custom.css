@@ -891,3 +891,130 @@ span.connect-link a {
 	font-size: 18px;
 	text-decoration: none;
 }
+
+form.search-member input {
+	width: 20%;
+}
+
+form.search-member input[type="button"] {
+	margin: 20px auto 50px auto;
+	display: block;
+	border: 2px solid #000000;
+	background: #ffffff;
+	font-size: 16px;
+	padding: 5px;
+	-webkit-box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 0.75);
+	box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 0.75);
+	outline: none;
+	color: #000000;
+	font-weight: bold;
+	display: inline-block;
+	text-align: center;
+	height: 40px;
+}
+
+span.the-motto {
+	color: #000000;
+	font-size: 60px;
+	line-height: 50px;
+}
+
+span.who-said-it {
+	font-size: 30px;
+	line-height: 50px;
+}
+
+ul.social-network-info {
+	list-style: none;
+	padding: 0px;
+	float:right;
+}
+
+ul.social-network-info li {
+	display: inline-block;
+}
+
+ul.member-info {
+	list-style: none;
+	padding: 0px;
+	font-size:18px;
+}
+
+ul.member-info li.location {
+	padding-left: 50px;
+	background: url(../../images/location-icon.jpg) no-repeat top left;
+}
+
+ul.member-info li.family {
+	padding-left: 50px;
+	background: url(../../images/family-icon.jpg) no-repeat top left;
+}
+
+ul.member-info li.occupation {
+	padding-left: 50px;
+	background: url(../../images/occupation-icon.jpg) no-repeat top left;
+}
+
+ul.member-info li.experience {
+	padding-left: 50px;
+	background: url(../../images/experience-icon.jpg) no-repeat top left;
+}
+
+h1.member-name {
+	padding-left: 50px;
+	background: url(../../images/member-profile-icon.jpg) no-repeat top left;
+}
+
+ul.member-info li {
+	line-height: 40px;
+}
+
+h1.member-name {
+	font-size: 35px;
+	line-height: 50px;
+}
+
+.social-network-info a.email {
+	width:34px;
+	height:36px;
+	background: url(../../images/email-icon.jpg) no-repeat top left;
+	text-indent:-9999px;
+	display:block;
+}
+
+.social-network-info a.linkedin {
+	width:34px;
+	height:36px;
+	background: url(../../images/linkedin-icon.jpg) no-repeat top left;
+	text-indent:-9999px;
+	display:block;
+}
+
+.social-network-info a.facebook {
+	width:34px;
+	height:36px;
+	background: url(../../images/facebook-icon.jpg) no-repeat top left;
+	text-indent:-9999px;
+	display:block;
+}
+
+.social-network-info a.twitter {
+	width:34px;
+	height:36px;
+	background: url(../../images/twitter-icon.jpg) no-repeat top left;
+	text-indent:-9999px;
+	display:block;
+}
+
+div.biography-block {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 25px;
+}
+
+div.what-iam-working-right-now-block {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 25px;
+}

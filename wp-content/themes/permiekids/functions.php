@@ -117,7 +117,8 @@ function save_custom_fields () {
 		update_user_meta( $user_id, 'facebook',sanitize_text_field(esc_attr($_POST['facebook'])));
 		update_user_meta( $user_id, 'twitter',sanitize_text_field(esc_attr($_POST['twitter'])));	
 		update_user_meta( $user_id, 'linkedin',sanitize_text_field(esc_attr($_POST['linkedin'])));
-		update_user_meta( $user_id, 'what_are_you_working_on',sanitize_text_field(esc_attr($_POST['what_are_you_working_on'])));	
+		update_user_meta( $user_id, 'what_are_you_working_on',sanitize_text_field(esc_attr($_POST['what_are_you_working_on'])));
+		update_user_meta( $user_id, 'biography',sanitize_text_field(esc_attr($_POST['biography'])));	
 		update_user_meta( $user_id, 'custom_avatar',sanitize_text_field(esc_attr($_POST['custom_avatar'])));					
 	}
 }

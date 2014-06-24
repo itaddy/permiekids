@@ -30,6 +30,7 @@ class IT_Theme_API_PermieKids_registration extends IT_Theme_API_Registration {
 		$this->_tag_map['twitter'] = 'twitter';
 		$this->_tag_map['linkedin'] = 'linkedin';	
 		$this->_tag_map['what_are_you_working_on'] = 'what_are_you_working_on';	
+		$this->_tag_map['biography'] = 'biography';			
 		$this->_tag_map['avatar'] = 'avatar';
 		$this->_tag_map['four'] = 'four';
 		$this->_tag_map['contact_information'] = 'contact_information';
@@ -38,6 +39,15 @@ class IT_Theme_API_PermieKids_registration extends IT_Theme_API_Registration {
  
 
 	function members () {
+		$searchbox ='<div class="searchbox"><h2>Find a Member</h2></div>
+		<div class="the-form-container">
+			<form class="search-member "form-inline">
+				<input type="text" placeholder="name" name="name" class="input-medium">
+				<input type="text" placeholder="zipcode" name="name" class="input-small">
+				<select name="type"><option>Parents</option><option>Educators</option><option>Enthusiast</option></select><select name="options"><option>Focus Area</option><option>Time Management</option><option>Lesson Plan</option></select><input type="button" value="Search">		
+			</form>
+		</div>
+		<div style="clear:both;"></div><hr>';
 		$headercontent = '<h2>Search Results</h2>';
 		$blogusers = get_users( 'orderby=nicename' );
 		// Array of WP_User objects.
@@ -53,9 +63,9 @@ class IT_Theme_API_PermieKids_registration extends IT_Theme_API_Registration {
 				$memberavatar= get_template_directory_uri() . '/images/no-image.jpg';
 			}
 
-			$members .= '<div class="span6"><div class="row-fluid"><div class="span4"><img src="' . esc_html ($memberavatar) . '" class="member-avatar"></div><div class="span7"><span class="member-name">' . esc_html( $memberfirstname ) . ' ' .  esc_html( $memberlastname ) . '</span><span class="location">- ' . esc_html( $memberlocation ) . '</span><div style="clear:both;"></div><span class="motto">' . esc_html( $membermotto ) . '</span><div style="clear:both;"></div><span class="connect-link"><a href="#">Connect with ' . $memberfirstname . '</a></span></div></div></div>';
+			$members .= '<div class="span6"><div class="row-fluid"><div class="span4"><img src="' . esc_html ($memberavatar) . '" class="member-avatar"></div><div class="span7"><span class="member-name">' . esc_html( $memberfirstname ) . ' ' .  esc_html( $memberlastname ) . '</span><span class="location">- ' . esc_html( $memberlocation ) . '</span><div style="clear:both;"></div><span class="motto">' . esc_html( $membermotto ) . '</span><div style="clear:both;"></div><span class="connect-link"><a href="' . get_author_posts_url($user->ID) .  '">Connect with ' . $memberfirstname . '</a></span></div></div></div>';
 		}	
-		return $headercontent . '<div class="row-fluid">' . $members . '</div>';
+		return $searchbox . $headercontent . '<div class="row-fluid">' . $members . '</div>';
 	}
 	
 	function avatar( $options=array() ) {
@@ -451,7 +461,45 @@ class IT_Theme_API_PermieKids_registration extends IT_Theme_API_Registration {
 		}
  
 		return $output;
-	}			
+	}	
+	
+	function biography( $options=array() ) {
+		$defaults      = array(
+			'format'      => 'html',
+			'label'  => __( 'Biography', 'it-l10n-ithemes-exchange' ),
+		);
+		$options = ITUtility::merge_defaults( $options, $defaults );
+ 
+		$field_id = 'biography';
+		$field_name = $field_id;
+ 		$user_id = get_current_user_id();
+ 		$field_value = get_user_meta($user_id, $field_id);
+		
+		switch( $options['format'] ) {
+ 
+			case 'field-id':
+				$output = $field_id;
+ 
+			case 'field-name':
+				$output = $field_name;
+ 
+   			case 'field-value':
+				$output = $field_value;
+				break;
+				
+			case 'label':
+				$output = esc_attr( $options['label'] );
+ 
+			case 'html':
+			default:
+				$output = '<label for="' . $field_id . '">' . esc_attr( $options['label'] ) . '</label>';
+				$output .= '<textarea rows="4" cols="50" id="' . $field_id . '" name="' . $field_name . '">' . $field_value[0] . '</textarea>';
+ 
+		}
+ 
+		return $output;
+	}	
+			
 }
 
 ?>
