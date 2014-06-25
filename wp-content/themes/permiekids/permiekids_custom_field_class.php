@@ -35,6 +35,7 @@ class IT_Theme_API_PermieKids_registration extends IT_Theme_API_Registration {
 		$this->_tag_map['four'] = 'four';
 		$this->_tag_map['contact_information'] = 'contact_information';
 		$this->_tag_map['members'] = 'members';
+		$this->_tag_map['surveys'] = 'surveys';
 	}
  
 
@@ -68,6 +69,11 @@ class IT_Theme_API_PermieKids_registration extends IT_Theme_API_Registration {
 		return $searchbox . $headercontent . '<div class="row-fluid">' . $members . '</div>';
 	}
 	
+	function surveys () {
+		$output = '<h2>Surveys</h2>';
+		return $output;
+	}	
+		
 	function avatar( $options=array() ) {
 		$defaults = array(
 			'size' => 200,
@@ -81,7 +87,7 @@ class IT_Theme_API_PermieKids_registration extends IT_Theme_API_Registration {
   <input type="button" class="uploadbutton" name="_unique_name_button" id="_unique_name_button" value="Edit Profile Image" />
 </div>' ;
 	}
-
+	
 	function four( $options=array() ) {
 		return '<span class="for_facts">Four Facts</span>' ;
 	}
