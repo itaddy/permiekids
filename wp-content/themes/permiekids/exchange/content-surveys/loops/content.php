@@ -18,16 +18,62 @@
 <?php do_action( 'it_exchange_content_surveys_before_content_loop' ); ?>
 	<div class="it-exchange-customer-info">
 	<?php do_action( 'it_exchange_content_surveys_begin_content_loop' ); ?>
-		<?php foreach ( it_exchange_get_template_part_elements( 'content_surveys', 'content', array( 'surveys', ) ) as $element ) : ?>
-			<?php
-			/**
-			 * Theme and add-on devs should add code to this loop by
-			 * hooking into it_exchange_get_template_part_elements filter
-			 * and adding the appropriate template file to their theme or add-on
-			*/
-			it_exchange_get_template_part( 'content-surveys/elements/' . $element );
-			?>
-		<?php endforeach; ?>
+		<div class="container">
+			<div class="row">
+				<div class="span8">		
+					<h2>Surveys</h2>
+					<?php
+					$args = array(
+						'post_type'      => 'survey',
+						'meta_key'       => '_survey_ended',
+						'meta_value' => 'no',
+						'order'          => 'ASC',
+						'posts_per_page' => 100,
+					);
+					
+					$new = new WP_Query($args);
+					if ( have_posts() ) : while ($new->have_posts()) : $new->the_post(); ?>	
+			
+						<h3><?php the_title(); ?></h3>
+						<?php the_content(); ?>
+					<?php endwhile; else: ?>
+					<div class="row">
+						<div class="span8">
+							<p><?php _e('Sorry, no surveys added yet.'); ?></p>
+						</div>
+					</div>	
+					<?php endif; ?>	
+					<!-- ended surveys -->
+					
+					<hr />
+					<h2>Ended Surveys</h2>
+					<?php
+					$args = array(
+						'post_type'      => 'survey',
+						'meta_key'       => '_survey_ended',
+						'meta_value' => 'yes',
+						'order'          => 'ASC',
+						'posts_per_page' => 100,
+					);
+					
+					$new = new WP_Query($args);
+					if ( have_posts() ) : while ($new->have_posts()) : $new->the_post(); ?>	
+					
+						<h3><?php the_title(); ?></h3>
+						<?php the_content(); ?>
+					<?php endwhile; else: ?>
+					<div class="row">
+						<div class="span8">
+							<p><?php _e('Sorry, no ended surveys yet.'); ?></p>
+						</div>
+					</div>	
+					<?php endif; ?>						
+				</div>
+				<div class="span4">
+					<?php get_sidebar(); ?>	
+				</div>
+			</div>
+
 	<?php do_action( 'it_exchange_content_surveys_end_content_loop' ); ?>
 	</div>
 <?php do_action( 'it_exchange_content_surveys_after_content_loop' ); ?>

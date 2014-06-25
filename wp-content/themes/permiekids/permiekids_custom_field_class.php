@@ -70,8 +70,7 @@ class IT_Theme_API_PermieKids_registration extends IT_Theme_API_Registration {
 	}
 	
 	function surveys () {
-		$output = '<h2>Surveys</h2>';
-		return $output;
+		return ''  ;
 	}	
 		
 	function avatar( $options=array() ) {

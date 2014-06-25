@@ -463,5 +463,47 @@ function add_media_upload_scripts() {
 }
 add_action('wp_enqueue_scripts', 'add_media_upload_scripts');
 
+add_action( 'post_submitbox_misc_actions', 'survey_ended' );
+
+function survey_ended($post)
+{
+	
+		global $post;
+		if ($post->post_type=='survey') {
+		$value = get_post_meta($post->ID, '_survey_ended', true);
+		
+			echo '<div class="misc-pub-section misc-pub-section-last">
+				 <span id="timestamp">'; ?>
+			
+			<?php 
+			if ($value=='yes') {
+				$yes='yes';
+				$no ='no'; 
+			} else {
+				$no = 'yes';
+				$yes='no';
+			}
+			?>	 
+			Survey Ended 
+			<input type="radio" name="survey_ended" <?php echo ($yes=='yes' ? 'checked' :''); ?> value="yes">Yes
+			<input type="radio" name="survey_ended" <?php echo ($no=='yes' ? 'checked' :''); ?> value="no">No
+			
+			<?php 
+		}
+}
+
+add_action( 'save_post', 'save_postdata');
+
+function save_postdata($postid)
+{   
+	global $post;
+	if ($post->post_type=='survey') {
+		if($_POST['action'] == 'editpost'){
+			delete_post_meta($postid, '_survey_ended');
+		}
+	
+		add_post_meta($postid, '_survey_ended', $_POST['survey_ended']);
+	}
+}
 
 ?>
