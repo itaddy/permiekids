@@ -46,7 +46,7 @@
 					<!-- ended surveys -->
 					
 					<hr />
-					<h2>Ended Surveys</h2>
+					<h2>Completed Surveys</h2>
 					<?php
 					$args = array(
 						'post_type'      => 'survey',

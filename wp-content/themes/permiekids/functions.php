@@ -506,4 +506,9 @@ function save_postdata($postid)
 	}
 }
 
+function update_user_role () {
+
+}
+
+add_action ('it_exchange_after_payment_details', 'update_user_role');
 ?>
