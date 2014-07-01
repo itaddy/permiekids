@@ -525,32 +525,34 @@ function update_user_role ($transaction_id) {
  	$transaction_id= $transaction->ID;
  	$products = $transaction->cart_details->products;
 
-  	foreach ( $products as $product ) {
-		$product_id = $product['product_id'];
-		if ($product_id == $monthly_basic) {
-			// Remove role
-			$customer->remove_role( 'subscriber' );
-			// Add role
-			$customer->add_role( 'basic' );
-		}
-		if ($product_id== $monthly_contributing) {
-			// Remove role
-			$customer->remove_role( 'subscriber' );
-			// Add role
-			 $customer->add_role( 'basic' );
-		}  
-		if ($product_id == $yearly_basic ) {
-			// Remove role
-			$customer->remove_role( 'subscriber' );
-			// Add role
-			$customer->add_role( 'contributing' );
+	if ( it_exchange_transaction_is_cleared_for_delivery( $transaction ) === true ) {
+		foreach ( $products as $product ) {
+			$product_id = $product['product_id'];
+			if ($product_id == $monthly_basic) {
+				// Remove role
+				$customer->remove_role( 'subscriber' );
+				// Add role
+				$customer->add_role( 'basic' );
+			}
+			if ($product_id== $monthly_contributing) {
+				// Remove role
+				$customer->remove_role( 'subscriber' );
+				// Add role
+				 $customer->add_role( 'basic' );
+			}  
+			if ($product_id == $yearly_basic ) {
+				// Remove role
+				$customer->remove_role( 'subscriber' );
+				// Add role
+				$customer->add_role( 'contributing' );
+				} 
+			if ($product_id == $yearly_contributing) {
+				// Remove role
+				$customer->remove_role( 'subscriber' );
+				// Add role
+				$customer->add_role( 'contributing' );
 			} 
-		if ($product_id == $yearly_contributing) {
-			// Remove role
-			$customer->remove_role( 'subscriber' );
-			// Add role
-			$customer->add_role( 'contributing' );
-		} 
+		}
 	}
 }
 
