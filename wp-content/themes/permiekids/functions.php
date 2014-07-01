@@ -506,9 +506,71 @@ function save_postdata($postid)
 	}
 }
 
-function update_user_role () {
 
+
+
+// starts here //
+
+function update_user_role ($transaction_id) {
+	$customer_id = it_exchange_get_transaction_customer($transaction_id);
+	$customer_id = get_current_user_id();
+	$customer = new WP_User($customer_id);
+	$monthly_basic = mytheme_option('basic_registration_url_for_monthly');
+	$monthly_contributing = mytheme_option('contributing_registration_url_for_monthly');
+
+ 	$yearly_basic = mytheme_option('basic_registration_url_for_yearly');
+ 	$yearly_contributing = mytheme_option('contributing_registration_url_for_yearly');
+ 
+ 	$transaction = it_exchange_get_transaction( $transaction_id );
+ 	$transaction_id= $transaction->ID;
+ 	$products = $transaction->cart_details->products;
+
+  	foreach ( $products as $product ) {
+		$product_id = $product['product_id'];
+		if ($product_id == $monthly_basic) {
+			// Remove role
+			$customer->remove_role( 'subscriber' );
+			// Add role
+			$customer->add_role( 'basic' );
+		}
+		if ($product_id== $monthly_contributing) {
+			// Remove role
+			$customer->remove_role( 'subscriber' );
+			// Add role
+			 $customer->add_role( 'basic' );
+		}  
+		if ($product_id == $yearly_basic ) {
+			// Remove role
+			$customer->remove_role( 'subscriber' );
+			// Add role
+			$customer->add_role( 'contributing' );
+			} 
+		if ($product_id == $yearly_contributing) {
+			// Remove role
+			$customer->remove_role( 'subscriber' );
+			// Add role
+			$customer->add_role( 'contributing' );
+		} 
+	}
 }
 
-add_action ('it_exchange_after_payment_details', 'update_user_role');
+add_action ('it_exchange_add_transaction_success', 'update_user_role');
+
+
+// * Determine if we need to track this transaction,
+// * when the transaction status has been updated
+// *
+// * @param $transaction        IT_Exchange_Transaction
+// * @param $old_status         string
+// * @param $old_status_cleared bool
+// 
+//function pk_mixpanel_track_transaction_change_status( $transaction, $old_status, $old_status_cleared ) {
+// if ( it_exchange_transaction_is_cleared_for_delivery( $transaction ) === true && $old_status_cleared === false ) {
+//  	update_user_role($transaction->ID);
+// }
+//}
+//
+//add_action('it_exchange_update_transaction_status', 'pk_mixpanel_track_transaction_change_status', 10, 3);
+
+
 ?>
